@@ -14,6 +14,13 @@
     "text": "Read the following and see if you can answer the question:\n\n\n\n\nFour friends—Alex, Ben, Cara, and Dana—were the only people in a locked house when the front door key went missing. Each of them made a statement:\n\nAlex: “I didn’t take the key.”\n\nBen: “Cara took the key.”\n\nCara: “Dana is lying.”\n\nDana: “Ben is lying.”\n\nOnly one of them is telling the truth. Who stole the key?\n\n\nGPT4o\nLet’s analyze the statements logically:\n\nOnly one person is telling the truth.\nIf Ben were telling the truth (“Cara took the key”), then all other statements must be false.\n\nAlex saying “I didn’t take the key” would be false → meaning Alex did take the key. This contradicts Ben’s claim.\nTherefore, Ben is lying.\n\n\nSince Ben is lying, Cara did not take the key. That means we must find another truth-teller.\n\nIf Cara were telling the truth (“Dana is lying”), then:\n\nDana saying “Ben is lying” would be false, meaning Ben is telling the truth.\nBut we already established that Ben was lying, so this contradicts our assumption.\n\n\nSince Cara cannot be the truth-teller either, let’s check Dana.\n\nIf Dana were telling the truth (“Ben is lying”), then:\n\nBen’s statement (“Cara took the key”) is false → meaning Cara did NOT take the key.\nThat makes Alex’s statement (“I didn’t take the key”) false → meaning Alex DID take the key.\n\n\nSince this setup is consistent and only one truth-teller exists, the key was stolen by Alex.\n\n##GPT4o1\n\n**Answer: Alex took the key.**\n\nHere’s a quick way to see why:\n\n1. **Assume Dana is telling the truth** (“Ben is lying”).\n2. If Ben is lying, then “Cara took the key” is false, so Cara did **not** take the key.\n3. Because only one statement can be true, Alex’s and Cara’s statements must be false:\n   - Alex’s statement “I didn’t take the key” is false, so Alex **did** take the key.\n   - Cara’s statement “Dana is lying” is false, meaning Dana is indeed telling the truth.\n\nAll conditions are satisfied with Dana telling the truth and Alex as the thief."
   },
   {
+    "objectID": "posts/missing number.html",
+    "href": "posts/missing number.html",
+    "title": "Second post about a logic problem",
+    "section": "",
+    "text": "The Missing Number\nA teacher writes five numbers on the board:\n3, 5, 9, 17, ?\nShe tells her students that the pattern follows a logical rule. What number should replace the question mark (?) in the sequence?\nCan you figure it out? 🤔\n4o: Let’s analyze the pattern in the sequence:\n3, 5, 9, 17, ?\nObserving the differences between consecutive terms:\n- ( 5 - 3 = 2 )\n- ( 9 - 5 = 4 )\n- ( 17 - 9 = 8 )\nThe differences are: 2, 4, 8.\nEach difference is doubling:\n( 2, 4, 8, )\nSo, the next difference should be 16:\n( 17 + 16 = 33 )\nAnswer: The missing number is 33. ✅\no1: Answer: 33\nExplanation:\nLook at the differences between consecutive terms:\n\n(5 - 3 = 2)\n\n(9 - 5 = 4)\n\n(17 - 9 = 8)\n\nThese differences ((2, 4, 8)) each double the previous one. Following this pattern, the next difference should be (16).\nSo, the next term after (17) is (17 + 16 = 33)."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -25,7 +32,7 @@
     "href": "index.html",
     "title": "My Explorations with LLMs",
     "section": "",
-    "text": "A test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nSecond post about a logic problem\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
+    "text": "Second post about a logic problem\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nSecond post about a logic problem\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/000_test_post/index.html",
