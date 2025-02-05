@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "My Explorations with LLMs",
     "section": "",
-    "text": "Second post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
+    "text": "A test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -26,19 +26,5 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
-  },
-  {
-    "objectID": "posts/000_test_post-Copy1/index.html",
-    "href": "posts/000_test_post-Copy1/index.html",
-    "title": "Second post",
-    "section": "",
-    "text": "Read the following and see if you can answer the question:\n\n\n\n\nFour friends—Alex, Ben, Cara, and Dana—were the only people in a locked house when the front door key went missing. Each of them made a statement:\n\nAlex: “I didn’t take the key.”\n\nBen: “Cara took the key.”\n\nCara: “Dana is lying.”\n\nDana: “Ben is lying.”\n\nOnly one of them is telling the truth. Who stole the key?\n\n\nGPT4o\nLet’s analyze the statements logically:\n\nOnly one person is telling the truth.\nIf Ben were telling the truth (“Cara took the key”), then all other statements must be false.\n\nAlex saying “I didn’t take the key” would be false → meaning Alex did take the key. This contradicts Ben’s claim.\nTherefore, Ben is lying.\n\n\nSince Ben is lying, Cara did not take the key. That means we must find another truth-teller.\n\nIf Cara were telling the truth (“Dana is lying”), then:\n\nDana saying “Ben is lying” would be false, meaning Ben is telling the truth.\nBut we already established that Ben was lying, so this contradicts our assumption.\n\n\nSince Cara cannot be the truth-teller either, let’s check Dana.\n\nIf Dana were telling the truth (“Ben is lying”), then:\n\nBen’s statement (“Cara took the key”) is false → meaning Cara did NOT take the key.\nThat makes Alex’s statement (“I didn’t take the key”) false → meaning Alex DID take the key.\n\n\nSince this setup is consistent and only one truth-teller exists, the key was stolen by Alex.\n\n##GPT4o1\n\n**Answer: Alex took the key.**\n\nHere’s a quick way to see why:\n\n1. **Assume Dana is telling the truth** (“Ben is lying”).\n2. If Ben is lying, then “Cara took the key” is false, so Cara did **not** take the key.\n3. Because only one statement can be true, Alex’s and Cara’s statements must be false:\n   - Alex’s statement “I didn’t take the key” is false, so Alex **did** take the key.\n   - Cara’s statement “Dana is lying” is false, meaning Dana is indeed telling the truth.\n\nAll conditions are satisfied with Dana telling the truth and Alex as the thief."
-  },
-  {
-    "objectID": "posts/000_test_post-Copy1/index.html#a-logic-problem-for-llms",
-    "href": "posts/000_test_post-Copy1/index.html#a-logic-problem-for-llms",
-    "title": "Second post",
-    "section": "",
-    "text": "Read the following and see if you can answer the question:\n\n\n\n\nFour friends—Alex, Ben, Cara, and Dana—were the only people in a locked house when the front door key went missing. Each of them made a statement:\n\nAlex: “I didn’t take the key.”\n\nBen: “Cara took the key.”\n\nCara: “Dana is lying.”\n\nDana: “Ben is lying.”\n\nOnly one of them is telling the truth. Who stole the key?\n\n\nGPT4o\nLet’s analyze the statements logically:\n\nOnly one person is telling the truth.\nIf Ben were telling the truth (“Cara took the key”), then all other statements must be false.\n\nAlex saying “I didn’t take the key” would be false → meaning Alex did take the key. This contradicts Ben’s claim.\nTherefore, Ben is lying.\n\n\nSince Ben is lying, Cara did not take the key. That means we must find another truth-teller.\n\nIf Cara were telling the truth (“Dana is lying”), then:\n\nDana saying “Ben is lying” would be false, meaning Ben is telling the truth.\nBut we already established that Ben was lying, so this contradicts our assumption.\n\n\nSince Cara cannot be the truth-teller either, let’s check Dana.\n\nIf Dana were telling the truth (“Ben is lying”), then:\n\nBen’s statement (“Cara took the key”) is false → meaning Cara did NOT take the key.\nThat makes Alex’s statement (“I didn’t take the key”) false → meaning Alex DID take the key.\n\n\nSince this setup is consistent and only one truth-teller exists, the key was stolen by Alex.\n\n##GPT4o1\n\n**Answer: Alex took the key.**\n\nHere’s a quick way to see why:\n\n1. **Assume Dana is telling the truth** (“Ben is lying”).\n2. If Ben is lying, then “Cara took the key” is false, so Cara did **not** take the key.\n3. Because only one statement can be true, Alex’s and Cara’s statements must be false:\n   - Alex’s statement “I didn’t take the key” is false, so Alex **did** take the key.\n   - Cara’s statement “Dana is lying” is false, meaning Dana is indeed telling the truth.\n\nAll conditions are satisfied with Dana telling the truth and Alex as the thief."
   }
 ]

@@ -6,11 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="An LLM User">
-<meta name="dcterms.date" content="2024-02-02">
-<meta name="description" content="Trying to figure out how to use this thing">
 
-<title>Second post – My Explorations with LLMs</title>
+<title>missing-number – My Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,59 +20,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-5027bf1c1f92ac6615724d89c8213d6a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-5027bf1c1f92ac6615724d89c8213d6a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -105,7 +68,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -115,7 +78,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">My Explorations with LLMs</span>
     </a>
   </div>
@@ -126,7 +89,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -147,45 +110,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Second post</h1>
-                  <div>
-        <div class="description">
-          Trying to figure out how to use this thing
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">LLMs</div>
-                <div class="quarto-category">prompting</div>
-                <div class="quarto-category">logic</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>An LLM User </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">February 2, 2024</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
@@ -196,73 +121,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="a-logic-problem-for-llms" class="level2">
-<h2 class="anchored" data-anchor-id="a-logic-problem-for-llms">A logic problem for LLMs</h2>
-<ul>
-<li>Read the following and see if you can answer the question:</li>
-</ul>
-<blockquote class="blockquote">
-<h3 id="the-stolen-key" class="anchored">The Stolen Key</h3>
-</blockquote>
-<p>Four friends—Alex, Ben, Cara, and Dana—were the only people in a locked house when the front door key went missing. Each of them made a statement:</p>
-<ul>
-<li><strong>Alex</strong>: “I didn’t take the key.”<br>
-</li>
-<li><strong>Ben</strong>: “Cara took the key.”<br>
-</li>
-<li><strong>Cara</strong>: “Dana is lying.”<br>
-</li>
-<li><strong>Dana</strong>: “Ben is lying.”</li>
-</ul>
-<p>Only one of them is telling the truth. Who stole the key?</p>
-<section id="how-do-llms-response-to-the-prompt" class="level3">
-<h3 class="anchored" data-anchor-id="how-do-llms-response-to-the-prompt">How do LLMs response to the prompt?</h3>
-<p><strong>GPT4o</strong></p>
-<p>Let’s analyze the statements logically:</p>
-<ul>
-<li>Only <strong>one</strong> person is telling the truth.</li>
-<li>If <strong>Ben</strong> were telling the truth (“Cara took the key”), then all other statements must be false.
-<ul>
-<li>Alex saying “I didn’t take the key” would be false → meaning Alex <strong>did</strong> take the key. This contradicts Ben’s claim.</li>
-<li>Therefore, Ben is <strong>lying</strong>.</li>
-</ul></li>
-</ul>
-<p>Since Ben is lying, Cara <strong>did not</strong> take the key. That means we must find another truth-teller.</p>
-<ul>
-<li>If <strong>Cara</strong> were telling the truth (“Dana is lying”), then:
-<ul>
-<li>Dana saying “Ben is lying” would be false, meaning Ben is <strong>telling the truth</strong>.</li>
-<li>But we already established that Ben was lying, so this contradicts our assumption.</li>
-</ul></li>
-</ul>
-<p>Since Cara cannot be the truth-teller either, let’s check Dana.</p>
-<ul>
-<li>If <strong>Dana</strong> were telling the truth (“Ben is lying”), then:
-<ul>
-<li>Ben’s statement (“Cara took the key”) is false → meaning <strong>Cara did NOT take the key</strong>.</li>
-<li>That makes Alex’s statement (“I didn’t take the key”) false → meaning <strong>Alex DID take the key</strong>.</li>
-</ul></li>
-</ul>
-<p>Since this setup is consistent and only one truth-teller exists, the <strong>key was stolen by Alex</strong>.</p>
-<div id="836cb42b-4a1b-40f2-8ad5-1b55ba306e2b" class="cell" data-execution_count="5">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">##GPT4o1</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">**</span>Answer: Alex took the key.<span class="op">**</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Here’s a quick way to see why:</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fl">1.</span> <span class="op">**</span>Assume Dana <span class="kw">is</span> telling the truth<span class="op">**</span> (“Ben <span class="kw">is</span> lying”).</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fl">2.</span> If Ben <span class="kw">is</span> lying, then “Cara took the key” <span class="kw">is</span> false, so Cara did <span class="op">**</span><span class="kw">not</span><span class="op">**</span> take the key.</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fl">3.</span> Because only one statement can be true, Alex’s <span class="kw">and</span> Cara’s statements must be false:</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>   <span class="op">-</span> Alex’s statement “I didn’t take the key” <span class="kw">is</span> false, so Alex <span class="op">**</span>did<span class="op">**</span> take the key.</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>   <span class="op">-</span> Cara’s statement “Dana <span class="kw">is</span> lying” <span class="kw">is</span> false, meaning Dana <span class="kw">is</span> indeed telling the truth.</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>All conditions are satisfied <span class="cf">with</span> Dana telling the truth <span class="kw">and</span> Alex <span class="im">as</span> the thief.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 
-
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
