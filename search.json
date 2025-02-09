@@ -7,11 +7,39 @@
     "text": "A logic problem for LLMs\n\nRead the following and see if you can answer the question:\n\n\nThe Stolen Key (created by GPT 4o)\n\nFour friends—Alex, Ben, Cara, and Dana—were the only people in a locked house when the front door key went missing. Each of them made a statement:\n\nAlex: “I didn’t take the key.”\n\nBen: “Cara took the key.”\n\nCara: “Dana is lying.”\n\nDana: “Ben is lying.”\n\nOnly one of them is telling the truth. Who stole the key?\n\n\nHow do LLMs response to the prompt?\n\nGPT4o\nLet’s analyze the statements logically:\n\nOnly one person is telling the truth.\nIf Ben were telling the truth (“Cara took the key”), then all other statements must be false.\n\nAlex saying “I didn’t take the key” would be false → meaning Alex did take the key. This contradicts Ben’s claim.\nTherefore, Ben is lying.\n\n\nSince Ben is lying, Cara did not take the key. That means we must find another truth-teller.\n\nIf Cara were telling the truth (“Dana is lying”), then:\n\nDana saying “Ben is lying” would be false, meaning Ben is telling the truth.\nBut we already established that Ben was lying, so this contradicts our assumption.\n\n\nSince Cara cannot be the truth-teller either, let’s check Dana.\n\nIf Dana were telling the truth (“Ben is lying”), then:\n\nBen’s statement (“Cara took the key”) is false → meaning Cara did NOT take the key.\nThat makes Alex’s statement (“I didn’t take the key”) false → meaning Alex DID take the key.\n\n\nSince this setup is consistent and only one truth-teller exists, the key was stolen by Alex.\n\n\nGPT4o1\nAnswer: Alex took the key.\nHere’s a quick way to see why:\n\nAssume Dana is telling the truth (“Ben is lying”).\nIf Ben is lying, then “Cara took the key” is false, so Cara did not take the key.\nBecause only one statement can be true, Alex’s and Cara’s statements must be false:\n\nAlex’s statement “I didn’t take the key” is false, so Alex did take the key.\nCara’s statement “Dana is lying” is false, meaning Dana is indeed telling the truth.\n\n\nAll conditions are satisfied with Dana telling the truth and Alex as the thief.\n\n\nAnalysis of LLM Reasoning\nThis problem is an example of how LLMs process logical constraints. Given the one-truth constraint, LLMs systematically eliminate contradictions to arrive at a valid solution.\nNotably, both GPT-4o and GPT-4o1 reached the same answer through slightly different reasoning:\nGPT-4o used a step-by-step contradiction approach, testing each individual’s truthfulness and discarding inconsistencies. GPT-4o1 opted for a more streamlined deduction, assuming Dana’s truthfulness and resolving the logical consequences. This exercise highlights LLMs’ ability to process deductive logic, truth-value constraints, and contradictions, making them effective at solving structured reasoning puzzles.\nWould another LLM produce the same answer? Would performance change if the statements were reworded? Testing across different models could reveal nuances in AI logical reasoning and bias towards specific deduction styles.\nWhat do you think—should we test other AI models on this problem?"
   },
   {
+    "objectID": "posts/Dice game.html",
+    "href": "posts/Dice game.html",
+    "title": "The Optimal Dice Game: How Much Should You Pay to Play?",
+    "section": "",
+    "text": "---\ntitle: \"Game theory problem\"\ndescription: \"Rolling dice\"\nauthor: \"An LLM User\"\ndate: \"2/7/2024\"\ncategories:\n  - LLMs\n  - game theory\n  - logic\n\n---\n\nImagine a simple gambling game where you roll a six-sided die and win the dollar amount that appears on the die. However, you have a strategic advantage: after rolling, you can either keep the result or choose to reroll. If you reroll, you must take the second roll’s value. How much would you pay to play such a game? And what if you had the option to roll a third time?\n###GPT 4 response: Breaking Down the Strategy  This problem is a great example of an optimal stopping problem in probability theory. The goal is to maximize the expected payout by deciding when to stop rolling.\n\nStep 1: A Single Roll Without Rerolls\nIf you could roll only once, the expected value (EV) of the game is simply the average outcome of rolling a fair six-sided die: [ EV = = 3.5 ] A rational investor would thus pay at most $3.50 to play the game if no rerolls were allowed.\n\n\nStep 2: Adding One Reroll\nWith one reroll option, the strategy changes: we should keep the first roll only if it is sufficiently high; otherwise, we should reroll.\nIf the first roll is less than the expected value of rolling once (3.5), rerolling is the better option. Since dice rolls are discrete, we reroll when the first roll is 1, 2, or 3 and keep it otherwise.\nBy calculating the expected value when following this strategy, we find: [ EV_{2 rolls} = 4.25 ] So, a rational investor should pay up to $4.25 to play with one reroll option.\n\n\nStep 3: Adding a Second Reroll\nNow, let’s extend the game to include a second reroll option. This means that after the first roll, you can either keep it, reroll, or reroll again if you still aren’t satisfied.\nUsing backward induction, we determine the optimal strategy: - If you reach the third roll, you must accept whatever you get, which has an expected value of 3.5. - If you reroll the second time, you should keep the result if it is 4, 5, or 6, otherwise, roll a third time. - On the first roll, it’s optimal to reroll unless you roll a 5 or 6.\nWith this strategy, the expected value of playing optimally with two rerolls is: [ EV_{3 rolls} = 4.83 ] Thus, the fair price for playing this game with two rerolls is $4.83.\n\n\nKey Takeaways\n\nIf you roll once, the fair price is $3.50.\nWith one reroll, the fair price increases to $4.25.\nWith two rerolls, the fair price further increases to $4.83.\nThe more reroll opportunities you have, the higher the expected value—but the increase diminishes with each additional reroll.\n\n\n\nConclusion\nThis problem beautifully illustrates the power of probability, decision-making, and optimal stopping strategies. If you ever encounter a similar game, now you know exactly how much you should be willing to pay!\nWould you take the bet? Let us know your thoughts!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Explorations with LLMs",
+    "section": "",
+    "text": "The Optimal Dice Game: How Much Should You Pay to Play?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThird post about a math problem\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nInteresting word logic problem\n\n\n\n\n\n\nLLMs\n\n\nword problem\n\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
     "objectID": "posts/missing number.html",
     "href": "posts/missing number.html",
     "title": "Third post about a math problem",
     "section": "",
-    "text": "A teacher writes five numbers on the board:\n3, 5, 9, 17, ?\nShe tells her students that the pattern follows a logical rule.\nWhat number should replace the question mark (?) in the sequence?\nCan you figure it out?\nSolving the Pattern To determine the missing number, let’s analyze the pattern in the sequence:\n3, 5, 9, 17, ?\nWe examine the differences between consecutive terms:\n5 − 3 = 2\n9 - 5 = 4\n17 − 9 = 8\nThis gives us the difference sequence:\n2, 4, 8\nObserving this pattern, we see that each difference doubles the previous one:\n2 , 4 , 8 , 16\nFollowing this doubling pattern, the next difference should be 16.\nThus, the missing number in the sequence is:\n17 + 16 = 33 17+16=33"
+    "text": "A teacher writes five numbers on the board:\n3, 5, 9, 17, ?\nShe tells her students that the pattern follows a logical rule.\nWhat number should replace the question mark (?) in the sequence?\nCan you figure it out?\n\n\nTo determine the missing number, let’s analyze the pattern in the sequence:\n3, 5, 9, 17, ?\nWe examine the differences between consecutive terms:\n5 − 3 = 2\n9 - 5 = 4\n17 − 9 = 8\nThis gives us the difference sequence:\n2, 4, 8\nObserving this pattern, we see that each difference doubles the previous one:\n2 , 4 , 8 , 16\nFollowing this doubling pattern, the next difference should be 16.\nThus, the missing number in the sequence is:\n17+16=33 ### Answer: 33"
+  },
+  {
+    "objectID": "posts/missing number.html#solving-the-pattern",
+    "href": "posts/missing number.html#solving-the-pattern",
+    "title": "Third post about a math problem",
+    "section": "",
+    "text": "To determine the missing number, let’s analyze the pattern in the sequence:\n3, 5, 9, 17, ?\nWe examine the differences between consecutive terms:\n5 − 3 = 2\n9 - 5 = 4\n17 − 9 = 8\nThis gives us the difference sequence:\n2, 4, 8\nObserving this pattern, we see that each difference doubles the previous one:\n2 , 4 , 8 , 16\nFollowing this doubling pattern, the next difference should be 16.\nThus, the missing number in the sequence is:\n17+16=33 ### Answer: 33"
   },
   {
     "objectID": "posts/missing number.html#gpt-4os-approach",
@@ -26,20 +54,6 @@
     "title": "Third post about a math problem",
     "section": "GPT-4o1’s Approach",
     "text": "GPT-4o1’s Approach\nGPT-4o1 arrives at the same conclusion using a similar approach:\nIt calculates the first-order differences: 2, 4, 8. It recognizes that each difference is doubling. It predicts the next difference as 16. It adds 16 to the last number (17) to find 33. 📌 GPT-4o1’s Answer: 33."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "My Explorations with LLMs",
-    "section": "",
-    "text": "Third post about a math problem\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nInteresting word logic problem\n\n\n\n\n\n\nLLMs\n\n\nword problem\n\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/000_test_post/index.html",
