@@ -169,8 +169,8 @@ ul.task-list li input[type="checkbox"] {
 <p>She tells her students that the pattern follows a logical rule.</p>
 <p>What number should replace the question mark (?) in the sequence?</p>
 <p>Can you figure it out?</p>
-<section id="solving-the-pattern" class="level2">
-<h2 class="anchored" data-anchor-id="solving-the-pattern">Solving the Pattern</h2>
+<section id="solving-the-pattern-manually" class="level2">
+<h2 class="anchored" data-anchor-id="solving-the-pattern-manually">Solving the Pattern manually</h2>
 <p>To determine the missing number, let’s analyze the pattern in the sequence:</p>
 <p>3, 5, 9, 17, ?</p>
 <p>We examine the differences between consecutive terms:</p>
@@ -198,10 +198,27 @@ ul.task-list li input[type="checkbox"] {
 <p>GPT-4o1 arrives at the same conclusion using a similar approach:</p>
 <p>It calculates the first-order differences: 2, 4, 8. It recognizes that each difference is doubling. It predicts the next difference as 16. It adds 16 to the last number (17) to find 33. 📌 GPT-4o1’s Answer: 33.</p>
 </section>
+<section id="perplexitys-approach" class="level2">
+<h2 class="anchored" data-anchor-id="perplexitys-approach">Perplexity’s Approach</h2>
+<p>The number that should replace the question mark (?) in the sequence 3, 5, 9, 17, ? is 33.</p>
+<p>To understand this, let’s examine the pattern:</p>
+<p>First, we calculate the differences between consecutive terms:</p>
+<p>5 - 3 = 2</p>
+<p>9 - 5 = 4</p>
+<p>17 - 9 = 8</p>
+<p>We can observe that these differences are doubling each time:</p>
+<p>2 → 4 (2 × 2)</p>
+<p>4 → 8 (4 × 2)</p>
+<p>Following this pattern, the next difference would be:</p>
+<p>8 → 16 (8 × 2)</p>
+<p>To find the missing number, we add this new difference to the last known term:</p>
+<p>17 + 16 = 33</p>
+<p>Therefore, the logical rule for this sequence is that the difference between each consecutive term doubles, and the missing number that completes the pattern is 33.</p>
+</section>
 </section>
 <section id="analysis-of-llm-performance" class="level1">
 <h1>Analysis of LLM Performance</h1>
-<p>Both models correctly identify the exponential growth pattern in the differences and use it to compute the missing number.</p>
+<p>All models correctly identify the exponential growth pattern in the differences and use it to compute the missing number.</p>
 <p>This showcases LLMs’ ability to:</p>
 <p>Recognize numerical sequences. Infer patterns in arithmetic progressions. Generalize rules and apply them consistently. However, what if the sequence was slightly altered? Would LLMs still recognize the pattern, or would they misinterpret it?</p>
 <p>We could explore this by testing variations, such as:</p>

@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="An LLM User">
-<meta name="dcterms.date" content="2024-02-07">
-<meta name="description" content="Rolling dice">
+<meta name="dcterms.date" content="2024-02-22">
+<meta name="description" content="Brainstorming with AI">
 
-<title>Game theory problem – My Explorations with LLMs</title>
+<title>Travel reccomendations – My Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,16 +116,15 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Game theory problem</h1>
+      <h1 class="title">Travel reccomendations</h1>
                   <div>
         <div class="description">
-          Rolling dice
+          Brainstorming with AI
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">LLMs</div>
-                <div class="quarto-category">game theory</div>
-                <div class="quarto-category">logic</div>
+                <div class="quarto-category">travelling</div>
               </div>
                   </div>
   </div>
@@ -143,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 7, 2024</p>
+        <p class="date">February 22, 2024</p>
       </div>
     </div>
     
@@ -162,45 +161,35 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="the-optimal-dice-game-how-much-should-you-pay-to-play" class="level2">
-<h2 class="anchored" data-anchor-id="the-optimal-dice-game-how-much-should-you-pay-to-play">The Optimal Dice Game: How Much Should You Pay to Play?</h2>
-<p>Imagine a simple gambling game where you roll a six-sided die and win the dollar amount that appears on the die. However, you have a strategic advantage: after rolling, you can either keep the result or choose to reroll. If you reroll, you must take the second roll’s value. How much would you pay to play such a game? And what if you had the option to roll a third time?</p>
-<section id="gpt-4-response-breaking-down-the-strategy" class="level3">
-<h3 class="anchored" data-anchor-id="gpt-4-response-breaking-down-the-strategy"><strong>GPT 4 response: Breaking Down the Strategy </strong></h3>
-<p>This problem is a great example of an <strong>optimal stopping problem</strong> in probability theory. The goal is to maximize the expected payout by deciding when to stop rolling.</p>
-<section id="step-1-a-single-roll-without-rerolls" class="level4">
-<h4 class="anchored" data-anchor-id="step-1-a-single-roll-without-rerolls"><strong>Step 1: A Single Roll Without Rerolls</strong></h4>
-<p>If you could roll only once, the expected value (EV) of the game is simply the average outcome of rolling a fair six-sided die: [ EV = = 3.5 ] A rational investor would thus pay at most <strong>$3.50</strong> to play the game if no rerolls were allowed.</p>
+<p>When figuring out where to go for Spring Break, my friends and I had been staring at a map of the US and Europe trying to figure out where to go together. We had reached a point where we really weren’t sure what we were looking for, so we used AI to narrow down our options. Below, I attached the prompt along with the response we received.</p>
+<section id="prompt" class="level2">
+<h2 class="anchored" data-anchor-id="prompt">Prompt:</h2>
+<p>Please give me beach vacation destinations 6 hours max from nyc, what about things like charleston</p>
 </section>
-<section id="step-2-adding-one-reroll" class="level4">
-<h4 class="anchored" data-anchor-id="step-2-adding-one-reroll"><strong>Step 2: Adding One Reroll</strong></h4>
-<p>With one reroll option, the strategy changes: we should keep the first roll only if it is sufficiently high; otherwise, we should reroll.</p>
-<p>If the first roll is <strong>less than the expected value of rolling once (3.5)</strong>, rerolling is the better option. Since dice rolls are discrete, we reroll when the first roll is <strong>1, 2, or 3</strong> and keep it otherwise.</p>
-<p>By calculating the expected value when following this strategy, we find: [ EV_{2&nbsp;rolls} = 4.25 ] So, a rational investor should pay up to <strong>$4.25</strong> to play with one reroll option.</p>
-</section>
-<section id="step-3-adding-a-second-reroll" class="level4">
-<h4 class="anchored" data-anchor-id="step-3-adding-a-second-reroll"><strong>Step 3: Adding a Second Reroll</strong></h4>
-<p>Now, let’s extend the game to include a <strong>second reroll</strong> option. This means that after the first roll, you can either keep it, reroll, or reroll again if you still aren’t satisfied.</p>
-<p>Using backward induction, we determine the optimal strategy: - If you reach the third roll, you must accept whatever you get, which has an expected value of <strong>3.5</strong>. - If you reroll the second time, you should keep the result <strong>if it is 4, 5, or 6</strong>, otherwise, roll a third time. - On the first roll, it’s optimal to <strong>reroll unless you roll a 5 or 6</strong>.</p>
-<p>With this strategy, the expected value of playing optimally with two rerolls is: [ EV_{3&nbsp;rolls} = 4.83 ] Thus, the fair price for playing this game with <strong>two rerolls</strong> is <strong>$4.83</strong>.</p>
-</section>
-</section>
-<section id="key-takeaways" class="level3">
-<h3 class="anchored" data-anchor-id="key-takeaways"><strong>Key Takeaways</strong></h3>
-<ul>
-<li>If you <strong>roll once</strong>, the fair price is <strong>$3.50</strong>.</li>
-<li>With <strong>one reroll</strong>, the fair price increases to <strong>$4.25</strong>.</li>
-<li>With <strong>two rerolls</strong>, the fair price further increases to <strong>$4.83</strong>.</li>
-<li>The more reroll opportunities you have, the higher the expected value—but the increase diminishes with each additional reroll.</li>
-</ul>
-</section>
-<section id="conclusion" class="level3">
-<h3 class="anchored" data-anchor-id="conclusion"><strong>Conclusion</strong></h3>
-<p>This problem beautifully illustrates the power of probability, decision-making, and optimal stopping strategies. If you ever encounter a similar game, now you know exactly how much you should be willing to pay!</p>
+<section id="response" class="level2">
+<h2 class="anchored" data-anchor-id="response">Response:</h2>
+<p>Yes! <strong>Charleston, South Carolina</strong> is a great option, and there are a few similar beach destinations within a <strong>6-hour flight or drive</strong> from NYC that offer a mix of <strong>historic charm, coastal beauty, and Southern hospitality</strong>. Here are some great alternatives:</p>
+<section id="southern-beach-destinations-under-6-hour-flight" class="level3">
+<h3 class="anchored" data-anchor-id="southern-beach-destinations-under-6-hour-flight"><strong>Southern Beach Destinations (Under 6-Hour Flight)</strong></h3>
+<ol type="1">
+<li><strong>Charleston, SC</strong> (2 hrs by flight) – Historic cobblestone streets, waterfront charm, and nearby <strong>Folly Beach, Isle of Palms, and Sullivan’s Island</strong>.<br>
+</li>
+<li><strong>Savannah, GA</strong> (2.5 hrs by flight) – Similar to Charleston, with historic squares and nearby <strong>Tybee Island</strong> for a laid-back beach escape.<br>
+</li>
+<li><strong>Hilton Head Island, SC</strong> (2.5 hrs by flight) – A mix of luxury resorts, golf courses, and beautiful beaches.<br>
+</li>
+<li><strong>Wilmington, NC</strong> (1.5 hrs by flight) – Historic riverfront city with beaches like <strong>Wrightsville Beach and Carolina Beach</strong>.<br>
+</li>
+<li><strong>Myrtle Beach, SC</strong> (2 hrs by flight) – More touristy, but great for a mix of golf, beaches, and boardwalk fun.<br>
+</li>
+<li><strong>Virginia Beach, VA</strong> (1.5 hrs by flight or 6 hrs drive) – A lively boardwalk scene with miles of sandy shoreline.</li>
+</ol>
+<p>If you’re looking for that <strong>Charleston-style charm</strong> with a <strong>beach nearby</strong>, I’d say Charleston, Savannah, or Hilton Head would be your best picks! Let me know if you need help narrowing it down.</p>
 </section>
 </section>
 <section id="reflection" class="level2">
 <h2 class="anchored" data-anchor-id="reflection">Reflection:</h2>
+<p>What was super interesting to me in this interaction was that GPT was able to also extract the flight time from NYC to all of these different destinations. It’s reccomendations were quite expected, and the description of each destination also included a decent amount of examples of what to do and specific places within each destination. But I’m curious how it was further able to find the exact flight time from each of these places and find the correct travel time.</p>
 
 
 </section>

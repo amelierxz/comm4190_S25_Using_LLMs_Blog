@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="An LLM User">
+<meta name="dcterms.date" content="2024-02-07">
+<meta name="description" content="Rolling dice">
 
-<title>Using the openai Text Completions API – My Explorations with LLMs</title>
+<title>Game theory problem – My Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,59 +23,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8647a4a42273f773479d27c00df3f9ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-8647a4a42273f773479d27c00df3f9ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -102,7 +71,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -112,7 +81,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">My Explorations with LLMs</span>
     </a>
   </div>
@@ -123,7 +92,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -147,14 +116,36 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Using the <code>openai</code> Text Completions API</h1>
-                      </div>
+      <h1 class="title">Game theory problem</h1>
+                  <div>
+        <div class="description">
+          Rolling dice
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">LLMs</div>
+                <div class="quarto-category">game theory</div>
+                <div class="quarto-category">logic</div>
+              </div>
+                  </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>An LLM User </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 7, 2024</p>
+      </div>
+    </div>
     
       
     </div>
@@ -171,81 +162,45 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="setup" class="level3">
-<h3 class="anchored" data-anchor-id="setup">Setup</h3>
-<p>from openai import OpenAI import os import pandas as pd</p>
+<section id="the-optimal-dice-game-how-much-should-you-pay-to-play" class="level2">
+<h2 class="anchored" data-anchor-id="the-optimal-dice-game-how-much-should-you-pay-to-play">The Optimal Dice Game: How Much Should You Pay to Play?</h2>
+<p>Imagine a simple gambling game where you roll a six-sided die and win the dollar amount that appears on the die. However, you have a strategic advantage: after rolling, you can either keep the result or choose to reroll. If you reroll, you must take the second roll’s value. How much would you pay to play such a game? And what if you had the option to roll a third time?</p>
+<section id="gpt-4-response-breaking-down-the-strategy" class="level3">
+<h3 class="anchored" data-anchor-id="gpt-4-response-breaking-down-the-strategy"><strong>GPT 4 response: Breaking Down the Strategy </strong></h3>
+<p>This problem is a great example of an <strong>optimal stopping problem</strong> in probability theory. The goal is to maximize the expected payout by deciding when to stop rolling.</p>
+<section id="step-1-a-single-roll-without-rerolls" class="level4">
+<h4 class="anchored" data-anchor-id="step-1-a-single-roll-without-rerolls"><strong>Step 1: A Single Roll Without Rerolls</strong></h4>
+<p>If you could roll only once, the expected value (EV) of the game is simply the average outcome of rolling a fair six-sided die: [ EV = = 3.5 ] A rational investor would thus pay at most <strong>$3.50</strong> to play the game if no rerolls were allowed.</p>
 </section>
-<section id="setup-apikey" class="level3">
-<h3 class="anchored" data-anchor-id="setup-apikey">Setup apikey</h3>
+<section id="step-2-adding-one-reroll" class="level4">
+<h4 class="anchored" data-anchor-id="step-2-adding-one-reroll"><strong>Step 2: Adding One Reroll</strong></h4>
+<p>With one reroll option, the strategy changes: we should keep the first roll only if it is sufficiently high; otherwise, we should reroll.</p>
+<p>If the first roll is <strong>less than the expected value of rolling once (3.5)</strong>, rerolling is the better option. Since dice rolls are discrete, we reroll when the first roll is <strong>1, 2, or 3</strong> and keep it otherwise.</p>
+<p>By calculating the expected value when following this strategy, we find: [ EV_{2&nbsp;rolls} = 4.25 ] So, a rational investor should pay up to <strong>$4.25</strong> to play with one reroll option.</p>
+</section>
+<section id="step-3-adding-a-second-reroll" class="level4">
+<h4 class="anchored" data-anchor-id="step-3-adding-a-second-reroll"><strong>Step 3: Adding a Second Reroll</strong></h4>
+<p>Now, let’s extend the game to include a <strong>second reroll</strong> option. This means that after the first roll, you can either keep it, reroll, or reroll again if you still aren’t satisfied.</p>
+<p>Using backward induction, we determine the optimal strategy: - If you reach the third roll, you must accept whatever you get, which has an expected value of <strong>3.5</strong>. - If you reroll the second time, you should keep the result <strong>if it is 4, 5, or 6</strong>, otherwise, roll a third time. - On the first roll, it’s optimal to <strong>reroll unless you roll a 5 or 6</strong>.</p>
+<p>With this strategy, the expected value of playing optimally with two rerolls is: [ EV_{3&nbsp;rolls} = 4.83 ] Thus, the fair price for playing this game with <strong>two rerolls</strong> is <strong>$4.83</strong>.</p>
+</section>
+</section>
+<section id="key-takeaways" class="level3">
+<h3 class="anchored" data-anchor-id="key-takeaways"><strong>Key Takeaways</strong></h3>
 <ul>
-<li>We will be using a different key and system for accessing various LLMs</li>
+<li>If you <strong>roll once</strong>, the fair price is <strong>$3.50</strong>.</li>
+<li>With <strong>one reroll</strong>, the fair price increases to <strong>$4.25</strong>.</li>
+<li>With <strong>two rerolls</strong>, the fair price further increases to <strong>$4.83</strong>.</li>
+<li>The more reroll opportunities you have, the higher the expected value—but the increase diminishes with each additional reroll.</li>
 </ul>
-<div id="1825ddb4-c0f6-4ca1-8b5c-68d8b0e329ef" class="cell" data-execution_count="4">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>apikey <span class="op">=</span> <span class="bu">open</span>(<span class="st">'.apikey'</span>).read().strip()</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>os.environ[<span class="st">'OPENAI_API_KEY'</span>] <span class="op">=</span> apikey</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-error">
-<div class="ansi-escaped-output">
-<pre><span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">FileNotFoundError</span>                         Traceback (most recent call last)
-Cell <span class="ansi-green-fg">In[4], line 1</span>
-<span class="ansi-green-fg">----&gt; 1</span> apikey <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)" class="ansi-yellow-bg">open</span><span class="ansi-yellow-bg">(</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">'</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">.apikey</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">'</span><span class="ansi-yellow-bg">)</span><span style="color:rgb(98,98,98)">.</span>read()<span style="color:rgb(98,98,98)">.</span>strip()
-<span class="ansi-green-fg ansi-bold">      2</span> os<span style="color:rgb(98,98,98)">.</span>environ[<span style="color:rgb(175,0,0)">'</span><span style="color:rgb(175,0,0)">OPENAI_API_KEY</span><span style="color:rgb(175,0,0)">'</span>] <span style="color:rgb(98,98,98)">=</span> apikey
-
-File <span class="ansi-green-fg">/opt/jupyterhub/share/jupyter/venv/python3-12_comm4190/lib/python3.12/site-packages/IPython/core/interactiveshell.py:324</span>, in <span class="ansi-cyan-fg">_modified_open</span><span class="ansi-blue-fg">(file, *args, **kwargs)</span>
-<span class="ansi-green-fg ansi-bold">    317</span> <span style="font-weight:bold;color:rgb(0,135,0)">if</span> file <span style="font-weight:bold;color:rgb(175,0,255)">in</span> {<span style="color:rgb(98,98,98)">0</span>, <span style="color:rgb(98,98,98)">1</span>, <span style="color:rgb(98,98,98)">2</span>}:
-<span class="ansi-green-fg ansi-bold">    318</span>     <span style="font-weight:bold;color:rgb(0,135,0)">raise</span> <span style="font-weight:bold;color:rgb(215,95,95)">ValueError</span>(
-<span class="ansi-green-fg ansi-bold">    319</span>         <span style="color:rgb(175,0,0)">f</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">IPython won</span><span style="color:rgb(175,0,0)">'</span><span style="color:rgb(175,0,0)">t let you open fd=</span><span style="font-weight:bold;color:rgb(175,95,135)">{</span>file<span style="font-weight:bold;color:rgb(175,95,135)">}</span><span style="color:rgb(175,0,0)"> by default </span><span style="color:rgb(175,0,0)">"</span>
-<span class="ansi-green-fg ansi-bold">    320</span>         <span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">as it is likely to crash IPython. If you know what you are doing, </span><span style="color:rgb(175,0,0)">"</span>
-<span class="ansi-green-fg ansi-bold">    321</span>         <span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">you can use builtins</span><span style="color:rgb(175,0,0)">'</span><span style="color:rgb(175,0,0)"> open.</span><span style="color:rgb(175,0,0)">"</span>
-<span class="ansi-green-fg ansi-bold">    322</span>     )
-<span class="ansi-green-fg">--&gt; 324</span> <span style="font-weight:bold;color:rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">io_open</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">file</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-
-<span class="ansi-red-fg">FileNotFoundError</span>: [Errno 2] No such file or directory: '.apikey'</pre>
-</div>
-</div>
-</div>
 </section>
-<section id="calling-chatgpt-using-the-api" class="level3">
-<h3 class="anchored" data-anchor-id="calling-chatgpt-using-the-api">Calling ChatGPT using the API</h3>
-<div id="453892f3-dee1-497d-a1d1-1873fbed9785" class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> <span class="st">"gpt-4"</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>system_role <span class="op">=</span> <span class="st">""</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>initial_prompt <span class="op">=</span> <span class="st">'''</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="st">        Make a robocall encouraging people to save </span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="st">        their vote from the current primary and instead vote just in the November general election instead.</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="st">        The reason is because the Republicans are dominating the narrative in the primary.</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="st">        Use the style of Joe Biden and use his characteristic vocabulary and phrases.</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="st">        Make the call a maximum of 30 seconds long.</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="st">        '''</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>messages <span class="op">=</span> [</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    {<span class="st">"role"</span>: <span class="st">"system"</span>, <span class="st">"content"</span>: system_role} ,</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    {<span class="st">"role"</span>: <span class="st">"user"</span>, <span class="st">"content"</span>: initial_prompt},</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># {"role": "assistant", "content": "" },</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="co"># {"role": "user", "content": "" }</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion"><strong>Conclusion</strong></h3>
+<p>This problem beautifully illustrates the power of probability, decision-making, and optimal stopping strategies. If you ever encounter a similar game, now you know exactly how much you should be willing to pay!</p>
 </section>
-<section id="the-api-call" class="level3">
-<h3 class="anchored" data-anchor-id="the-api-call">The API call</h3>
-<div id="627b5e2a-a098-46e6-86b5-1ced9e792403" class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>client <span class="op">=</span> OpenAI()</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>completion <span class="op">=</span> client.chat.completions.create(</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  model<span class="op">=</span>model,        <span class="co"># the model to use </span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  messages<span class="op">=</span>messages,  <span class="co"># a list of dictionaries with the prompt</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  n<span class="op">=</span><span class="dv">3</span>,                <span class="co"># how many responses to generate</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  temperature<span class="op">=</span><span class="fl">0.7</span>     <span class="co"># temperature parameter</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>response <span class="op">=</span> completion.choices[<span class="dv">0</span>].message.content</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div id="d666a310-db7f-473a-adac-269cc1f624a9" class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(completion.choices[<span class="dv">0</span>].message.content)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div id="a2016599-17c4-42ce-85f8-9a9a05d4336e" class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>?client.chat.completions.create</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection:</h2>
 
 
 </section>

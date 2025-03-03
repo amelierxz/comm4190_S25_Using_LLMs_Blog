@@ -8,9 +8,9 @@
 
 <meta name="author" content="An LLM User">
 <meta name="dcterms.date" content="2024-03-03">
-<meta name="description" content="Arranging my personal expense of January and February with AI">
+<meta name="description" content="Inspired by in class activity of Public Health PSA and going to a Sixers game last week">
 
-<title>Chat GPT for Excel – My Explorations with LLMs</title>
+<title>Sixers graphic – My Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8647a4a42273f773479d27c00df3f9ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-8647a4a42273f773479d27c00df3f9ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -81,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">My Explorations with LLMs</span>
     </a>
   </div>
@@ -92,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -116,16 +150,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Chat GPT for Excel</h1>
+      <h1 class="title">Sixers graphic</h1>
                   <div>
         <div class="description">
-          Arranging my personal expense of January and February with AI
+          Inspired by in class activity of Public Health PSA and going to a Sixers game last week
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">LLMs</div>
-                <div class="quarto-category">accounting</div>
-                <div class="quarto-category">Excel</div>
+                <div class="quarto-category">image creation</div>
+                <div class="quarto-category">sports</div>
               </div>
                   </div>
   </div>
@@ -162,8 +196,41 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="intro" class="level2">
+<h2 class="anchored" data-anchor-id="intro">Intro:</h2>
+<p>Last Monday, we attempted to use different LLM models in class to make public health posters that raised awareness about bikers going down the wrong lane outside of the Annenberg Center. In this, we saw how different prompting and models created a large amount of disparity in terms of the final output. As such, I wanted to dig deeper into the different image generation capabilites these models had, and I had the idea of creating images for promotional materials for the 76ers, since I had just attended their game that night as well. I tried to formulate one solid prompt that I could use across all the models for consistency, but this was hard because I experimented with the levels of detail that I included like the name of the team, their colors, the Wells Fargo stadium, specific players, etc.</p>
+</section>
+<section id="my-prompt" class="level2">
+<h2 class="anchored" data-anchor-id="my-prompt">My prompt:</h2>
+<p>Create a high-energy promotional image for the Philadelphia 76ers, capturing the excitement of a live game at the Wells Fargo Center. The scene should feature the team’s signature colors—red, white, and blue—vividly displayed in the arena, jerseys, and lighting effects. The composition should emphasize the intensity of the game, with dynamic action shots of players (without specific likenesses) making a slam dunk, celebrating a three-pointer, or engaging with the crowd. The background should include the electrifying atmosphere of a packed stadium, with fans cheering and waving banners. The overall style should be bold, modern, and suitable for use in official marketing materials</p>
+<div id="20045c1d-f733-4495-8ef3-f8cf3b8addef" class="cell" data-execution_count="9">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>img src<span class="op">=</span><span class="st">"./sixers1.png"</span> width<span class="op">=</span><span class="st">"50%"</span><span class="op">/</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-error">
+<div class="ansi-escaped-output">
+<pre><span class="ansi-cyan-fg">  Cell </span><span class="ansi-green-fg">In[9], line 1</span>
+<span class="ansi-red-fg">    img src="./sixers1.png" width="50%"/</span>
+        ^
+<span class="ansi-red-fg">SyntaxError</span><span class="ansi-red-fg">:</span> invalid syntax
+</pre>
+</div>
+</div>
+</div>
+<div id="40a46e64-a24d-4954-b773-df7cda5101b6" class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>img src<span class="op">=</span><span class="st">"./sixers1.png"</span> width<span class="op">=</span><span class="st">"50%"</span><span class="op">/</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="perplexity" class="level2">
+<h2 class="anchored" data-anchor-id="perplexity">Perplexity:</h2>
+<p>I apologize, but I am not able to create, generate, edit, manipulate or produce images. As an AI language model, I can only perceive and analyze existing images, not create new ones.</p>
+<p>However, I can provide a detailed description of how such a promotional image for the Philadelphia 76ers could be designed based on your specifications:</p>
+<p>The image would feature a dynamic composition centered on a Philadelphia 76ers player executing a powerful slam dunk. The player, rendered in silhouette to avoid likeness issues, would be depicted mid-air with arms extended towards the hoop, creating a sense of explosive energy.</p>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection:</h2>
+<p>Here, Gemini and Chat GPT 4o used really different approaches to analyze the given prompt, since GPT used a style that leans much closer to illustration and even cartoons, compared to Gemini, which was more realistic and closer to a picture taken courtside. However, some commonalities betweeen the two images were that the red and blue colors as well as the 76ers logos were super close to what they look like in real life, and I’m assuming this is because both models were able to absorb a lot of information from the internet and examples to make sure that the actual final products looked really realistic.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
