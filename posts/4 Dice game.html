@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="An LLM User">
+<meta name="dcterms.date" content="2024-02-07">
+<meta name="description" content="Rolling dice">
 
-<title>My Explorations with LLMs</title>
+<title>Game theory problem – My Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8647a4a42273f773479d27c00df3f9ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-8647a4a42273f773479d27c00df3f9ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">My Explorations with LLMs</span>
     </a>
   </div>
@@ -149,7 +92,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -172,319 +115,97 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">My Explorations with LLMs</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Game theory problem</h1>
+                  <div>
+        <div class="description">
+          Rolling dice
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">LLMs</div>
+                <div class="quarto-category">game theory</div>
+                <div class="quarto-category">logic</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>An LLM User </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 7, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="RnJlbmNo">French <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TExNcw==">LLMs <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Z2FtZSUyMHRoZW9yeQ==">game theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW4lMjBjbGFzcw==">in class <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGFuZ3VhZ2UlMjBsZWFybmluZw==">language learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bG9naWM=">logic <span class="quarto-category-count">(4)</span></div><div class="category" data-category="cHJvbXB0aW5n">prompting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="d29yZCUyMHByb2JsZW0=">word problem <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="the-optimal-dice-game-how-much-should-you-pay-to-play" class="level2">
+<h2 class="anchored" data-anchor-id="the-optimal-dice-game-how-much-should-you-pay-to-play">The Optimal Dice Game: How Much Should You Pay to Play?</h2>
+<p>Imagine a simple gambling game where you roll a six-sided die and win the dollar amount that appears on the die. However, you have a strategic advantage: after rolling, you can either keep the result or choose to reroll. If you reroll, you must take the second roll’s value. How much would you pay to play such a game? And what if you had the option to roll a third time?</p>
+<section id="gpt-4-response-breaking-down-the-strategy" class="level3">
+<h3 class="anchored" data-anchor-id="gpt-4-response-breaking-down-the-strategy"><strong>GPT 4 response: Breaking Down the Strategy </strong></h3>
+<p>This problem is a great example of an <strong>optimal stopping problem</strong> in probability theory. The goal is to maximize the expected payout by deciding when to stop rolling.</p>
+<section id="step-1-a-single-roll-without-rerolls" class="level4">
+<h4 class="anchored" data-anchor-id="step-1-a-single-roll-without-rerolls"><strong>Step 1: A Single Roll Without Rerolls</strong></h4>
+<p>If you could roll only once, the expected value (EV) of the game is simply the average outcome of rolling a fair six-sided die: [ EV = = 3.5 ] A rational investor would thus pay at most <strong>$3.50</strong> to play the game if no rerolls were allowed.</p>
+</section>
+<section id="step-2-adding-one-reroll" class="level4">
+<h4 class="anchored" data-anchor-id="step-2-adding-one-reroll"><strong>Step 2: Adding One Reroll</strong></h4>
+<p>With one reroll option, the strategy changes: we should keep the first roll only if it is sufficiently high; otherwise, we should reroll.</p>
+<p>If the first roll is <strong>less than the expected value of rolling once (3.5)</strong>, rerolling is the better option. Since dice rolls are discrete, we reroll when the first roll is <strong>1, 2, or 3</strong> and keep it otherwise.</p>
+<p>By calculating the expected value when following this strategy, we find: [ EV_{2&nbsp;rolls} = 4.25 ] So, a rational investor should pay up to <strong>$4.25</strong> to play with one reroll option.</p>
+</section>
+<section id="step-3-adding-a-second-reroll" class="level4">
+<h4 class="anchored" data-anchor-id="step-3-adding-a-second-reroll"><strong>Step 3: Adding a Second Reroll</strong></h4>
+<p>Now, let’s extend the game to include a <strong>second reroll</strong> option. This means that after the first roll, you can either keep it, reroll, or reroll again if you still aren’t satisfied.</p>
+<p>Using backward induction, we determine the optimal strategy: - If you reach the third roll, you must accept whatever you get, which has an expected value of <strong>3.5</strong>. - If you reroll the second time, you should keep the result <strong>if it is 4, 5, or 6</strong>, otherwise, roll a third time. - On the first roll, it’s optimal to <strong>reroll unless you roll a 5 or 6</strong>.</p>
+<p>With this strategy, the expected value of playing optimally with two rerolls is: [ EV_{3&nbsp;rolls} = 4.83 ] Thus, the fair price for playing this game with <strong>two rerolls</strong> is <strong>$4.83</strong>.</p>
+</section>
+</section>
+<section id="key-takeaways" class="level3">
+<h3 class="anchored" data-anchor-id="key-takeaways"><strong>Key Takeaways</strong></h3>
+<ul>
+<li>If you <strong>roll once</strong>, the fair price is <strong>$3.50</strong>.</li>
+<li>With <strong>one reroll</strong>, the fair price increases to <strong>$4.25</strong>.</li>
+<li>With <strong>two rerolls</strong>, the fair price further increases to <strong>$4.83</strong>.</li>
+<li>The more reroll opportunities you have, the higher the expected value—but the increase diminishes with each additional reroll.</li>
+</ul>
+</section>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion"><strong>Conclusion</strong></h3>
+<p>This problem beautifully illustrates the power of probability, decision-making, and optimal stopping strategies. If you ever encounter a similar game, now you know exactly how much you should be willing to pay!</p>
+</section>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection:</h2>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1740979095307" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
-<div class="thumbnail">
-<p><a href="./posts/04_PEGAI_Ch1_ab_testing_example.html" class="no-external"></a></p><a href="./posts/04_PEGAI_Ch1_ab_testing_example.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/04_PEGAI_Ch1_ab_testing_example.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/04_PEGAI_Ch1_ab_testing_example.html" class="no-external">Prompt comparison example</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/04_PEGAI_Ch1_ab_testing_example.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/04_PEGAI_Ch1_ab_testing_example.html" class="no-external">https://learning.oreilly.com/library/view/prompt-engineering-for/9781098153427/ch01.html</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/04_PEGAI_Ch1_ab_testing_example.html" class="no-external"></a></p><a href="./posts/04_PEGAI_Ch1_ab_testing_example.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1740979095307" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
-<div class="thumbnail">
-<p><a href="./posts/03_openai_api_text_completion.html" class="no-external"></a></p><a href="./posts/03_openai_api_text_completion.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/03_openai_api_text_completion.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/03_openai_api_text_completion.html" class="no-external">Using the <code>openai</code> Text Completions API</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/03_openai_api_text_completion.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/03_openai_api_text_completion.html" class="no-external">from openai import OpenAI import os import pandas as pd</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/03_openai_api_text_completion.html" class="no-external"></a></p><a href="./posts/03_openai_api_text_completion.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="TExNcyUyQ0ZyZW5jaCUyQ2xhbmd1YWdlJTIwbGVhcm5pbmc=" data-listing-date-sort="1708560000000" data-listing-file-modified-sort="1740979095309" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="640">
-<div class="thumbnail">
-<p><a href="./posts/6 french.html" class="no-external"></a></p><a href="./posts/6 french.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/6 french.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/6 french.html" class="no-external">Using GPT for French</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/6 french.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RnJlbmNo'); return false;">
-French
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bGFuZ3VhZ2UlMjBsZWFybmluZw=='); return false;">
-language learning
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/6 french.html" class="no-external">Reflecting on my tutoring session last weekend</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/6 french.html" class="no-external">
-<div class="listing-date">
-Feb 22, 2024
-</div>
-<div class="listing-author">
-An LLM User
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="TExNcyUyQ2luJTIwY2xhc3M=" data-listing-date-sort="1707696000000" data-listing-file-modified-sort="1740979095309" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="373">
-<div class="thumbnail">
-<p><a href="./posts/5 LA.html" class="no-external"></a></p><a href="./posts/5 LA.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/5 LA.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/5 LA.html" class="no-external">Sose’s expertise: LA</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/5 LA.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('aW4lMjBjbGFzcw=='); return false;">
-in class
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/5 LA.html" class="no-external">Not best city</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/5 LA.html" class="no-external">
-<div class="listing-date">
-Feb 12, 2024
-</div>
-<div class="listing-author">
-An LLM User
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="TExNcyUyQ2dhbWUlMjB0aGVvcnklMkNsb2dpYw==" data-listing-date-sort="1707264000000" data-listing-file-modified-sort="1740979095309" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="464">
-<div class="thumbnail">
-<p><a href="./posts/4 Dice game.html" class="no-external"></a></p><a href="./posts/4 Dice game.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/4 Dice game.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/4 Dice game.html" class="no-external">Game theory problem</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/4 Dice game.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Z2FtZSUyMHRoZW9yeQ=='); return false;">
-game theory
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bG9naWM='); return false;">
-logic
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/4 Dice game.html" class="no-external">Rolling dice</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/4 Dice game.html" class="no-external">
-<div class="listing-date">
-Feb 7, 2024
-</div>
-<div class="listing-author">
-An LLM User
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="TExNcyUyQ3Byb21wdGluZyUyQ2xvZ2lj" data-listing-date-sort="1706832000000" data-listing-file-modified-sort="1740979095308" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
-<div class="thumbnail">
-<p><a href="./posts/1 000_test_post/index.html" class="no-external"></a></p><a href="./posts/1 000_test_post/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/1 000_test_post/gpt3-5.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/1 000_test_post/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/1 000_test_post/index.html" class="no-external">A test post</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/1 000_test_post/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cHJvbXB0aW5n'); return false;">
-prompting
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bG9naWM='); return false;">
-logic
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/1 000_test_post/index.html" class="no-external">An example post from a Jupyter notebook</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/1 000_test_post/index.html" class="no-external">
-<div class="listing-date">
-Feb 2, 2024
-</div>
-<div class="listing-author">
-An LLM User
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="TExNcyUyQ3dvcmQlMjBwcm9ibGVtJTJDbG9naWM=" data-listing-date-sort="1706832000000" data-listing-file-modified-sort="1740979095308" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="616">
-<div class="thumbnail">
-<p><a href="./posts/2 logic problem/index.html" class="no-external"></a></p><a href="./posts/2 logic problem/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2 logic problem/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2 logic problem/index.html" class="no-external">Interesting word logic problem</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2 logic problem/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29yZCUyMHByb2JsZW0='); return false;">
-word problem
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bG9naWM='); return false;">
-logic
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2 logic problem/index.html" class="no-external">Trying to figure out how to use this thing</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2 logic problem/index.html" class="no-external">
-<div class="listing-date">
-Feb 2, 2024
-</div>
-<div class="listing-author">
-An LLM User
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="TExNcyUyQ3Byb21wdGluZyUyQ2xvZ2lj" data-listing-date-sort="1706832000000" data-listing-file-modified-sort="1740979095309" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="454">
-<div class="thumbnail">
-<p><a href="./posts/3 missing number.html" class="no-external"></a></p><a href="./posts/3 missing number.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/3 missing number.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/3 missing number.html" class="no-external">Third post about a math problem</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/3 missing number.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">
-LLMs
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cHJvbXB0aW5n'); return false;">
-prompting
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bG9naWM='); return false;">
-logic
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/3 missing number.html" class="no-external">Trying to figure out how to use this thing</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/3 missing number.html" class="no-external">
-<div class="listing-date">
-Feb 2, 2024
-</div>
-<div class="listing-author">
-An LLM User
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

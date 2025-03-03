@@ -2,12 +2,14 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/HK.html",
-      "/posts/LA.html",
-      "/posts/Dice game.html",
-      "/posts/000_test_post/index.html",
-      "/posts/logic problem/index.html",
-      "/posts/missing number.html"
+      "/posts/04_PEGAI_Ch1_ab_testing_example.html",
+      "/posts/03_openai_api_text_completion.html",
+      "/posts/6 french.html",
+      "/posts/5 LA.html",
+      "/posts/4 Dice game.html",
+      "/posts/1 000_test_post/index.html",
+      "/posts/2 logic problem/index.html",
+      "/posts/3 missing number.html"
     ]
   }
 ]
