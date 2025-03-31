@@ -1,59 +1,78 @@
 /* styles.css */
 
-/* General body styling */
+/* === Base Colors === */
 body {
-  background-color: #1e1e1e !important; /* dark gray background */
-  color: #e0e0e0 !important; /* light gray text */
+  background-color: #1b1b1b !important;   /* very dark gray */
+  color: #e0e0e0 !important;             /* light gray text */
+  font-family: system-ui, sans-serif;
 }
 
-/* Headers */
-h1, h2, h3 {
-  color: #9be79b !important; /* soft green */
+/* === Headings === */
+h1, h2, h3, h4, h5, h6 {
+  color: #228B22 !important; /* forest green */
 }
 
-/* Link color */
+/* === Links === */
 a, a:visited {
-  color: #7ed957 !important; /* vibrant green */
+  color: #2E8B57 !important; /* sea green */
+  text-decoration: none;
 }
 
 a:hover {
-  color: #b0ff8e !important; /* lighter green on hover */
+  color: #66CDAA !important; /* medium aquamarine */
+  text-decoration: underline;
 }
 
-/* Navbar */
-.navbar,
-.navbar-light,
-.navbar-dark {
-  background-color: #2a2a2a !important; /* darker gray navbar */
+/* === Navbar === */
+.navbar, .navbar-light, .navbar-dark {
+  background-color: #121212 !important;  /* almost black */
 }
 
-/* Navbar link colors */
 .navbar a {
-  color: #d0ffd0 !important; /* light greenish text */
+  color: #90EE90 !important; /* light green */
 }
 
-/* Code blocks (inline) */
+.navbar a:hover {
+  color: #adff2f !important; /* green yellow */
+}
+
+/* === Inline code === */
 code {
-  background-color: #2e2e2e !important;
-  color: #a8ff60 !important;
+  background-color: #2f2f2f !important;
+  color: #32CD32 !important; /* lime green */
   padding: 2px 4px;
   border-radius: 4px;
-  font-family: monospace;
 }
 
-/* Code blocks (preformatted) */
+/* === Code blocks === */
 pre {
-  background-color: #2e2e2e !important;
-  color: #a8ff60 !important;
+  background-color: #2a2a2a !important;
+  color: #90ee90 !important;
   padding: 10px;
   border-radius: 6px;
   overflow-x: auto;
 }
 
-/* Optional: blockquote */
+/* === Blockquotes === */
 blockquote {
-  border-left: 4px solid #7ed957;
-  background-color: #2c2c2c;
+  border-left: 4px solid #228B22;
+  background-color: #202020;
   padding: 1em;
-  color: #c0c0c0;
+  color: #ccc;
+}
+
+/* === Tables === */
+table {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border: 1px solid #228B22;
+}
+
+th {
+  background-color: #2a2a2a;
+  color: #90ee90;
+}
+
+td {
+  border-top: 1px solid #228B22;
 }
