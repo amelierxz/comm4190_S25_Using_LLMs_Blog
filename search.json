@@ -205,7 +205,7 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About the writer - Amelie!",
     "section": "",
     "text": "About this blog"
   },
@@ -319,7 +319,14 @@
     "href": "posts/12 taxes.html",
     "title": "Using GPT to Compare NYC and LA tax structures",
     "section": "",
-    "text": "New York City (NYC) and Los Angeles (LA) have different tax structures due to state and local tax policies. Here’s a comparison:\n\nState Income Tax\n\nNew York State: Progressive tax rates from 4% to 10.9%.\n\nCalifornia: Progressive tax rates from 1% to 13.3% (highest in the U.S.).\n\n\n\nCity Income Tax\n\nNYC: Has its own city income tax, ranging from 3.078% to 3.876% on top of state tax.\n\nLA: No city income tax.\n\n\n\nEffective Tax Burden (State + City)\n\nNYC Residents: Pay both state and city taxes, making their top combined rate up to 14.776%.\n\nLA Residents: Pay only state tax, with a top rate of 13.3%.\n\n\n\nOther Considerations\n\nSales Tax:\n\nNYC: 8.875% (state + local)\n\nLA: 9.5%\n\n\nCost of Living: Both cities are expensive, but NYC has higher rent, while LA has higher transportation costs.\n\nDeductions: California has more favorable tax deductions in some areas, like capital gains.\n\n\n\nOverall\nIf you’re a high earner, NYC generally has a slightly higher tax burden due to its city tax. If you’re middle-income, the difference is smaller, but California’s progressive system can result in a higher rate at the top brackets."
+    "text": "As people do on a Thursday evening, I ended up in a conversation with my friend about how living in different cities post grad would affect our income tax structures and the way we should think about these differences going forward.\nThus, instead of doing the reasonable thing and going on state websites to find the facts straight from the source, we used GPT to try to understand the differences between NYC and LA. Here is what we found:"
+  },
+  {
+    "objectID": "posts/12 taxes.html#gpt-response",
+    "href": "posts/12 taxes.html#gpt-response",
+    "title": "Using GPT to Compare NYC and LA tax structures",
+    "section": "GPT response:",
+    "text": "GPT response:\nNew York City (NYC) and Los Angeles (LA) have different tax structures due to state and local tax policies. Here’s a comparison:\n\nState Income Tax\n\nNew York State: Progressive tax rates from 4% to 10.9%.\n\nCalifornia: Progressive tax rates from 1% to 13.3% (highest in the U.S.).\n\n\n\nCity Income Tax\n\nNYC: Has its own city income tax, ranging from 3.078% to 3.876% on top of state tax.\n\nLA: No city income tax.\n\n\n\nEffective Tax Burden (State + City)\n\nNYC Residents: Pay both state and city taxes, making their top combined rate up to 14.776%.\n\nLA Residents: Pay only state tax, with a top rate of 13.3%.\n\n\n\nOther Considerations\n\nSales Tax:\n\nNYC: 8.875% (state + local)\n\nLA: 9.5%\n\n\nCost of Living: Both cities are expensive, but NYC has higher rent, while LA has higher transportation costs.\n\nDeductions: California has more favorable tax deductions in some areas, like capital gains.\n\n\n\nOverall\nIf you’re a high earner, NYC generally has a slightly higher tax burden due to its city tax. If you’re middle-income, the difference is smaller, but California’s progressive system can result in a higher rate at the top brackets."
   },
   {
     "objectID": "posts/8 excel/8 Excel .html",
