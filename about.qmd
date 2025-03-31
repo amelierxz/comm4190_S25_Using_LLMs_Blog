@@ -5,4 +5,4 @@ about:
   template: jolla
 ---
 
-About this blog
+Amelie is a sophomore in the Huntsman Program, studying Finance and French and getting a minor in Data Science in CAS. She is excited about exploring LLMs in COMM 4190 and welcome to her page of exploration and discovery!
