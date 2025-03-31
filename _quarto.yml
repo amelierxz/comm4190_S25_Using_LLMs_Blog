@@ -2,21 +2,18 @@ project:
   type: website
 
 website:
-  title: "LLM Experiments & Insights"
-  description: "A collection of projects, experiments, and thoughts exploring the possibilities of large language models."
+  title: "My Explorations with LLMs"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
 format:
   html:
     theme: litera
     css: styles.css
-    toc: true
-    code-copy: true
 
 execute:
   freeze: auto
