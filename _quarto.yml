@@ -6,19 +6,10 @@ website:
   description: "A collection of projects, experiments, and thoughts exploring the possibilities of large language models."
   navbar:
     left:
-      - text: Home
-        href: index.qmd
-      - text: Projects
-        href: projects.qmd
-      - text: Blog
-        href: blog.qmd
-    right:
-      - text: About
-        href: about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
 
 format:
   html:
