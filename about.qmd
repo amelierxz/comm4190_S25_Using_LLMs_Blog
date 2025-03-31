@@ -3,9 +3,6 @@ title: About
 image: profile.png
 about:
   template: jolla
-  name: "Amelie"
-  role: "Curious student exploring LLMs, data, and the web"
-  bio: "I'm a sophomore in the Huntsman Program looking to study data science in CAS - super excited about COMM 4190 and am looking forward to exploring different LLM use cases!"
 ---
 
 About this blog
