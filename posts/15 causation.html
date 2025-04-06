@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="An LLM User">
+<meta name="dcterms.date" content="2024-04-04">
+<meta name="description" content="Can LLMs adapt its knowledge to fit different types of audiences?">
 
-<title>untitled – My Explorations with LLMs</title>
+<title>Explaining Correlation does not equal Causation: 5 levels – My Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -110,7 +113,45 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Explaining Correlation does not equal Causation: 5 levels</h1>
+                  <div>
+        <div class="description">
+          Can LLMs adapt its knowledge to fit different types of audiences?
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">LLMs</div>
+                <div class="quarto-category">teaching</div>
+                <div class="quarto-category">prompting</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>An LLM User </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 4, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
@@ -121,7 +162,33 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="prompt" class="level2">
+<h2 class="anchored" data-anchor-id="prompt">Prompt:</h2>
+<p>Please explain the concept of correlation not causation at 5 levels: kindergartener, middle school, high school, college, and PHD</p>
+<p>🎨 Kindergartener: Just because two things happen at the same time doesn’t mean one caused the other. Like, if you wear your lucky socks and then win a game, it doesn’t mean the socks made you win — it might just be a fun coincidence!</p>
+<p>🧠 Middle School: Sometimes two things happen together a lot — like people eating more ice cream when it’s hot outside. That doesn’t mean ice cream makes it hot! They’re connected (that’s called correlation), but the real reason is something else (like summer weather). So, just because two things are linked, doesn’t mean one causes the other.</p>
+<p>🏫 High School: “Correlation” means two variables change together — when one goes up or down, the other might too. But that doesn’t mean one is causing the change. For example, there might be a strong correlation between how many people swim and how many people get sunburned. But swimming doesn’t cause sunburn — the sun does. A third factor can cause both. That’s why we say: “Correlation does not imply causation.”</p>
+<p>🎓 College: Correlation measures the strength of a linear relationship between two variables. It’s a statistical association, not a proof of causality. To establish causation, you need more — like controlling for confounding variables, establishing temporal precedence (cause happens before effect), and ruling out other explanations. Failing to distinguish correlation from causation can lead to false conclusions in research.</p>
+<p>🎓🧠 PhD Level: Correlation quantifies the degree to which two variables co-vary, often measured by Pearson’s r. However, without rigorous design (e.g., randomized controlled trials, instrumental variable analysis, or longitudinal studies), inferring causality is fallacious. Confounders, reverse causality, and spurious relationships undermine naive causal claims. Granger causality, structural equation modeling, and counterfactual frameworks (e.g., Rubin Causal Model) offer formal tools to assess causation beyond mere association.</p>
+</section>
+<section id="adding-examples-to-each-level" class="level2">
+<h2 class="anchored" data-anchor-id="adding-examples-to-each-level">Adding examples to each level:</h2>
+<p>🎨 Kindergartener Explanation: Just because two things happen together doesn’t mean one makes the other happen. Example: Every time you hear the ice cream truck song, you get excited — and it’s sunny. But the music doesn’t cause the sun to shine — they just happen at the same time!</p>
+<p>🧠 Middle School Explanation: Two things might happen together, but one might not cause the other. Something else might be behind both. Example: When there are more people at the beach, there are more shark attacks. But that doesn’t mean people cause sharks to attack — it’s just that more people swimming gives sharks more chances.</p>
+<p>🏫 High School Explanation: Just because two variables are correlated doesn’t mean one causes the other. Example: Schools with more students tend to have more teachers. That doesn’t mean having more teachers causes more students — it’s that bigger schools need more of both. The school size is a third factor.</p>
+<p>🎓 College Explanation: Correlation can signal a relationship, but causation requires ruling out other explanations. Example: Studies show a strong correlation between coffee consumption and better test scores. But maybe coffee drinkers tend to be more focused students to begin with, or maybe they study more — so the coffee itself isn’t necessarily the cause.</p>
+<p>🎓🧠 PhD Level Explanation: Observing a statistical correlation between variables without experimental or quasi-experimental control cannot support causal inference. Example: A dataset shows a positive correlation between ice cream sales and crime rates. Causation cannot be inferred due to likely confounding — e.g., heat increases both ice cream sales and outdoor activity, which can lead to more crimes. Only through controlling for seasonal effects and other covariates, or using methods like fixed effects or instrumental variables, could we begin to explore causal claims.</p>
+</section>
+<section id="for-fun-real-life-examples-want-to-go-even-nerdier-with-some-funnyspurious-real-world-correlations" class="level2">
+<h2 class="anchored" data-anchor-id="for-fun-real-life-examples-want-to-go-even-nerdier-with-some-funnyspurious-real-world-correlations">For fun: real life examples / “Want to go even nerdier with some funny/spurious real-world correlations?”</h2>
+<p>😆 Funny (but meaningless) correlations: U.S. spending on science, space, and technology 📈 correlates with ➕ Suicides by hanging, strangulation, and suffocation (Correlation: ~99%)</p>
+<p>Per capita cheese consumption 📈 correlates with ➕ Number of people who died by becoming tangled in their bedsheets (Correlation: ~94%)</p>
+<p>Number of letters in winning word of the Scripps National Spelling Bee 📈 correlates with ➕ Number of people killed by venomous spiders (Correlation: high, disturbingly)</p>
+<p>Age of Miss America 📈 correlates with ➕ Murders by steam, hot vapors, and hot objects (… what??)</p>
+<p>Nicholas Cage movies released in a year 📈 correlates with ➕ People who drowned in swimming pools (This one’s a classic.)</p>
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
