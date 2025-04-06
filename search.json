@@ -42,74 +42,60 @@
     "text": "Reflection:\nThis was my second time using AI to tackle a logic-based challenge, but this time I shifted my focus to a numerical question instead of a purely logical one. Once again, I was amazed by the AI’s ability to uncover the underlying patterns in the problem and reach the same conclusion I did. Its quick ability for recognizing structure and efficiently following logical sequences was really clear, sparking my curiosity about how AI processes various types of information.\nWhat I find especially intriguing is the difference between AI’s strengths and weaknesses. While it excelled in this more complex, structured task, we’ve also observed it struggling with simpler problems, like counting the number of ’r’s in the word “strawberry” as we spoke about earlier this semester. This disparity raises interesting questions about how AI interprets information and where its limitations might be. It seems that AI thrives when it operates within a clearly defined framework, particularly when dealing with numerical or pattern-based reasoning. However, it tends to fail and struggle with tasks that require more flexible cognitive skills, such as interpretation, contextual understanding, or ambiguities in language."
   },
   {
-    "objectID": "posts/6 french.html",
-    "href": "posts/6 french.html",
-    "title": "Using GPT for French",
+    "objectID": "posts/12 taxes.html",
+    "href": "posts/12 taxes.html",
+    "title": "Using GPT to Compare NYC and LA tax structures",
     "section": "",
-    "text": "This scenario of using GPT came to me on a whim and in the moment. This came from a real life application - last Sunday I was working with a Freshman in French 0200 Beginner’s French and trying to explain these grammar concepts when I decided to try out using Chat GPT. I thought that while there were a lot of straight facts and points that GPT was correct about, it kind of lacked nuance and did not provide information in a way that was easily absorbed by the student, and was instead kind of confusing in the way it seemed to be just regurgitating information in not the most effective way."
+    "text": "As people do on a Thursday evening, I ended up in a conversation with my friend about how living in different cities post grad would affect our income tax structures and the way we should think about these differences going forward.\nThus, instead of doing the reasonable thing and going on state websites to find the facts straight from the source, we used GPT to try to understand the differences between NYC and LA. Here is what we found:"
   },
   {
-    "objectID": "posts/6 french.html#using-chatgpt-for-quick-grammar-explanations",
-    "href": "posts/6 french.html#using-chatgpt-for-quick-grammar-explanations",
-    "title": "Using GPT for French",
-    "section": "1. Using ChatGPT for Quick Grammar Explanations",
-    "text": "1. Using ChatGPT for Quick Grammar Explanations\nOne of the biggest challenges in learning French is mastering prepositions, articles, and small grammatical details that affect meaning. Recently, I asked ChatGPT to explain the differences between de, dela, and des, and the response gave me a clear, structured breakdown:\n\nDe → “of” or “from” (possession, origin, general use)\n\nEx: Le livre de Marie. (Marie’s book.)\n\nEx: Je viens de Paris. (I come from Paris.)\n\nDela → Rarely used today but historically meant “beyond” (de là). Now written separately.\n\nEx: Regarde de là! (Look from there!)\n\nDes → “of the” or “some” (plural of du/de la or contraction of de + les)\n\nEx: Les livres des étudiants. (The students’ books.)\n\nEx: Je mange des pommes. (I eat some apples.)\n\n\n\nHow This Helps When Studying or Tutoring\n\nWhen teaching, you can ask ChatGPT to explain a concept in simple terms, like I did.\n\nIf a student is confused, use AI to generate multiple examples for clarity.\n\nIf you’re self-studying, this method saves time compared to searching in textbooks."
+    "objectID": "posts/12 taxes.html#gpt-response",
+    "href": "posts/12 taxes.html#gpt-response",
+    "title": "Using GPT to Compare NYC and LA tax structures",
+    "section": "GPT response:",
+    "text": "GPT response:\nNew York City (NYC) and Los Angeles (LA) have different tax structures due to state and local tax policies. Here’s a comparison:\n\nState Income Tax\n\nNew York State: Progressive tax rates from 4% to 10.9%.\n\nCalifornia: Progressive tax rates from 1% to 13.3% (highest in the U.S.).\n\n\n\nCity Income Tax\n\nNYC: Has its own city income tax, ranging from 3.078% to 3.876% on top of state tax.\n\nLA: No city income tax.\n\n\n\nEffective Tax Burden (State + City)\n\nNYC Residents: Pay both state and city taxes, making their top combined rate up to 14.776%.\n\nLA Residents: Pay only state tax, with a top rate of 13.3%.\n\n\n\nOther Considerations\n\nSales Tax:\n\nNYC: 8.875% (state + local)\n\nLA: 9.5%\n\n\nCost of Living: Both cities are expensive, but NYC has higher rent, while LA has higher transportation costs.\n\nDeductions: California has more favorable tax deductions in some areas, like capital gains.\n\n\n\nOverall\nIf you’re a high earner, NYC generally has a slightly higher tax burden due to its city tax. If you’re middle-income, the difference is smaller, but California’s progressive system can result in a higher rate at the top brackets."
   },
   {
-    "objectID": "posts/6 french.html#condensing-complex-topics-into-cheat-sheets",
-    "href": "posts/6 french.html#condensing-complex-topics-into-cheat-sheets",
-    "title": "Using GPT for French",
-    "section": "2. Condensing Complex Topics into Cheat Sheets",
-    "text": "2. Condensing Complex Topics into Cheat Sheets\nWhen I asked ChatGPT to condense the explanation into a notecard-sized cheat sheet, it quickly summarized the essential points. This is a great way to:\n- Create quick reference guides for key grammar rules.\n- Simplify notes for tutoring sessions.\n- Help students focus on what’s most important instead of getting lost in details.\n💡 Tip: If you’re tutoring, ask ChatGPT to simplify explanations based on your student’s level (beginner, intermediate, advanced)."
-  },
-  {
-    "objectID": "posts/6 french.html#applying-this-to-broader-french-learning",
-    "href": "posts/6 french.html#applying-this-to-broader-french-learning",
-    "title": "Using GPT for French",
-    "section": "3. Applying This to Broader French Learning",
-    "text": "3. Applying This to Broader French Learning\nBeyond this one example, you can use ChatGPT to improve both personal learning and tutoring sessions in multiple ways:\n\nGrammar & Vocabulary Help\n\nAsk for differences between confusing words (“What’s the difference between savoir and connaître?”).\n\nGet example sentences to show words in context.\n\n\n\nPronunciation Practice\n\nAsk for phonetic transcriptions (“How do I pronounce ‘œuvre’?”).\n\nGet tips on common pronunciation mistakes in French.\n\n\n\nPractice Exercises & Tutoring Materials\n\nGenerate fill-in-the-blank exercises: “Provide a practice quiz for de, du, des.”\n\nGet short reading passages with comprehension questions.\n\nSimulate real-life conversations (“Pretend I’m at a French bakery ordering a croissant.”).\n\nUsing ChatGPT to learn French is like having an on-demand tutor—it’s fast, clear, and customizable. Whether you’re tackling tricky grammar like de, dela, des or creating teaching materials, this AI tool can make studying more efficient and interactive."
-  },
-  {
-    "objectID": "posts/6 french.html#reflection",
-    "href": "posts/6 french.html#reflection",
-    "title": "Using GPT for French",
-    "section": "Reflection:",
-    "text": "Reflection:\nAbove, I used GPT with the memory of me prompting it to help me teach a student in French with some prepositions to have it reflect on using GPT to learn languages. I think it did quite a good job of resonating with me and picking the right ideas, since I found that GPT was really good at providing basic information, but then would lack nuance when I asked for more examples. As such, I think that GPT as a tutor is only really useful for simple and beginner level topics, and gets less helpful as you become more advanced with a language."
-  },
-  {
-    "objectID": "posts/6 french.html#potential-final-project-idea",
-    "href": "posts/6 french.html#potential-final-project-idea",
-    "title": "Using GPT for French",
-    "section": "Potential final project idea:",
-    "text": "Potential final project idea:\nThinking about this blog post, I was talking to my groupmates Sose and Carlos and we were interested in seeing if using more training and priming we would be able to make a LLM specifically prepared for language tutoring, so I think this might be a tentative idea for our final project."
-  },
-  {
-    "objectID": "posts/9 travel.html",
-    "href": "posts/9 travel.html",
-    "title": "Travel reccomendations",
+    "objectID": "posts/11 PROFILE/11 making Profile.html",
+    "href": "posts/11 PROFILE/11 making Profile.html",
+    "title": "Making a Cartoon profile photo",
     "section": "",
-    "text": "When figuring out where to go for Spring Break, my friends and I had been staring at a map of the US and Europe trying to figure out where to go together. We had reached a point where we really weren’t sure what we were looking for, so we used AI to narrow down our options. Below, I attached the prompt along with the response we received."
+    "text": "As I was going to edit my blog About page, I wanted to put a photo of myself, but nothing really overly professional or official. So, I decided to try and play with GPT 4o Image generation to see if it could make a profile photo for me that would have enough resemblance as a cartoon character but not be just an actual photo of me."
   },
   {
-    "objectID": "posts/9 travel.html#prompt",
-    "href": "posts/9 travel.html#prompt",
-    "title": "Travel reccomendations",
-    "section": "Prompt:",
-    "text": "Prompt:\nPlease give me beach vacation destinations 6 hours max from NYC, What about things like Charleston?"
+    "objectID": "posts/11 PROFILE/11 making Profile.html#headshot-as-a-reference-photo",
+    "href": "posts/11 PROFILE/11 making Profile.html#headshot-as-a-reference-photo",
+    "title": "Making a Cartoon profile photo",
+    "section": "Headshot as a Reference photo:",
+    "text": "Headshot as a Reference photo:\n\nUsing the headshot above, I then prompted GPT to “Please make me a cartoon character using the reference photo.”"
   },
   {
-    "objectID": "posts/9 travel.html#response",
-    "href": "posts/9 travel.html#response",
-    "title": "Travel reccomendations",
-    "section": "Response:",
-    "text": "Response:\nYes! Charleston, South Carolina is a great option, and there are a few similar beach destinations within a 6-hour flight or drive from NYC that offer a mix of historic charm, coastal beauty, and Southern hospitality. Here are some great alternatives:\n\nSouthern Beach Destinations (Under 6-Hour Flight)\n\nCharleston, SC (2 hrs by flight) – Historic cobblestone streets, waterfront charm, and nearby Folly Beach, Isle of Palms, and Sullivan’s Island.\n\nSavannah, GA (2.5 hrs by flight) – Similar to Charleston, with historic squares and nearby Tybee Island for a laid-back beach escape.\n\nHilton Head Island, SC (2.5 hrs by flight) – A mix of luxury resorts, golf courses, and beautiful beaches.\n\nWilmington, NC (1.5 hrs by flight) – Historic riverfront city with beaches like Wrightsville Beach and Carolina Beach.\n\nMyrtle Beach, SC (2 hrs by flight) – More touristy, but great for a mix of golf, beaches, and boardwalk fun.\n\nVirginia Beach, VA (1.5 hrs by flight or 6 hrs drive) – A lively boardwalk scene with miles of sandy shoreline.\n\nIf you’re looking for that Charleston-style charm with a beach nearby, I’d say Charleston, Savannah, or Hilton Head would be your best picks! Let me know if you need help narrowing it down."
+    "objectID": "posts/11 PROFILE/11 making Profile.html#st-attempt",
+    "href": "posts/11 PROFILE/11 making Profile.html#st-attempt",
+    "title": "Making a Cartoon profile photo",
+    "section": "1st Attempt:",
+    "text": "1st Attempt:\n\nAfter the first attempt, I wanted to see if I could make some tweaks. I asked GPT to “Remove the freckles and make her slightly blushed, and make the sweater green.”"
   },
   {
-    "objectID": "posts/9 travel.html#reflection",
-    "href": "posts/9 travel.html#reflection",
-    "title": "Travel reccomendations",
-    "section": "Reflection:",
-    "text": "Reflection:\nWhat was super interesting to me in this interaction was that GPT was able to also extract the flight time from NYC to all of these different destinations. It’s reccomendations were quite expected, and the description of each destination also included a decent amount of examples of what to do and specific places within each destination. But I’m curious how it was further able to find the exact flight time from each of these places and find the correct travel time.\nAlso, I haven’t directly included the rest of my conversations with GPT but it was quite able to adapt its suggestions and move them to suit what I was asking for, especially when I got very nuanced about what features I wanted in my destination and was picky about the region of the US I would be in.\nAlas - I did not heed any of GPT’s advice and did not end up picking any of these destinations as the final decision."
+    "objectID": "posts/11 PROFILE/11 making Profile.html#nd-attempt",
+    "href": "posts/11 PROFILE/11 making Profile.html#nd-attempt",
+    "title": "Making a Cartoon profile photo",
+    "section": "2nd Attempt:",
+    "text": "2nd Attempt:\n\nThis seemed like all the tweaks were made. However, I did not think that the character looked like me enough, so I asked GPT if it could “Make the character look more like the girl in the reference photo.”"
+  },
+  {
+    "objectID": "posts/11 PROFILE/11 making Profile.html#pushing-too-far",
+    "href": "posts/11 PROFILE/11 making Profile.html#pushing-too-far",
+    "title": "Making a Cartoon profile photo",
+    "section": "Pushing too far:",
+    "text": "Pushing too far:\nI unfortunately got this response:\n“I couldn’t generate the updated cartoon image just now because there’s a short cooldown period due to rate limits — it’ll be about 9 minutes before I can create another one for you.\nIn the meantime, if you have any specific tweaks in mind (like adjusting hairstyle, facial features, outfit details, or background), feel free to let me know so I can get it just right when the cooldown is over!”"
+  },
+  {
+    "objectID": "posts/11 PROFILE/11 making Profile.html#conclusion",
+    "href": "posts/11 PROFILE/11 making Profile.html#conclusion",
+    "title": "Making a Cartoon profile photo",
+    "section": "Conclusion:",
+    "text": "Conclusion:"
   },
   {
     "objectID": "posts/7/7 sixers.html",
@@ -228,7 +214,7 @@
     "href": "index.html",
     "title": "My Explorations with LLMs",
     "section": "",
-    "text": "Creating a new book cover for Brave New World\n\n\n\n\n\n\nLLMs\n\n\nimage generation\n\n\nprompting\n\n\n\nTrying out different types of styles and prompting\n\n\n\n\n\nApr 6, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nMaking a Cartoon profile photo\n\n\n\n\n\n\nLLMs\n\n\nImage generation\n\n\nprompting\n\n\n\nTesting GPT 4o image generation\n\n\n\n\n\nMar 31, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT to Compare NYC and LA tax structures\n\n\n\n\n\n\nLLMs\n\n\ntaxes\n\n\nprompting\n\n\n\nCurious but too lazy to Google\n\n\n\n\n\nMar 14, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT Mollick Prompt for tutoring\n\n\n\n\n\n\nLLMs\n\n\nFrench\n\n\nprompting\n\n\n\nTesting Mollick prompt in class, applying to French conjugations\n\n\n\n\n\nMar 5, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nSixers graphic\n\n\n\n\n\n\nLLMs\n\n\nimage creation\n\n\nsports\n\n\n\nInspired by in class activity of Public Health PSA and going to a Sixers game last week\n\n\n\n\n\nMar 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nChat GPT for Excel\n\n\n\n\n\n\nLLMs\n\n\naccounting\n\n\nExcel\n\n\n\nArranging my personal expense of January and February with AI\n\n\n\n\n\nMar 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nTravel reccomendations\n\n\n\n\n\n\nLLMs\n\n\ntravelling\n\n\n\nBrainstorming with AI\n\n\n\n\n\nFeb 22, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT for French\n\n\n\n\n\n\nLLMs\n\n\nFrench\n\n\nlanguage learning\n\n\n\nReflecting on my tutoring session last weekend\n\n\n\n\n\nFeb 22, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nSose’s expertise: LA\n\n\n\n\n\n\nLLMs\n\n\nin class\n\n\n\nNot best city\n\n\n\n\n\nFeb 12, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nGame theory problem\n\n\n\n\n\n\nLLMs\n\n\ngame theory\n\n\nlogic\n\n\n\nRolling dice\n\n\n\n\n\nFeb 7, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nNew use case: math problem\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nInteresting word logic problem\n\n\n\n\n\n\nLLMs\n\n\nword problem\n\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 1, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
+    "text": "Creating a new book cover for Brave New World\n\n\n\n\n\n\nLLMs\n\n\nimage generation\n\n\nprompting\n\n\n\nTrying out different types of styles and prompting\n\n\n\n\n\nApr 6, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nFall 2025 Schedule course registration advice\n\n\n\n\n\n\nLLMs\n\n\nadvice\n\n\nhelp!\n\n\n\nTrying to ask GPT for advice… How helpful is it really?\n\n\n\n\n\nApr 6, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nMaking a Cartoon profile photo\n\n\n\n\n\n\nLLMs\n\n\nImage generation\n\n\nprompting\n\n\n\nTesting GPT 4o image generation\n\n\n\n\n\nMar 31, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT to Compare NYC and LA tax structures\n\n\n\n\n\n\nLLMs\n\n\ntaxes\n\n\nprompting\n\n\n\nCurious but too lazy to Google\n\n\n\n\n\nMar 14, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT Mollick Prompt for tutoring\n\n\n\n\n\n\nLLMs\n\n\nFrench\n\n\nprompting\n\n\n\nTesting Mollick prompt in class, applying to French conjugations\n\n\n\n\n\nMar 5, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nSixers graphic\n\n\n\n\n\n\nLLMs\n\n\nimage creation\n\n\nsports\n\n\n\nInspired by in class activity of Public Health PSA and going to a Sixers game last week\n\n\n\n\n\nMar 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nChat GPT for Excel\n\n\n\n\n\n\nLLMs\n\n\naccounting\n\n\nExcel\n\n\n\nArranging my personal expense of January and February with AI\n\n\n\n\n\nMar 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nTravel reccomendations\n\n\n\n\n\n\nLLMs\n\n\ntravelling\n\n\n\nBrainstorming with AI\n\n\n\n\n\nFeb 22, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT for French\n\n\n\n\n\n\nLLMs\n\n\nFrench\n\n\nlanguage learning\n\n\n\nReflecting on my tutoring session last weekend\n\n\n\n\n\nFeb 22, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nSose’s expertise: LA\n\n\n\n\n\n\nLLMs\n\n\nin class\n\n\n\nNot best city\n\n\n\n\n\nFeb 12, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nGame theory problem\n\n\n\n\n\n\nLLMs\n\n\ngame theory\n\n\nlogic\n\n\n\nRolling dice\n\n\n\n\n\nFeb 7, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nNew use case: math problem\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nInteresting word logic problem\n\n\n\n\n\n\nLLMs\n\n\nword problem\n\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 1, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -277,7 +263,7 @@
     "href": "posts/13 brave new world/Untitled.html#final-thoughts",
     "title": "Creating a new book cover for Brave New World",
     "section": "Final thoughts:",
-    "text": "Final thoughts:\nHere, I found that using a more specific prompt was very much more helpful for creating an output that was also more targeted and relevant. I think the wording of “dystopian themes” was the most important part of the prompt, as the final book cover result"
+    "text": "Final thoughts:\nHere, I found that using a more specific prompt was very much more helpful for creating an output that was also more targeted and relevant. I think the wording of “dystopian themes” was the most important part of the prompt, as the final book cover result definitely looks dystopian and mimics the type of mindless and stark world that Huxley created in Brave New World."
   },
   {
     "objectID": "posts/1 000_test_post/index.html",
@@ -315,60 +301,130 @@
     "text": "Reflection:\n\n\nThis problem was something a little more interesting to me, and it involved probability that I think GPT did a really good job of tackling. It was able to break down the problem into the two parts of the sequence, and then effectively translate that into calculating the rationale that a reasonable individual with all information would make.\nAlso for my interest, I wanted GPT to create graphs to see how the LLM could graphically and visually interpret the problems. This was interesting since I think that LLMs are sometimes limited in their ability to display information in a way that best connects with humans, and as such, I found that in this case, it did a decent job at tackling its task."
   },
   {
-    "objectID": "posts/11 PROFILE/11 making Profile.html",
-    "href": "posts/11 PROFILE/11 making Profile.html",
-    "title": "Making a Cartoon profile photo",
+    "objectID": "posts/14 schedule advice/Untitled.html",
+    "href": "posts/14 schedule advice/Untitled.html",
+    "title": "Fall 2025 Schedule course registration advice",
     "section": "",
-    "text": "As I was going to edit my blog About page, I wanted to put a photo of myself, but nothing really overly professional or official. So, I decided to try and play with GPT 4o Image generation to see if it could make a profile photo for me that would have enough resemblance as a cartoon character but not be just an actual photo of me."
+    "text": "As advance registration wraps up this weekend, I’ve spent a lot of time slightly obsessing over what classes to take this Fall 2025. Because of my dual degree, as well as trying to get a Data science minor, I’ve ended up having to take a lot of class.\nRight now, I’m slated to take 6.5 course units this fall, which while seems overwhelming, should hopefully be manageable.\nHowever, I was curious about what Chat GPT would say about the courses, even though I know it lacks a lot of the Penn-specific context."
   },
   {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#headshot-as-a-reference-photo",
-    "href": "posts/11 PROFILE/11 making Profile.html#headshot-as-a-reference-photo",
-    "title": "Making a Cartoon profile photo",
-    "section": "Headshot as a Reference photo:",
-    "text": "Headshot as a Reference photo:\n\nUsing the headshot above, I then prompted GPT to “Please make me a cartoon character using the reference photo.”"
-  },
-  {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#st-attempt",
-    "href": "posts/11 PROFILE/11 making Profile.html#st-attempt",
-    "title": "Making a Cartoon profile photo",
-    "section": "1st Attempt:",
-    "text": "1st Attempt:\n\nAfter the first attempt, I wanted to see if I could make some tweaks. I asked GPT to “Remove the freckles and make her slightly blushed, and make the sweater green.”"
-  },
-  {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#nd-attempt",
-    "href": "posts/11 PROFILE/11 making Profile.html#nd-attempt",
-    "title": "Making a Cartoon profile photo",
-    "section": "2nd Attempt:",
-    "text": "2nd Attempt:\n\nThis seemed like all the tweaks were made. However, I did not think that the character looked like me enough, so I asked GPT if it could “Make the character look more like the girl in the reference photo.”"
-  },
-  {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#pushing-too-far",
-    "href": "posts/11 PROFILE/11 making Profile.html#pushing-too-far",
-    "title": "Making a Cartoon profile photo",
-    "section": "Pushing too far:",
-    "text": "Pushing too far:\nI unfortunately got this response:\n“I couldn’t generate the updated cartoon image just now because there’s a short cooldown period due to rate limits — it’ll be about 9 minutes before I can create another one for you.\nIn the meantime, if you have any specific tweaks in mind (like adjusting hairstyle, facial features, outfit details, or background), feel free to let me know so I can get it just right when the cooldown is over!”"
-  },
-  {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#conclusion",
-    "href": "posts/11 PROFILE/11 making Profile.html#conclusion",
-    "title": "Making a Cartoon profile photo",
-    "section": "Conclusion:",
-    "text": "Conclusion:"
-  },
-  {
-    "objectID": "posts/12 taxes.html",
-    "href": "posts/12 taxes.html",
-    "title": "Using GPT to Compare NYC and LA tax structures",
+    "objectID": "posts/14 schedule advice/Untitled.html#what-were-dealing-with",
+    "href": "posts/14 schedule advice/Untitled.html#what-were-dealing-with",
+    "title": "Fall 2025 Schedule course registration advice",
     "section": "",
-    "text": "As people do on a Thursday evening, I ended up in a conversation with my friend about how living in different cities post grad would affect our income tax structures and the way we should think about these differences going forward.\nThus, instead of doing the reasonable thing and going on state websites to find the facts straight from the source, we used GPT to try to understand the differences between NYC and LA. Here is what we found:"
+    "text": "As advance registration wraps up this weekend, I’ve spent a lot of time slightly obsessing over what classes to take this Fall 2025. Because of my dual degree, as well as trying to get a Data science minor, I’ve ended up having to take a lot of class.\nRight now, I’m slated to take 6.5 course units this fall, which while seems overwhelming, should hopefully be manageable.\nHowever, I was curious about what Chat GPT would say about the courses, even though I know it lacks a lot of the Penn-specific context."
   },
   {
-    "objectID": "posts/12 taxes.html#gpt-response",
-    "href": "posts/12 taxes.html#gpt-response",
-    "title": "Using GPT to Compare NYC and LA tax structures",
-    "section": "GPT response:",
-    "text": "GPT response:\nNew York City (NYC) and Los Angeles (LA) have different tax structures due to state and local tax policies. Here’s a comparison:\n\nState Income Tax\n\nNew York State: Progressive tax rates from 4% to 10.9%.\n\nCalifornia: Progressive tax rates from 1% to 13.3% (highest in the U.S.).\n\n\n\nCity Income Tax\n\nNYC: Has its own city income tax, ranging from 3.078% to 3.876% on top of state tax.\n\nLA: No city income tax.\n\n\n\nEffective Tax Burden (State + City)\n\nNYC Residents: Pay both state and city taxes, making their top combined rate up to 14.776%.\n\nLA Residents: Pay only state tax, with a top rate of 13.3%.\n\n\n\nOther Considerations\n\nSales Tax:\n\nNYC: 8.875% (state + local)\n\nLA: 9.5%\n\n\nCost of Living: Both cities are expensive, but NYC has higher rent, while LA has higher transportation costs.\n\nDeductions: California has more favorable tax deductions in some areas, like capital gains.\n\n\n\nOverall\nIf you’re a high earner, NYC generally has a slightly higher tax burden due to its city tax. If you’re middle-income, the difference is smaller, but California’s progressive system can result in a higher rate at the top brackets."
+    "objectID": "posts/14 schedule advice/Untitled.html#gpts-response",
+    "href": "posts/14 schedule advice/Untitled.html#gpts-response",
+    "title": "Fall 2025 Schedule course registration advice",
+    "section": "GPT’s response:",
+    "text": "GPT’s response:\nThanks for sharing your cart! Here’s a breakdown of your Fall 2025 class schedule and some advice on balance, workload, and logistics."
+  },
+  {
+    "objectID": "posts/14 schedule advice/Untitled.html#courses-youve-selected",
+    "href": "posts/14 schedule advice/Untitled.html#courses-youve-selected",
+    "title": "Fall 2025 Schedule course registration advice",
+    "section": "✅ Courses You’ve Selected:",
+    "text": "✅ Courses You’ve Selected:\n\n\n\n\n\n\n\n\nCourse\nTitle\nDays & Time\n\n\n\n\nACCT 1020\nStrategic Cost Analysis\nTR 3:30–4:59 PM\n\n\nFNCE 2030\nAdvanced Corporate Finance\nMW 1:45–3:14 PM\n\n\nFREN 1226\nFrench History and Culture to Modern Day\nMW 10:15–11:44 AM\n\n\nHIST 1190\nAmerican Diplomatic History Since 1898\nTR 10:15–11:44 AM\n\n\nLING 0700\nData Science for Studying Language\nTR 12–1:29 PM & R 5:15–6:14 PM\n\n\nMGMT 1110\nMultinational Management\nTR 1:45–3:14 PM\n\n\nMGMT 3010\nTeamwork and Interpersonal Influence\nMW 3:30–4:59 PM"
+  },
+  {
+    "objectID": "posts/14 schedule advice/Untitled.html#whats-good",
+    "href": "posts/14 schedule advice/Untitled.html#whats-good",
+    "title": "Fall 2025 Schedule course registration advice",
+    "section": "🔍 What’s Good",
+    "text": "🔍 What’s Good\n\nNo early mornings: All classes start after 10 AM, which gives breathing room.\nEven distribution: Your classes are pretty evenly spaced between M/W and T/R.\nCourse variety: Mix of finance, management, language, and humanities – a well-rounded semester."
+  },
+  {
+    "objectID": "posts/14 schedule advice/Untitled.html#things-to-consider",
+    "href": "posts/14 schedule advice/Untitled.html#things-to-consider",
+    "title": "Fall 2025 Schedule course registration advice",
+    "section": "🧠 Things to Consider",
+    "text": "🧠 Things to Consider\n\n1. 🔄 Class Overlaps\nYou have a time conflict: - MGMT 1110 (TR 1:45–3:14 PM) and FNCE 2030 (MW 1:45–3:14 PM) are fine individually,\nbut on Tues/Thurs, LING 0700 (12–1:29 PM) runs right up to MGMT 1110. Tight transition — be mindful.\nMore importantly: - TR afternoons are packed: HIST 1190 → LING 0700 → MGMT 1110 → ACCT 1020 = 4.5 hours straight. That’s intense.\n\n\n\n2. 💻 LING 0700 Evening Section\n\nThe Thursday night discussion/lab (5:15–6:14 PM) may feel long after your already-packed TR days.\nDo you need both the lecture and recitation? Consider dropping section 406 unless required.\n\n\n\n\n3. ⚖️ Workload & Cognitive Load\n\nFNCE 2030 and ACCT 1020 are both quantitative and conceptually heavy.\nMGMT 3010 is project-based and time-intensive (teamwork simulations).\nCombined with a language-intensive FREN 1226 and writing-heavy HIST 1190, this is a challenging schedule.\n\n\n\n4. 🧘‍♀️ Wellness Tip\nYou don’t have any days fully free — consider if you want one lighter day (maybe drop one class or spread across the week differently)."
+  },
+  {
+    "objectID": "posts/14 schedule advice/Untitled.html#suggestions",
+    "href": "posts/14 schedule advice/Untitled.html#suggestions",
+    "title": "Fall 2025 Schedule course registration advice",
+    "section": "🧾 Suggestions",
+    "text": "🧾 Suggestions\n\n✅ If you’re confident in your time management, this schedule works — you’re touching all bases: quant, writing, discussion, and teamwork.\n🛠 Trim or shift one class if you want better pacing — perhaps drop HIST 1190 (if not needed for requirements), or ask if LING 0700 recitation is optional.\n🧩 Be ready for group projects in MGMT and potentially FREN — those can stack up in the second half of semester.\n\n\nWant help checking requirements, alternate sections, or evaluating profs? Happy to dig deeper!"
+  },
+  {
+    "objectID": "posts/14 schedule advice/Untitled.html#thoughts",
+    "href": "posts/14 schedule advice/Untitled.html#thoughts",
+    "title": "Fall 2025 Schedule course registration advice",
+    "section": "Thoughts:",
+    "text": "Thoughts:\nUnfortunately, I feel like GPT was not able to offer any additional insights to what I had"
+  },
+  {
+    "objectID": "posts/9 travel.html",
+    "href": "posts/9 travel.html",
+    "title": "Travel reccomendations",
+    "section": "",
+    "text": "When figuring out where to go for Spring Break, my friends and I had been staring at a map of the US and Europe trying to figure out where to go together. We had reached a point where we really weren’t sure what we were looking for, so we used AI to narrow down our options. Below, I attached the prompt along with the response we received."
+  },
+  {
+    "objectID": "posts/9 travel.html#prompt",
+    "href": "posts/9 travel.html#prompt",
+    "title": "Travel reccomendations",
+    "section": "Prompt:",
+    "text": "Prompt:\nPlease give me beach vacation destinations 6 hours max from NYC, What about things like Charleston?"
+  },
+  {
+    "objectID": "posts/9 travel.html#response",
+    "href": "posts/9 travel.html#response",
+    "title": "Travel reccomendations",
+    "section": "Response:",
+    "text": "Response:\nYes! Charleston, South Carolina is a great option, and there are a few similar beach destinations within a 6-hour flight or drive from NYC that offer a mix of historic charm, coastal beauty, and Southern hospitality. Here are some great alternatives:\n\nSouthern Beach Destinations (Under 6-Hour Flight)\n\nCharleston, SC (2 hrs by flight) – Historic cobblestone streets, waterfront charm, and nearby Folly Beach, Isle of Palms, and Sullivan’s Island.\n\nSavannah, GA (2.5 hrs by flight) – Similar to Charleston, with historic squares and nearby Tybee Island for a laid-back beach escape.\n\nHilton Head Island, SC (2.5 hrs by flight) – A mix of luxury resorts, golf courses, and beautiful beaches.\n\nWilmington, NC (1.5 hrs by flight) – Historic riverfront city with beaches like Wrightsville Beach and Carolina Beach.\n\nMyrtle Beach, SC (2 hrs by flight) – More touristy, but great for a mix of golf, beaches, and boardwalk fun.\n\nVirginia Beach, VA (1.5 hrs by flight or 6 hrs drive) – A lively boardwalk scene with miles of sandy shoreline.\n\nIf you’re looking for that Charleston-style charm with a beach nearby, I’d say Charleston, Savannah, or Hilton Head would be your best picks! Let me know if you need help narrowing it down."
+  },
+  {
+    "objectID": "posts/9 travel.html#reflection",
+    "href": "posts/9 travel.html#reflection",
+    "title": "Travel reccomendations",
+    "section": "Reflection:",
+    "text": "Reflection:\nWhat was super interesting to me in this interaction was that GPT was able to also extract the flight time from NYC to all of these different destinations. It’s reccomendations were quite expected, and the description of each destination also included a decent amount of examples of what to do and specific places within each destination. But I’m curious how it was further able to find the exact flight time from each of these places and find the correct travel time.\nAlso, I haven’t directly included the rest of my conversations with GPT but it was quite able to adapt its suggestions and move them to suit what I was asking for, especially when I got very nuanced about what features I wanted in my destination and was picky about the region of the US I would be in.\nAlas - I did not heed any of GPT’s advice and did not end up picking any of these destinations as the final decision."
+  },
+  {
+    "objectID": "posts/6 french.html",
+    "href": "posts/6 french.html",
+    "title": "Using GPT for French",
+    "section": "",
+    "text": "This scenario of using GPT came to me on a whim and in the moment. This came from a real life application - last Sunday I was working with a Freshman in French 0200 Beginner’s French and trying to explain these grammar concepts when I decided to try out using Chat GPT. I thought that while there were a lot of straight facts and points that GPT was correct about, it kind of lacked nuance and did not provide information in a way that was easily absorbed by the student, and was instead kind of confusing in the way it seemed to be just regurgitating information in not the most effective way."
+  },
+  {
+    "objectID": "posts/6 french.html#using-chatgpt-for-quick-grammar-explanations",
+    "href": "posts/6 french.html#using-chatgpt-for-quick-grammar-explanations",
+    "title": "Using GPT for French",
+    "section": "1. Using ChatGPT for Quick Grammar Explanations",
+    "text": "1. Using ChatGPT for Quick Grammar Explanations\nOne of the biggest challenges in learning French is mastering prepositions, articles, and small grammatical details that affect meaning. Recently, I asked ChatGPT to explain the differences between de, dela, and des, and the response gave me a clear, structured breakdown:\n\nDe → “of” or “from” (possession, origin, general use)\n\nEx: Le livre de Marie. (Marie’s book.)\n\nEx: Je viens de Paris. (I come from Paris.)\n\nDela → Rarely used today but historically meant “beyond” (de là). Now written separately.\n\nEx: Regarde de là! (Look from there!)\n\nDes → “of the” or “some” (plural of du/de la or contraction of de + les)\n\nEx: Les livres des étudiants. (The students’ books.)\n\nEx: Je mange des pommes. (I eat some apples.)\n\n\n\nHow This Helps When Studying or Tutoring\n\nWhen teaching, you can ask ChatGPT to explain a concept in simple terms, like I did.\n\nIf a student is confused, use AI to generate multiple examples for clarity.\n\nIf you’re self-studying, this method saves time compared to searching in textbooks."
+  },
+  {
+    "objectID": "posts/6 french.html#condensing-complex-topics-into-cheat-sheets",
+    "href": "posts/6 french.html#condensing-complex-topics-into-cheat-sheets",
+    "title": "Using GPT for French",
+    "section": "2. Condensing Complex Topics into Cheat Sheets",
+    "text": "2. Condensing Complex Topics into Cheat Sheets\nWhen I asked ChatGPT to condense the explanation into a notecard-sized cheat sheet, it quickly summarized the essential points. This is a great way to:\n- Create quick reference guides for key grammar rules.\n- Simplify notes for tutoring sessions.\n- Help students focus on what’s most important instead of getting lost in details.\n💡 Tip: If you’re tutoring, ask ChatGPT to simplify explanations based on your student’s level (beginner, intermediate, advanced)."
+  },
+  {
+    "objectID": "posts/6 french.html#applying-this-to-broader-french-learning",
+    "href": "posts/6 french.html#applying-this-to-broader-french-learning",
+    "title": "Using GPT for French",
+    "section": "3. Applying This to Broader French Learning",
+    "text": "3. Applying This to Broader French Learning\nBeyond this one example, you can use ChatGPT to improve both personal learning and tutoring sessions in multiple ways:\n\nGrammar & Vocabulary Help\n\nAsk for differences between confusing words (“What’s the difference between savoir and connaître?”).\n\nGet example sentences to show words in context.\n\n\n\nPronunciation Practice\n\nAsk for phonetic transcriptions (“How do I pronounce ‘œuvre’?”).\n\nGet tips on common pronunciation mistakes in French.\n\n\n\nPractice Exercises & Tutoring Materials\n\nGenerate fill-in-the-blank exercises: “Provide a practice quiz for de, du, des.”\n\nGet short reading passages with comprehension questions.\n\nSimulate real-life conversations (“Pretend I’m at a French bakery ordering a croissant.”).\n\nUsing ChatGPT to learn French is like having an on-demand tutor—it’s fast, clear, and customizable. Whether you’re tackling tricky grammar like de, dela, des or creating teaching materials, this AI tool can make studying more efficient and interactive."
+  },
+  {
+    "objectID": "posts/6 french.html#reflection",
+    "href": "posts/6 french.html#reflection",
+    "title": "Using GPT for French",
+    "section": "Reflection:",
+    "text": "Reflection:\nAbove, I used GPT with the memory of me prompting it to help me teach a student in French with some prepositions to have it reflect on using GPT to learn languages. I think it did quite a good job of resonating with me and picking the right ideas, since I found that GPT was really good at providing basic information, but then would lack nuance when I asked for more examples. As such, I think that GPT as a tutor is only really useful for simple and beginner level topics, and gets less helpful as you become more advanced with a language."
+  },
+  {
+    "objectID": "posts/6 french.html#potential-final-project-idea",
+    "href": "posts/6 french.html#potential-final-project-idea",
+    "title": "Using GPT for French",
+    "section": "Potential final project idea:",
+    "text": "Potential final project idea:\nThinking about this blog post, I was talking to my groupmates Sose and Carlos and we were interested in seeing if using more training and priming we would be able to make a LLM specifically prepared for language tutoring, so I think this might be a tentative idea for our final project."
   },
   {
     "objectID": "posts/8 excel/8 Excel .html",
