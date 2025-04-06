@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="An LLM User">
-<meta name="dcterms.date" content="2024-02-22">
-<meta name="description" content="Brainstorming with AI">
+<meta name="dcterms.date" content="2024-04-06">
+<meta name="description" content="Trying out different types of styles and prompting">
 
-<title>Travel reccomendations – My Explorations with LLMs</title>
+<title>Creating a new book cover for Brave New World – My Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,22 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-16fb397360ac6373c2344189e05b0de0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-16fb397360ac6373c2344189e05b0de0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">My Explorations with LLMs</span>
     </a>
   </div>
@@ -92,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About the writer - Amelie!</span></a>
   </li>  
   <li class="nav-item compact">
@@ -116,15 +116,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Travel reccomendations</h1>
+      <h1 class="title">Creating a new book cover for Brave New World</h1>
                   <div>
         <div class="description">
-          Brainstorming with AI
+          Trying out different types of styles and prompting
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">LLMs</div>
-                <div class="quarto-category">travelling</div>
+                <div class="quarto-category">image generation</div>
+                <div class="quarto-category">prompting</div>
               </div>
                   </div>
   </div>
@@ -142,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 22, 2024</p>
+        <p class="date">April 6, 2024</p>
       </div>
     </div>
     
@@ -161,37 +162,29 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>When figuring out where to go for Spring Break, my friends and I had been staring at a map of the US and Europe trying to figure out where to go together. We had reached a point where we really weren’t sure what we were looking for, so we used AI to narrow down our options. Below, I attached the prompt along with the response we received.</p>
-<section id="prompt" class="level2">
-<h2 class="anchored" data-anchor-id="prompt">Prompt:</h2>
-<p>Please give me beach vacation destinations 6 hours max from NYC, What about things like Charleston?</p>
+<section id="initial-prompt" class="level2">
+<h2 class="anchored" data-anchor-id="initial-prompt">Initial prompt:</h2>
+<p>Remake the book cover for the book Brave New World by Aldous Huxley.</p>
+<p><img src="a.png" width="50%"></p>
 </section>
-<section id="response" class="level2">
-<h2 class="anchored" data-anchor-id="response">Response:</h2>
-<p>Yes! <strong>Charleston, South Carolina</strong> is a great option, and there are a few similar beach destinations within a <strong>6-hour flight or drive</strong> from NYC that offer a mix of <strong>historic charm, coastal beauty, and Southern hospitality</strong>. Here are some great alternatives:</p>
-<section id="southern-beach-destinations-under-6-hour-flight" class="level3">
-<h3 class="anchored" data-anchor-id="southern-beach-destinations-under-6-hour-flight"><strong>Southern Beach Destinations (Under 6-Hour Flight)</strong></h3>
-<ol type="1">
-<li><strong>Charleston, SC</strong> (2 hrs by flight) – Historic cobblestone streets, waterfront charm, and nearby <strong>Folly Beach, Isle of Palms, and Sullivan’s Island</strong>.<br>
-</li>
-<li><strong>Savannah, GA</strong> (2.5 hrs by flight) – Similar to Charleston, with historic squares and nearby <strong>Tybee Island</strong> for a laid-back beach escape.<br>
-</li>
-<li><strong>Hilton Head Island, SC</strong> (2.5 hrs by flight) – A mix of luxury resorts, golf courses, and beautiful beaches.<br>
-</li>
-<li><strong>Wilmington, NC</strong> (1.5 hrs by flight) – Historic riverfront city with beaches like <strong>Wrightsville Beach and Carolina Beach</strong>.<br>
-</li>
-<li><strong>Myrtle Beach, SC</strong> (2 hrs by flight) – More touristy, but great for a mix of golf, beaches, and boardwalk fun.<br>
-</li>
-<li><strong>Virginia Beach, VA</strong> (1.5 hrs by flight or 6 hrs drive) – A lively boardwalk scene with miles of sandy shoreline.</li>
-</ol>
-<p>If you’re looking for that <strong>Charleston-style charm</strong> with a <strong>beach nearby</strong>, I’d say Charleston, Savannah, or Hilton Head would be your best picks! Let me know if you need help narrowing it down.</p>
+<section id="follow-up" class="level2">
+<h2 class="anchored" data-anchor-id="follow-up">Follow up:</h2>
+<p>This has no elements that are relevant to the actual content of the book. Please remake it with more specific elements that are drawn from the plot.</p>
 </section>
+<section id="gpt-response" class="level2">
+<h2 class="anchored" data-anchor-id="gpt-response">GPT response:</h2>
+<p>“I couldn’t generate a new book cover for Brave New World that includes specific elements from the plot because the request violates our content policies.</p>
+<p>If you’d like, I can still help you design a cover inspired by the book’s broader themes—like technological control, consumerism, or dystopian conformity—without depicting sensitive or restricted content. Just let me know how you’d like to proceed or share a new idea!”</p>
+<p>This was interesting, because in my prompt I had not explicitly mentioned anything specific from the book that I wanted to include, but GPT automatically jumped to saying that there would be specific elements from the book that would violate content policies. What I assume this is referring to is probably violent/mature content, I would have assumed that GPT had the option to ignore those specific plot elements but still then make a book cover that was more relevant to the book.</p>
 </section>
-<section id="reflection" class="level2">
-<h2 class="anchored" data-anchor-id="reflection">Reflection:</h2>
-<p>What was super interesting to me in this interaction was that GPT was able to also extract the flight time from NYC to all of these different destinations. It’s reccomendations were quite expected, and the description of each destination also included a decent amount of examples of what to do and specific places within each destination. But I’m curious how it was further able to find the exact flight time from each of these places and find the correct travel time.</p>
-<p>Also, I haven’t directly included the rest of my conversations with GPT but it was quite able to adapt its suggestions and move them to suit what I was asking for, especially when I got very nuanced about what features I wanted in my destination and was picky about the region of the US I would be in.</p>
-<p>Alas - I did not heed any of GPT’s advice and did not end up picking any of these destinations as the final decision.</p>
+<section id="trying-again" class="level2">
+<h2 class="anchored" data-anchor-id="trying-again">Trying again:</h2>
+<p>Remake the book cover for the book Brave New World by Aldous Huxley that draws on the dystopian themes of the plot</p>
+<p><img src="b.png" width="50%"></p>
+</section>
+<section id="final-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="final-thoughts">Final thoughts:</h2>
+<p>Here, I found that using a more specific prompt was very much more helpful for creating an output that was also more targeted and relevant. I think the wording of “dystopian themes” was the most important part of the prompt, as the final book cover result</p>
 
 
 </section>
