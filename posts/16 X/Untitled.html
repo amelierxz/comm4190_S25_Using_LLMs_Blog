@@ -7,10 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Amelie Zhang">
-<meta name="dcterms.date" content="2024-04-12">
-<meta name="description" content="Trying to use GPT to turn sketches of graphs into reality">
+<meta name="dcterms.date" content="2024-04-07">
 
-<title>Can GPT build IS-LM models for a Finance project? – My Explorations with LLMs</title>
+<title>Using OpenAI Deep Research: Absorbing multiple sources of information and merging into output – My Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,15 +116,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Can GPT build IS-LM models for a Finance project?</h1>
-                  <div>
-        <div class="description">
-          Trying to use GPT to turn sketches of graphs into reality
-        </div>
-      </div>
-                          <div class="quarto-categories">
+      <h1 class="title">Using OpenAI Deep Research: Absorbing multiple sources of information and merging into output</h1>
+                                <div class="quarto-categories">
                 <div class="quarto-category">LLMs</div>
-                <div class="quarto-category">finance</div>
+                <div class="quarto-category">marketing</div>
                 <div class="quarto-category">chart making</div>
               </div>
                   </div>
@@ -144,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 12, 2024</p>
+        <p class="date">April 7, 2024</p>
       </div>
     </div>
     
@@ -163,46 +157,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="prompt" class="level2">
-<h2 class="anchored" data-anchor-id="prompt">Prompt:</h2>
-<p>Please try to take these IS-LM models that we’ve been describing and turn them into well labeled graphs. I have attached drawings for your reference</p>
-<p><img src="a.jpeg" width="50%"></p>
+<section id="original-lengthy-prompt" class="level1">
+<h1>Original, lengthy prompt:</h1>
+<p>I’m doing a project for my macroeconomics class about the Argentine Great Depression (1998-2001) and I need you to help me in research, application to the class, and structuring/creating the content for my presentation.</p>
+<p>To start, I want you to just give a few paragraphs summary on what happened in this Argentine Great Depression, and what the results were. Give it to me in simple, concise, yet accurate sentences for me to best understand the event quickly.</p>
+<p>After that, I want you to utilize the deep research to meet the presentation requirements: “Background: 1-2 slides which provide an overview of the country’s economy and relevant historical background. • The overview of the economy can include a description of the large sectors (in terms of value added) in the economy, a comparison of GDP per capita to neighboring countries at the time, the demographics of the country (if relevant), etc. 2) Overview of the crisis: 1-2 slides that describes the events leading to the crisis, how the crisis unfolded, and the ensuing recovery. 3) Analysis: 2-4 slides in which you analyze the economic crisis using the tools learned in class (primarily the IS-LM model). You need to decide how the shock should be modeled in the framework, and interpret the unfolding of the crisis and its recovery using the model. In doing so, you should present data on the behavior of key economic variables, such as real GDP, unemployment, investment, consumption, exports, imports, and the exchange rate.” For each of these three components, I want in depth explanations and fitting content so that I can make a presentation with your response. I also want to emphasize the imporance of the third component. I need to very simply yet accurately apply the IS-LM model to the event. Let me know if you have any questions about what class materials you should be refrencing for this section. For economic data, utilize World bank: https://data.worldbank.org/ 2. International monetary fund: https://data.imf.org/ 3. OECD: https://data.oecd.org/</p>
 </section>
-<section id="gpt-first-response" class="level1">
-<h1>GPT First response:</h1>
-<p>Here are three well-labeled IS-LM diagrams representing your original sketches:</p>
-<p>Graph 1 (Top): Red IS curve shifts left: Represents a contractionary fiscal shock (e.g.&nbsp;reduced government spending or increased taxes).</p>
-<p>New equilibrium is to the left of FE, showing underemployment.</p>
-<p>Graph 2 (Middle): Red IS curve shifts left, again from a contraction.</p>
-<p>Blue LM curve shifts right: Expansionary monetary policy (e.g.&nbsp;increase in money supply or lower interest rates).</p>
-<p>Result: Restores equilibrium closer to FE, softening the contraction’s impact.</p>
-<p>Graph 3 (Bottom): IS curve shifts left, LM shifts right, and FE shifts right: Full employment level increases (perhaps due to long-term structural reforms or productivity gains).</p>
-<p>This shows a more dynamic long-term recovery scenario with both demand-side and supply-side shifts.</p>
-<p>Let me know if you’d like the axis labeled with income (Y) and interest rate (i), or any color tweaks!</p>
-<p><img src="b.png" width="50%"></p>
-<section id="st-follow-up" class="level2">
-<h2 class="anchored" data-anchor-id="st-follow-up">1st Follow up:</h2>
-<p>This does not look right. I want labels like this with arrows of the shifts.</p>
-<p><img src="c.png" width="50%"></p>
+<section id="gpts-follow-up-questions" class="level1">
+<h1>GPT’s follow up questions:</h1>
+<p>Got it! To create the best possible presentation and analysis, could you please clarify a couple of things:</p>
+<p>Do you already have a specific country or countries in mind for GDP per capita comparisons in the background section, or should I choose neighboring ones like Brazil, Chile, and Uruguay?</p>
+<p>Do you have any class notes or slides on the IS-LM model that describe what assumptions or simplifications your professor prefers (e.g., fixed vs.&nbsp;flexible exchange rates, openness to trade, capital mobility)? That way I can make sure to tailor the IS-LM analysis to your course.</p>
+<p>Would you prefer charts and tables included in the response that you can directly insert into your slides, or mostly written explanations that you can then convert into slides?</p>
+<p>Once I have these details, I’ll dive into the full research and presentation structure for you!</p>
 </section>
-<section id="gpts-2nd-try" class="level2">
-<h2 class="anchored" data-anchor-id="gpts-2nd-try">GPT’s 2nd try:</h2>
-<p>Here’s a cleaner and labeled IS-LM graph that mirrors the style you showed in the example:</p>
-<p>Features: IS shifts left (red dashed) — contractionary fiscal policy or drop in confidence.</p>
-<p>LM shifts right (blue dashed) — expansionary monetary policy (e.g.&nbsp;lower interest rates or increased money supply).</p>
-<p>FE shifts right (blue dashed vertical line) — increase in potential output (e.g.&nbsp;structural reforms, labor market improvements).</p>
-<p>Initial GE: Black dot.</p>
-<p>New GE: Red dot after the shifts.</p>
-<p>Arrow annotations explain the directional movements.</p>
-<p>Would you like this exported as a high-resolution image or incorporated into a slide/report template?</p>
-<p><img src="d.png" width="50%"></p>
-</section>
-<section id="my-reflection" class="level2">
-<h2 class="anchored" data-anchor-id="my-reflection">My reflection:</h2>
-<p>This was a bit of a frustrating conversation. Even though one of my teammates had warned me that GPT was not good at building these graphs, I wanted to see if it could adapt givem my sketches and try to formulate the correct output. In the end, this proved really unfruitfall, and I think in general my reflection here is that GPT is not very good with adapting to spatial differences and doing things like drawing graphs. On the opposite side of visualizations, GPT is great at making types of data charts because that is a system that is very reliant on coding and can be easily done through Python. As such, until LLMs develop further, I would advise to steer clear of using them to make any type of visualization.</p>
+<section id="my-team" class="level1">
+<h1>My team</h1>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
