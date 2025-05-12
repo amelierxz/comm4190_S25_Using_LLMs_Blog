@@ -7,74 +7,193 @@
     "text": "Amelie is a sophomore in the Huntsman Program, studying Finance and French and getting a minor in Data Science in CAS. She is excited about exploring LLMs in COMM 4190 and welcome to her page of exploration and discovery!"
   },
   {
-    "objectID": "posts/16 sick/Untitled.html",
-    "href": "posts/16 sick/Untitled.html",
-    "title": "My Explorations with LLMs",
+    "objectID": "posts/14 schedule advice/Untitled.html",
+    "href": "posts/14 schedule advice/Untitled.html",
+    "title": "Fall 2025 Schedule course registration advice",
     "section": "",
-    "text": "import sys\n!{sys.executable} -m pip install python-dotenv\n\n\nCollecting python-dotenv\n\n  Downloading python_dotenv-1.1.0-py3-none-any.whl (20 kB)\n\nInstalling collected packages: python-dotenv\n\nERROR: Could not install packages due to an OSError: [Errno 13] Permission denied: '/opt/jupyterhub/lib/python3.10/site-packages/dotenv'\n\nCheck the permissions.\n\n\n\n\n\n\n\n\nimport os\nfrom IPython.display import Markdown, display\nfrom dotenv import load_dotenv\nfrom openai import OpenAI\n\n# Load environment variables from .env\nload_dotenv()\n\n# Initialize OpenAI client (assumes OPENAI_API_KEY is in your .env file)\nclient = OpenAI()\n\n# Set model name\nmodel = \"gpt-4-turbo-2024-04-09\"\n\n# Correctly formatted prompt strings\nsystem_role = \"\"\"You are a LLM trained to diagnose people with some sickness online.\"\"\"\ninitial_prompt = \"\"\"Since last night, I have been feeling slightly nauseous. The feeling comes and goes but nothing has made much of a difference. I am trying to watch what I eat but I am not sure that matters a lot, as I still feel the same type of nausea. Last night I had some\"\"\"\n\n# Messages for the chat\nmessages = [\n    {\"role\": \"system\", \"content\": system_role},\n    {\"role\": \"user\", \"content\": initial_prompt},\n]\n\n# Make the API call\ncompletion = client.chat.completions.create(\n    model=model,\n    messages=messages,\n    n=3,\n    temperature=0.7\n)\n\n# Display responses in Markdown format\nfor i, resp in enumerate(completion.choices):\n    display(Markdown(f'-----\\n#### Response {i+1}\\n{resp.message.content}\\n'))\n\n\n---------------------------------------------------------------------------\nModuleNotFoundError                       Traceback (most recent call last)\nCell In[3], line 3\n      1 import os\n      2 from IPython.display import Markdown, display\n----&gt; 3 from dotenv import load_dotenv\n      4 from openai import OpenAI\n      6 # Load environment variables from .env\n\nModuleNotFoundError: No module named 'dotenv'"
+    "text": "As advance registration wraps up this weekend, I’ve spent a lot of time slightly obsessing over what classes to take this Fall 2025. Because of my dual degree, as well as trying to get a Data science minor, I’ve ended up having to take a lot of class.\nRight now, I’m slated to take 6.5 course units this fall, which while seems overwhelming, should hopefully be manageable.\nHowever, I was curious about what Chat GPT would say about the courses, even though I know it lacks a lot of the Penn-specific context."
   },
   {
-    "objectID": "posts/1 000_test_post/index.html",
-    "href": "posts/1 000_test_post/index.html",
-    "title": "A test post",
+    "objectID": "posts/14 schedule advice/Untitled.html#what-were-dealing-with",
+    "href": "posts/14 schedule advice/Untitled.html#what-were-dealing-with",
+    "title": "Fall 2025 Schedule course registration advice",
     "section": "",
-    "text": "Read the following and see if you can answer the question:\n\n\nThere are three boxes in a stack. A pink one, a purple one and a green one. The pink one is in the middle of the stack with the purple below it. What is the color of the box on the bottom of the stack?\n\nMost likely you answered purple…\nBut it is possible you first said green (don’t worry if you did it is quite a common response!)\n\n\nIt’s a verbal visual problem that requires some deliberation and most likely for us to create a visual image of a stack of boxes as a reasoning aid.\nNotice also the complexity of the language used in the prompt to describe the scene. The use of natural language as opposed to a formal/logical calculus does hold the potential for ambiguity (multiple interpretations) and inexactness. However, it is the most normal/natural, efficient and broadly accessible way of communicating such information.\nNotice 1. The use of anaphor or reference. - Three BOXES -&gt; a pink/purple/green ONE as opposed to a pink box, a purple box and a green box. - The PINK ONE is in the middle ... the purple {BOX} below IT {the pink box}\nWe tend to try and avoid this kind of repetition to make our speech more coherent.\n\nAlthough the description in language may not be entirely concise, there is no real ambiguity as to how the boxes can be arranged. It must be: | Box | Stack position | | — | — | | GREEN | top | | PINK | middle | | PURPLE | bottom |\n\n\n\n\nGPT3.5 Turbo\n\nHad some difficulties and answered green\nLlama2 (chat 7B version)\n\n\nAnswered correctly (purple) and used some so-called chain-of-thought reasoning\n\nBing Chat (MS Co-pilot)\nThis LLM is GPT4 with some Microsoft specific tuning and RAG (search) additions.\nIt get’s it correct:\n\nThe color of the box on the bottom of the stack is purple. This is because the purple box is below the pink one, which is in the middle of the stack. Therefore, the purple box must be the lowest one. 🟪\n\nBut when you follow up and ask it to create visual representation of the box arrangement\n\nPROMPT: Can you create a visual representation of how the boxes are arranged?\n\nIt responds\n\nRESPONSE: Sure, I’ll try to create that. Here is a visual representation of how the boxes are arranged:\n\nAnd uses DALL-E3 to create 4 different attempts at a visual representation:\n\nNONE OF WHICH ARE CORRECT!!!"
+    "text": "As advance registration wraps up this weekend, I’ve spent a lot of time slightly obsessing over what classes to take this Fall 2025. Because of my dual degree, as well as trying to get a Data science minor, I’ve ended up having to take a lot of class.\nRight now, I’m slated to take 6.5 course units this fall, which while seems overwhelming, should hopefully be manageable.\nHowever, I was curious about what Chat GPT would say about the courses, even though I know it lacks a lot of the Penn-specific context."
   },
   {
-    "objectID": "posts/1 000_test_post/index.html#a-visualization-problem-for-llms",
-    "href": "posts/1 000_test_post/index.html#a-visualization-problem-for-llms",
-    "title": "A test post",
-    "section": "",
-    "text": "Read the following and see if you can answer the question:\n\n\nThere are three boxes in a stack. A pink one, a purple one and a green one. The pink one is in the middle of the stack with the purple below it. What is the color of the box on the bottom of the stack?\n\nMost likely you answered purple…\nBut it is possible you first said green (don’t worry if you did it is quite a common response!)\n\n\nIt’s a verbal visual problem that requires some deliberation and most likely for us to create a visual image of a stack of boxes as a reasoning aid.\nNotice also the complexity of the language used in the prompt to describe the scene. The use of natural language as opposed to a formal/logical calculus does hold the potential for ambiguity (multiple interpretations) and inexactness. However, it is the most normal/natural, efficient and broadly accessible way of communicating such information.\nNotice 1. The use of anaphor or reference. - Three BOXES -&gt; a pink/purple/green ONE as opposed to a pink box, a purple box and a green box. - The PINK ONE is in the middle ... the purple {BOX} below IT {the pink box}\nWe tend to try and avoid this kind of repetition to make our speech more coherent.\n\nAlthough the description in language may not be entirely concise, there is no real ambiguity as to how the boxes can be arranged. It must be: | Box | Stack position | | — | — | | GREEN | top | | PINK | middle | | PURPLE | bottom |\n\n\n\n\nGPT3.5 Turbo\n\nHad some difficulties and answered green\nLlama2 (chat 7B version)\n\n\nAnswered correctly (purple) and used some so-called chain-of-thought reasoning\n\nBing Chat (MS Co-pilot)\nThis LLM is GPT4 with some Microsoft specific tuning and RAG (search) additions.\nIt get’s it correct:\n\nThe color of the box on the bottom of the stack is purple. This is because the purple box is below the pink one, which is in the middle of the stack. Therefore, the purple box must be the lowest one. 🟪\n\nBut when you follow up and ask it to create visual representation of the box arrangement\n\nPROMPT: Can you create a visual representation of how the boxes are arranged?\n\nIt responds\n\nRESPONSE: Sure, I’ll try to create that. Here is a visual representation of how the boxes are arranged:\n\nAnd uses DALL-E3 to create 4 different attempts at a visual representation:\n\nNONE OF WHICH ARE CORRECT!!!"
+    "objectID": "posts/14 schedule advice/Untitled.html#gpts-response",
+    "href": "posts/14 schedule advice/Untitled.html#gpts-response",
+    "title": "Fall 2025 Schedule course registration advice",
+    "section": "GPT’s response:",
+    "text": "GPT’s response:\nThanks for sharing your cart! Here’s a breakdown of your Fall 2025 class schedule and some advice on balance, workload, and logistics."
   },
   {
-    "objectID": "posts/12 taxes.html",
-    "href": "posts/12 taxes.html",
-    "title": "Using GPT to Compare NYC and LA tax structures",
-    "section": "",
-    "text": "As people do on a Thursday evening, I ended up in a conversation with my friend about how living in different cities post grad would affect our income tax structures and the way we should think about these differences going forward.\nThus, instead of doing the reasonable thing and going on state websites to find the facts straight from the source, we used GPT to try to understand the differences between NYC and LA. Here is what we found:"
+    "objectID": "posts/14 schedule advice/Untitled.html#courses-youve-selected",
+    "href": "posts/14 schedule advice/Untitled.html#courses-youve-selected",
+    "title": "Fall 2025 Schedule course registration advice",
+    "section": "✅ Courses You’ve Selected:",
+    "text": "✅ Courses You’ve Selected:\n\n\n\n\n\n\n\n\nCourse\nTitle\nDays & Time\n\n\n\n\nACCT 1020\nStrategic Cost Analysis\nTR 3:30–4:59 PM\n\n\nFNCE 2030\nAdvanced Corporate Finance\nMW 1:45–3:14 PM\n\n\nFREN 1226\nFrench History and Culture to Modern Day\nMW 10:15–11:44 AM\n\n\nHIST 1190\nAmerican Diplomatic History Since 1898\nTR 10:15–11:44 AM\n\n\nLING 0700\nData Science for Studying Language\nTR 12–1:29 PM & R 5:15–6:14 PM\n\n\nMGMT 1110\nMultinational Management\nTR 1:45–3:14 PM\n\n\nMGMT 3010\nTeamwork and Interpersonal Influence\nMW 3:30–4:59 PM"
   },
   {
-    "objectID": "posts/12 taxes.html#gpt-response",
-    "href": "posts/12 taxes.html#gpt-response",
-    "title": "Using GPT to Compare NYC and LA tax structures",
+    "objectID": "posts/14 schedule advice/Untitled.html#whats-good",
+    "href": "posts/14 schedule advice/Untitled.html#whats-good",
+    "title": "Fall 2025 Schedule course registration advice",
+    "section": "🔍 What’s Good",
+    "text": "🔍 What’s Good\n\nNo early mornings: All classes start after 10 AM, which gives breathing room.\nEven distribution: Your classes are pretty evenly spaced between M/W and T/R.\nCourse variety: Mix of finance, management, language, and humanities – a well-rounded semester."
+  },
+  {
+    "objectID": "posts/14 schedule advice/Untitled.html#things-to-consider",
+    "href": "posts/14 schedule advice/Untitled.html#things-to-consider",
+    "title": "Fall 2025 Schedule course registration advice",
+    "section": "🧠 Things to Consider",
+    "text": "🧠 Things to Consider\n\n1. 🔄 Class Overlaps\nYou have a time conflict: - MGMT 1110 (TR 1:45–3:14 PM) and FNCE 2030 (MW 1:45–3:14 PM) are fine individually,\nbut on Tues/Thurs, LING 0700 (12–1:29 PM) runs right up to MGMT 1110. Tight transition — be mindful.\nMore importantly: - TR afternoons are packed: HIST 1190 → LING 0700 → MGMT 1110 → ACCT 1020 = 4.5 hours straight. That’s intense.\n\n\n\n2. 💻 LING 0700 Evening Section\n\nThe Thursday night discussion/lab (5:15–6:14 PM) may feel long after your already-packed TR days.\nDo you need both the lecture and recitation? Consider dropping section 406 unless required.\n\n\n\n\n3. ⚖️ Workload & Cognitive Load\n\nFNCE 2030 and ACCT 1020 are both quantitative and conceptually heavy.\nMGMT 3010 is project-based and time-intensive (teamwork simulations).\nCombined with a language-intensive FREN 1226 and writing-heavy HIST 1190, this is a challenging schedule.\n\n\n\n4. 🧘‍♀️ Wellness Tip\nYou don’t have any days fully free — consider if you want one lighter day (maybe drop one class or spread across the week differently)."
+  },
+  {
+    "objectID": "posts/14 schedule advice/Untitled.html#suggestions",
+    "href": "posts/14 schedule advice/Untitled.html#suggestions",
+    "title": "Fall 2025 Schedule course registration advice",
+    "section": "🧾 Suggestions",
+    "text": "🧾 Suggestions\n\n✅ If you’re confident in your time management, this schedule works — you’re touching all bases: quant, writing, discussion, and teamwork.\n🛠 Trim or shift one class if you want better pacing — perhaps drop HIST 1190 (if not needed for requirements), or ask if LING 0700 recitation is optional.\n🧩 Be ready for group projects in MGMT and potentially FREN — those can stack up in the second half of semester.\n\n\nWant help checking requirements, alternate sections, or evaluating profs? Happy to dig deeper!"
+  },
+  {
+    "objectID": "posts/14 schedule advice/Untitled.html#thoughts",
+    "href": "posts/14 schedule advice/Untitled.html#thoughts",
+    "title": "Fall 2025 Schedule course registration advice",
+    "section": "Thoughts:",
+    "text": "Thoughts:\nUnfortunately, I feel like GPT was not able to offer any additional insights to what I had initially thought about. This is probably because it lacks the knowledge that is intangible and created by being a student at Penn, so I think that this is a good example of a way that AI LLMs lack the same type of human experience that will allow it to be most helpful. This reminds me of when we talked about areas of expertise earlier this semester in class, when Sose and I were thinking about comparing LA and HK from our experience vs. through LLM. Except in this case, GPT was just unable to think about the context and nuances behind the task."
+  },
+  {
+    "objectID": "posts/11 PROFILE/11 making Profile.html",
+    "href": "posts/11 PROFILE/11 making Profile.html",
+    "title": "Making a Cartoon profile photo",
+    "section": "",
+    "text": "As I was going to edit my blog About page, I wanted to put a photo of myself, but nothing really overly professional or official. So, I decided to try and play with GPT 4o Image generation to see if it could make a profile photo for me that would have enough resemblance as a cartoon character but not be just an actual photo of me."
+  },
+  {
+    "objectID": "posts/11 PROFILE/11 making Profile.html#headshot-as-a-reference-photo",
+    "href": "posts/11 PROFILE/11 making Profile.html#headshot-as-a-reference-photo",
+    "title": "Making a Cartoon profile photo",
+    "section": "Headshot as a Reference photo:",
+    "text": "Headshot as a Reference photo:\n\nUsing the headshot above, I then prompted GPT to “Please make me a cartoon character using the reference photo.”"
+  },
+  {
+    "objectID": "posts/11 PROFILE/11 making Profile.html#st-attempt",
+    "href": "posts/11 PROFILE/11 making Profile.html#st-attempt",
+    "title": "Making a Cartoon profile photo",
+    "section": "1st Attempt:",
+    "text": "1st Attempt:\n\nAfter the first attempt, I wanted to see if I could make some tweaks. I asked GPT to “Remove the freckles and make her slightly blushed, and make the sweater green.”"
+  },
+  {
+    "objectID": "posts/11 PROFILE/11 making Profile.html#nd-attempt",
+    "href": "posts/11 PROFILE/11 making Profile.html#nd-attempt",
+    "title": "Making a Cartoon profile photo",
+    "section": "2nd Attempt:",
+    "text": "2nd Attempt:\n\nThis seemed like all the tweaks were made. However, I did not think that the character looked like me enough, so I asked GPT if it could “Make the character look more like the girl in the reference photo.”"
+  },
+  {
+    "objectID": "posts/11 PROFILE/11 making Profile.html#pushing-too-far",
+    "href": "posts/11 PROFILE/11 making Profile.html#pushing-too-far",
+    "title": "Making a Cartoon profile photo",
+    "section": "Pushing too far:",
+    "text": "Pushing too far:\nI unfortunately got this response:\n“I couldn’t generate the updated cartoon image just now because there’s a short cooldown period due to rate limits — it’ll be about 9 minutes before I can create another one for you.\nIn the meantime, if you have any specific tweaks in mind (like adjusting hairstyle, facial features, outfit details, or background), feel free to let me know so I can get it just right when the cooldown is over!”"
+  },
+  {
+    "objectID": "posts/11 PROFILE/11 making Profile.html#conclusion",
+    "href": "posts/11 PROFILE/11 making Profile.html#conclusion",
+    "title": "Making a Cartoon profile photo",
+    "section": "Conclusion:",
+    "text": "Conclusion:"
+  },
+  {
+    "objectID": "posts/13 brave new world/Untitled.html",
+    "href": "posts/13 brave new world/Untitled.html",
+    "title": "Creating a new book cover for Brave New World",
+    "section": "",
+    "text": "Remake the book cover for the book Brave New World by Aldous Huxley."
+  },
+  {
+    "objectID": "posts/13 brave new world/Untitled.html#initial-prompt",
+    "href": "posts/13 brave new world/Untitled.html#initial-prompt",
+    "title": "Creating a new book cover for Brave New World",
+    "section": "",
+    "text": "Remake the book cover for the book Brave New World by Aldous Huxley."
+  },
+  {
+    "objectID": "posts/13 brave new world/Untitled.html#follow-up",
+    "href": "posts/13 brave new world/Untitled.html#follow-up",
+    "title": "Creating a new book cover for Brave New World",
+    "section": "Follow up:",
+    "text": "Follow up:\nThis has no elements that are relevant to the actual content of the book. Please remake it with more specific elements that are drawn from the plot."
+  },
+  {
+    "objectID": "posts/13 brave new world/Untitled.html#gpt-response",
+    "href": "posts/13 brave new world/Untitled.html#gpt-response",
+    "title": "Creating a new book cover for Brave New World",
     "section": "GPT response:",
-    "text": "GPT response:\nNew York City (NYC) and Los Angeles (LA) have different tax structures due to state and local tax policies. Here’s a comparison:\n\nState Income Tax\n\nNew York State: Progressive tax rates from 4% to 10.9%.\n\nCalifornia: Progressive tax rates from 1% to 13.3% (highest in the U.S.).\n\n\n\nCity Income Tax\n\nNYC: Has its own city income tax, ranging from 3.078% to 3.876% on top of state tax.\n\nLA: No city income tax.\n\n\n\nEffective Tax Burden (State + City)\n\nNYC Residents: Pay both state and city taxes, making their top combined rate up to 14.776%.\n\nLA Residents: Pay only state tax, with a top rate of 13.3%.\n\n\n\nOther Considerations\n\nSales Tax:\n\nNYC: 8.875% (state + local)\n\nLA: 9.5%\n\n\nCost of Living: Both cities are expensive, but NYC has higher rent, while LA has higher transportation costs.\n\nDeductions: California has more favorable tax deductions in some areas, like capital gains.\n\n\n\nOverall\nIf you’re a high earner, NYC generally has a slightly higher tax burden due to its city tax. If you’re middle-income, the difference is smaller, but California’s progressive system can result in a higher rate at the top brackets."
+    "text": "GPT response:\n“I couldn’t generate a new book cover for Brave New World that includes specific elements from the plot because the request violates our content policies.\nIf you’d like, I can still help you design a cover inspired by the book’s broader themes—like technological control, consumerism, or dystopian conformity—without depicting sensitive or restricted content. Just let me know how you’d like to proceed or share a new idea!”\nThis was interesting, because in my prompt I had not explicitly mentioned anything specific from the book that I wanted to include, but GPT automatically jumped to saying that there would be specific elements from the book that would violate content policies. What I assume this is referring to is probably violent/mature content, I would have assumed that GPT had the option to ignore those specific plot elements but still then make a book cover that was more relevant to the book."
   },
   {
-    "objectID": "posts/2 logic problem/index.html",
-    "href": "posts/2 logic problem/index.html",
-    "title": "Interesting word logic problem",
+    "objectID": "posts/13 brave new world/Untitled.html#trying-again",
+    "href": "posts/13 brave new world/Untitled.html#trying-again",
+    "title": "Creating a new book cover for Brave New World",
+    "section": "Trying again:",
+    "text": "Trying again:\nRemake the book cover for the book Brave New World by Aldous Huxley that draws on the dystopian themes of the plot"
+  },
+  {
+    "objectID": "posts/13 brave new world/Untitled.html#final-thoughts",
+    "href": "posts/13 brave new world/Untitled.html#final-thoughts",
+    "title": "Creating a new book cover for Brave New World",
+    "section": "Final thoughts:",
+    "text": "Final thoughts:\nHere, I found that using a more specific prompt was very much more helpful for creating an output that was also more targeted and relevant. I think the wording of “dystopian themes” was the most important part of the prompt, as the final book cover result definitely looks dystopian and mimics the type of mindless and stark world that Huxley created in Brave New World."
+  },
+  {
+    "objectID": "posts/17 erewhon/Untitled.html",
+    "href": "posts/17 erewhon/Untitled.html",
+    "title": "Can GPT build the Kahn Retailing Matrix?",
     "section": "",
-    "text": "When we first started playing around with LLMs and seeing if they could properly communicate with humans one of my initial instincts was to see if they could think like humans. Ever since I was a child, something I really enjoyed doing was solving logic puzzles - like those you always found on Youtube made by TED or some other channel. So, I wanted to take this topic one step further and see if AI would be able to create a problem itself and then solve it.\nThus, what I did was ask GPT to create a logic problem for me, inspired by problems where you are given information that can be both true or false, and have to deduce the final answer. After creating the problem, I then fed it into a new window in GPT and tried to see if it could be solved.\nObviously, I also enjoyed myself and had fun solving it as well."
+    "text": "Can you recreate this matrix but for Erewhon, the LA grocery store. they are strongest in brand and experiential.\nI used the two graphs below as examples of what the Kahn Retailing Matrix looks like and how to apply it to a company.\n \nHere is a recreation of the Kahn Retailing Success Matrix applied to Erewhon, emphasizing their strengths in Brand and Experiential:\n\n\n\n\n\n\n\n\n\n\n\nCustomer Experience\n\n\n\n\n\nExperiential  Curated ambiance, wellness lifestyle integration, premium sampling events, organic café spaces\n\n\nProduct Benefits\n\n\n\nBrand\nCult Brand Identity  LA status symbol, wellness authority, exclusive product curation\n\n\n\n\n\n\nLow Price\nNot a focus – premium pricing strategy\n\n\n\n\n\n\nFrictionless\nLimited investment here  Long checkout lines, complex online interface, boutique feel over convenience\n\n\n\n\n\n\n\nIf we plotted Erewhon in the same visual style as Amazon’s version: - Strong arrow pointing toward Brand (top-left) - Strong arrow toward Experiential (top-right) - Minimal/no arrow toward Low Price (bottom-left) - Light or no arrow toward Frictionless (bottom-right)\nWould you like me to generate an actual image of this matrix in the same visual format?"
   },
   {
-    "objectID": "posts/2 logic problem/index.html#my-thoughts",
-    "href": "posts/2 logic problem/index.html#my-thoughts",
-    "title": "Interesting word logic problem",
-    "section": "My thoughts:",
-    "text": "My thoughts:\nI found this super interesting after trying to make this logic problem out of boredom - and attempting to capture how AI can think through a reasoning problem that humans typically attack in a non-linear fashion. While both different GPT models ended up getting the right result, I was fasicinated by the different methods that the two models used, that were logical but did not at all follow the same framework.\nIn the future, I really want to experiment more with how to use AI to attack these sorts of reasoning problems that may not have a clear direct answer, and think about the actual thinking process of the AI LLM behind it."
-  },
-  {
-    "objectID": "posts/5 LA.html",
-    "href": "posts/5 LA.html",
-    "title": "Sose’s expertise: LA",
+    "objectID": "posts/17 erewhon/Untitled.html#prompt",
+    "href": "posts/17 erewhon/Untitled.html#prompt",
+    "title": "Can GPT build the Kahn Retailing Matrix?",
     "section": "",
-    "text": "LA is a city that’s hard to pin down—it’s massive, spread out, and full of contradictions. One minute you’re stuck in traffic on the 405, and the next you’re driving along the coast with the most unreal sunset in front of you. There’s the Hollywood glamour, sure, but also the grittier, more creative side—street art in the Arts District, taco trucks that serve better food than any five-star restaurant, and a music scene that always feels like it’s one step ahead of everywhere else. It’s a place where everyone seems to be chasing something, whether it’s a career in entertainment, a startup dream, or just the perfect beach day.\nBut LA isn’t just what you see in the movies. It’s got this weird mix of being both super laid-back and insanely competitive at the same time. People wear yoga pants everywhere and act like they don’t care, but also hustle harder than anyone. The neighborhoods feel like their own little worlds—Silver Lake is all about indie coffee shops and thrift stores, while Beverly Hills is just straight-up luxury. And then there’s Koreatown, where you can get the best late-night food, or Venice, where every other person is skating or filming something for TikTok. It’s a city that can feel overwhelming, but also kind of magical if you know where to look.\nWhat I love most about LA is how, despite its craziness, there’s always room to breathe. You can escape to Malibu or hike up to Griffith Observatory and get this insane view of the whole city stretching out forever. There’s something about that mix—city and nature, ambition and chill—that makes LA feel different from anywhere else. People either love it or hate it, but there’s no denying it has a vibe like no other."
+    "text": "Can you recreate this matrix but for Erewhon, the LA grocery store. they are strongest in brand and experiential.\nI used the two graphs below as examples of what the Kahn Retailing Matrix looks like and how to apply it to a company.\n \nHere is a recreation of the Kahn Retailing Success Matrix applied to Erewhon, emphasizing their strengths in Brand and Experiential:\n\n\n\n\n\n\n\n\n\n\n\nCustomer Experience\n\n\n\n\n\nExperiential  Curated ambiance, wellness lifestyle integration, premium sampling events, organic café spaces\n\n\nProduct Benefits\n\n\n\nBrand\nCult Brand Identity  LA status symbol, wellness authority, exclusive product curation\n\n\n\n\n\n\nLow Price\nNot a focus – premium pricing strategy\n\n\n\n\n\n\nFrictionless\nLimited investment here  Long checkout lines, complex online interface, boutique feel over convenience\n\n\n\n\n\n\n\nIf we plotted Erewhon in the same visual style as Amazon’s version: - Strong arrow pointing toward Brand (top-left) - Strong arrow toward Experiential (top-right) - Minimal/no arrow toward Low Price (bottom-left) - Light or no arrow toward Frictionless (bottom-right)\nWould you like me to generate an actual image of this matrix in the same visual format?"
   },
   {
-    "objectID": "posts/5 LA.html#los-angeles",
-    "href": "posts/5 LA.html#los-angeles",
-    "title": "Sose’s expertise: LA",
+    "objectID": "posts/17 erewhon/Untitled.html#st-follow-up",
+    "href": "posts/17 erewhon/Untitled.html#st-follow-up",
+    "title": "Can GPT build the Kahn Retailing Matrix?",
+    "section": "1st Follow up:",
+    "text": "1st Follow up:\nCan you make the matrix graph itself? this information looks good"
+  },
+  {
+    "objectID": "posts/17 erewhon/Untitled.html#nd-follow-up",
+    "href": "posts/17 erewhon/Untitled.html#nd-follow-up",
+    "title": "Can GPT build the Kahn Retailing Matrix?",
+    "section": "2nd Follow up:",
+    "text": "2nd Follow up:\ncan you make it prettier by using Times New Roman font, changing arrows to be longer towards brand and experiential, shorter to low price and frictionless. Also make sure all the words do not cut off and are spelled correctly."
+  },
+  {
+    "objectID": "posts/17 erewhon/Untitled.html#rd-follow-up",
+    "href": "posts/17 erewhon/Untitled.html#rd-follow-up",
+    "title": "Can GPT build the Kahn Retailing Matrix?",
+    "section": "3 3rd Follow up:",
+    "text": "3 3rd Follow up:\nNo. 1. Make the background white again. 2. Get rid of the “Broduct benefits” “customer preasure” and “elimiate pleasure” labels. 3. get rid of the 0.0 in the center. 4. make the arrows still go all 4 ways but shorter towards low price and frictionless."
+  },
+  {
+    "objectID": "posts/17 erewhon/Untitled.html#my-reflection",
+    "href": "posts/17 erewhon/Untitled.html#my-reflection",
+    "title": "Can GPT build the Kahn Retailing Matrix?",
+    "section": "My reflection:",
+    "text": "My reflection:\nAs I worked on this marketing presentation, I thought it would be interesting if Chat GPT would be able to take reference photos from our lecture slides and try to reconfigure them to fit Erewhon, which was the company we were doing our final keystone presentation on. After giving it 2 examples, I prompted it to then recreate the Kahn Retailling Matrix with details relevant to Erewhon. Here are what I identified as Strengths and Weaknesses.\nStrengths: - Super strong capture of Erewhon details and company background - Good wording for powerful impact and concision\nWeankesses: - Really poor spelling and grammar at some points, evidently not writtten by human - this is interesting given the fact that LLMs are so good at summarizing and writing text when not on a graph, so I’m curious why GPT finds it harder to use good writing style and convention here. - Inability to make edits directly - Even though I prompted GPT several times to do things like change font, change colors, the arrow sizes, add commas, etc., it is not very good at isolating these individual tasks and isntead fixes one problem while creating another.\nOverall, GPT provided a good starting point, but ultimately I had to make the graphs myself."
+  },
+  {
+    "objectID": "posts/19 language learning/Untitled.html",
+    "href": "posts/19 language learning/Untitled.html",
+    "title": "Linguistic curiosities - How well can GPT help me learn different languages?",
     "section": "",
-    "text": "LA is a city that’s hard to pin down—it’s massive, spread out, and full of contradictions. One minute you’re stuck in traffic on the 405, and the next you’re driving along the coast with the most unreal sunset in front of you. There’s the Hollywood glamour, sure, but also the grittier, more creative side—street art in the Arts District, taco trucks that serve better food than any five-star restaurant, and a music scene that always feels like it’s one step ahead of everywhere else. It’s a place where everyone seems to be chasing something, whether it’s a career in entertainment, a startup dream, or just the perfect beach day.\nBut LA isn’t just what you see in the movies. It’s got this weird mix of being both super laid-back and insanely competitive at the same time. People wear yoga pants everywhere and act like they don’t care, but also hustle harder than anyone. The neighborhoods feel like their own little worlds—Silver Lake is all about indie coffee shops and thrift stores, while Beverly Hills is just straight-up luxury. And then there’s Koreatown, where you can get the best late-night food, or Venice, where every other person is skating or filming something for TikTok. It’s a city that can feel overwhelming, but also kind of magical if you know where to look.\nWhat I love most about LA is how, despite its craziness, there’s always room to breathe. You can escape to Malibu or hike up to Griffith Observatory and get this insane view of the whole city stretching out forever. There’s something about that mix—city and nature, ambition and chill—that makes LA feel different from anywhere else. People either love it or hate it, but there’s no denying it has a vibe like no other."
-  },
-  {
-    "objectID": "posts/5 LA.html#reflection",
-    "href": "posts/5 LA.html#reflection",
-    "title": "Sose’s expertise: LA",
-    "section": "Reflection:",
-    "text": "Reflection:\nThis is after we did the in class activity about looking at different people’s expertise and comparing the ability of AI to match human experience. Here, I can definitely see how my rendition of LA through AI lacks the same human quality that Sose’s did from her memory of growing up there. However, I would be curious if I made it read certain blog posts or content and retry this activity, and see if it could improve its abilities."
+    "text": "My first Inquiry:\nPlease count to ten in many common languages!\n\n\nGPT’s response:\nHere’s how you count to ten in several of the world’s most widely spoken languages:\n\nRomance Languages:\n\nSpanish: uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez\nFrench: un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix\nItalian: uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci\nPortuguese: um, dois, três, quatro, cinco, seis, sete, oito, nove, dez\n\n\n\nGermanic Languages:\n\nEnglish: one, two, three, four, five, six, seven, eight, nine, ten\nGerman: eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn\nDutch: één, twee, drie, vier, vijf, zes, zeven, acht, negen, tien\n\n\n\nSlavic Languages:\n\nRussian: один (odin), два (dva), три (tri), четыре (chetyre), пять (pyat’), шесть (shest’), семь (sem’), восемь (vosem’), девять (devyat’), десять (desyat’)\nPolish: jeden, dwa, trzy, cztery, pięć, sześć, siedem, osiem, dziewięć, dziesięć\n\n\n\nSino-Tibetan Languages:\n\nMandarin Chinese (Pinyin): yī, èr, sān, sì, wǔ, liù, qī, bā, jiǔ, shí (一, 二, 三, 四, 五, 六, 七, 八, 九, 十)\nCantonese (Jyutping): jat1, ji6, saam1, sei3, ng5, luk6, cat1, baat3, gau2, sap6 (一, 二, 三, 四, 五, 六, 七, 八, 九, 十)\n\n\n\nIndic Languages:\n\nHindi: एक (ek), दो (do), तीन (tīn), चार (chār), पाँच (pāṅc), छह (chaḥ), सात (sāt), आठ (āṭh), नौ (nau), दस (das)\nBengali: এক (ek), দুই (dui), তিন (tin), চার (char), পাঁচ (pach), ছয় (chhoy), সাত (shat), আট (aṭ), নয় (nôy), দশ (dôsh)\n\n\n\nSemitic Languages:\n\nArabic: واحد (waḥid), اثنان (ithnān), ثلاثة (thalātha), أربعة (arbaʿa), خمسة (khamsa), ستة (sitta), سبعة (sabʿa), ثمانية (thamāniya), تسعة (tisʿa), عشرة (ʿashara)\nHebrew: אחד (echad), שניים (shnayim), שלושה (shalosh), ארבעה (arba’a), חמישה (chamisha), שישה (shisha), שבעה (shiv’a), שמונה (shmone), תשעה (tish’a), עשרה (asara)\n\nWould you like me to add Japanese, Korean, or other language families?\n\n\n\nMy second Inquiry:\nCan you give me the phoentic explanation for these?\nI wanted to better understand how exactly these words were pronounced, since the first response had written them out in their respective native languages.\n\n\nGPT’s second response:\nHere’s the phonetic pronunciation (approximate using English sounds) for each set of numbers. I’ll use simple phonetics rather than IPA unless you prefer it.\n\n\nRomance Languages\n\nSpanish\n\nuno (OO-no)\ndos (DOHS)\ntres (TREHS)\ncuatro (KWA-tro)\ncinco (SEEN-ko)\nseis (SAYS)\nsiete (SYEH-teh)\nocho (OH-cho)\nnueve (NWEH-veh)\ndiez (DYEHS)\n\nFrench\n\nun (uh[n]) – nasal ‘n’\ndeux (duh)\ntrois (trwah)\nquatre (KAT-ruh)\ncinq (sank) – nasal ‘n’\nsix (sees)\nsept (set)\nhuit (weet)\nneuf (nuhf)\ndix (dees)\n\nItalian\n\nuno (OO-no)\ndue (DOO-eh)\ntre (TREH)\nquattro (KWAH-tro)\ncinque (CHEEN-kweh)\nsei (SEY)\nsette (SET-teh)\notto (OHT-toh)\nnove (NO-veh)\ndieci (DYEH-chee)\n\n\n\n\n\nGermanic Languages\n\nGerman\n\neins (eyens)\nzwei (tsvye)\ndrei (dry)\nvier (feer)\nfünf (fuenf – like “foonf” with rounded lips)\nsechs (zeks)\nsieben (ZEE-ben)\nacht (akht – harsh “kh” like in “Bach”)\nneun (noyn)\nzehn (tsayn)\n\n\n\n\n\nSlavic Languages\n\nRussian\n\nodin (ah-DEEN)\ndva (dvah)\ntri (tree)\nchetyre (chee-TIH-reh)\npyat’ (pyaht’)\nshest’ (shest’)\nsem’ (syem’)\nvosem’ (VOH-syem’)\ndevyat’ (DYEH-vyat’)\ndesyat’ (dye-SYAT’)\n\n\n\n\n\nSino-Tibetan Languages\n\nMandarin (Pinyin)\n\nyī (ee)\nèr (ar, like pirate “ar” but shorter)\nsān (sahn)\nsì (suh, with falling tone)\nwǔ (woo, falling-rising tone)\nliù (lyoh)\nqī (chee)\nbā (bah)\njiǔ (jyo, almost like “joe” with a “y” sound)\nshí (shr)\n\n\n\n\n\nIndic Languages\n\nHindi\n\nek (ake)\ndo (doh)\ntīn (teen)\nchār (char)\npāṅc (paanch – “ch” as in “church”)\nchaḥ (chuh)\nsāt (saht)\nāṭh (aht – glottal stop at the end)\nnau (now)\ndas (duss)\n\n\n\n\n\nSemitic Languages\n\nArabic\n\nwaḥid (wah-head)\nithnān (ith-NAAN)\nthalātha (tha-LAA-tha)\narbaʿa (ar-BAH-ah)\nkhamsa (KHAM-sa, harsh “kh” like in “Bach”)\nsitta (SIT-ta)\nsabʿa (SAB-ah)\nthamāniya (tha-MAA-nee-ya)\ntisʿa (TIS-ah)\nʿashara (AH-sha-ra)\n\n\n\nDo you want me to add Japanese and Korean as well?\n\n\n\nMy curiosity:\nI wasn’t sure why GPT kept asking about adding Japanese and Korean. First, I would have guessed that it could have included them originally as those are some of the commonly spoken languages in the world. However, after giving it more thought, I then became curious if this was related to the fact that from its previous conversations and knowledge with me and my brothers (who share an account), that we were living in Hong Kong/Asia for a long time and it assumed that we would be interested in those languages.\nSo… I then asked GPT “Why would I want to learn about Japanese and Korean?” After it dodged the first time, I prodded it again. I asked “No, I want to know why you’re suggesting them to me?” This time it responded:\nThat’s fair—here’s the honest answer:\nWhen people ask for “many common languages,” I often include Japanese and Korean because they’re globally influential despite not having as many native speakers as, say, Spanish or Arabic. They show up frequently in media, culture, and international affairs.\nBut I also recognize from our past conversations that your focus leans more toward Western languages, Middle Eastern influence, and some exposure to Chinese due to your background. I shouldn’t have assumed they were relevant for you.\nWould you like me to add any languages more aligned with your interests—maybe Classical Arabic, Latin, or something else?\nSo I guess my guess was half correct, and somewhat there.\n\n\nMap time:\nEven though I wasn’t sure how to include this into the markdown file, GPT ended up creating an interactive map on HTML that showed the different languages and where they came from. Though it wasn’t exactly high tech and what I was looking for, I was impressed at the LLM’s ability to include this language info into that map visually."
   },
   {
     "objectID": "posts/10 Mollick.html",
@@ -385,192 +504,73 @@
     "text": "Reflection:\nThis was my second time using AI to tackle a logic-based challenge, but this time I shifted my focus to a numerical question instead of a purely logical one. Once again, I was amazed by the AI’s ability to uncover the underlying patterns in the problem and reach the same conclusion I did. Its quick ability for recognizing structure and efficiently following logical sequences was really clear, sparking my curiosity about how AI processes various types of information.\nWhat I find especially intriguing is the difference between AI’s strengths and weaknesses. While it excelled in this more complex, structured task, we’ve also observed it struggling with simpler problems, like counting the number of ’r’s in the word “strawberry” as we spoke about earlier this semester. This disparity raises interesting questions about how AI interprets information and where its limitations might be. It seems that AI thrives when it operates within a clearly defined framework, particularly when dealing with numerical or pattern-based reasoning. However, it tends to fail and struggle with tasks that require more flexible cognitive skills, such as interpretation, contextual understanding, or ambiguities in language."
   },
   {
-    "objectID": "posts/17 erewhon/Untitled.html",
-    "href": "posts/17 erewhon/Untitled.html",
-    "title": "Can GPT build the Kahn Retailing Matrix?",
+    "objectID": "posts/5 LA.html",
+    "href": "posts/5 LA.html",
+    "title": "Sose’s expertise: LA",
     "section": "",
-    "text": "Can you recreate this matrix but for Erewhon, the LA grocery store. they are strongest in brand and experiential.\nI used the two graphs below as examples of what the Kahn Retailing Matrix looks like and how to apply it to a company.\n \nHere is a recreation of the Kahn Retailing Success Matrix applied to Erewhon, emphasizing their strengths in Brand and Experiential:\n\n\n\n\n\n\n\n\n\n\n\nCustomer Experience\n\n\n\n\n\nExperiential  Curated ambiance, wellness lifestyle integration, premium sampling events, organic café spaces\n\n\nProduct Benefits\n\n\n\nBrand\nCult Brand Identity  LA status symbol, wellness authority, exclusive product curation\n\n\n\n\n\n\nLow Price\nNot a focus – premium pricing strategy\n\n\n\n\n\n\nFrictionless\nLimited investment here  Long checkout lines, complex online interface, boutique feel over convenience\n\n\n\n\n\n\n\nIf we plotted Erewhon in the same visual style as Amazon’s version: - Strong arrow pointing toward Brand (top-left) - Strong arrow toward Experiential (top-right) - Minimal/no arrow toward Low Price (bottom-left) - Light or no arrow toward Frictionless (bottom-right)\nWould you like me to generate an actual image of this matrix in the same visual format?"
+    "text": "LA is a city that’s hard to pin down—it’s massive, spread out, and full of contradictions. One minute you’re stuck in traffic on the 405, and the next you’re driving along the coast with the most unreal sunset in front of you. There’s the Hollywood glamour, sure, but also the grittier, more creative side—street art in the Arts District, taco trucks that serve better food than any five-star restaurant, and a music scene that always feels like it’s one step ahead of everywhere else. It’s a place where everyone seems to be chasing something, whether it’s a career in entertainment, a startup dream, or just the perfect beach day.\nBut LA isn’t just what you see in the movies. It’s got this weird mix of being both super laid-back and insanely competitive at the same time. People wear yoga pants everywhere and act like they don’t care, but also hustle harder than anyone. The neighborhoods feel like their own little worlds—Silver Lake is all about indie coffee shops and thrift stores, while Beverly Hills is just straight-up luxury. And then there’s Koreatown, where you can get the best late-night food, or Venice, where every other person is skating or filming something for TikTok. It’s a city that can feel overwhelming, but also kind of magical if you know where to look.\nWhat I love most about LA is how, despite its craziness, there’s always room to breathe. You can escape to Malibu or hike up to Griffith Observatory and get this insane view of the whole city stretching out forever. There’s something about that mix—city and nature, ambition and chill—that makes LA feel different from anywhere else. People either love it or hate it, but there’s no denying it has a vibe like no other."
   },
   {
-    "objectID": "posts/17 erewhon/Untitled.html#prompt",
-    "href": "posts/17 erewhon/Untitled.html#prompt",
-    "title": "Can GPT build the Kahn Retailing Matrix?",
+    "objectID": "posts/5 LA.html#los-angeles",
+    "href": "posts/5 LA.html#los-angeles",
+    "title": "Sose’s expertise: LA",
     "section": "",
-    "text": "Can you recreate this matrix but for Erewhon, the LA grocery store. they are strongest in brand and experiential.\nI used the two graphs below as examples of what the Kahn Retailing Matrix looks like and how to apply it to a company.\n \nHere is a recreation of the Kahn Retailing Success Matrix applied to Erewhon, emphasizing their strengths in Brand and Experiential:\n\n\n\n\n\n\n\n\n\n\n\nCustomer Experience\n\n\n\n\n\nExperiential  Curated ambiance, wellness lifestyle integration, premium sampling events, organic café spaces\n\n\nProduct Benefits\n\n\n\nBrand\nCult Brand Identity  LA status symbol, wellness authority, exclusive product curation\n\n\n\n\n\n\nLow Price\nNot a focus – premium pricing strategy\n\n\n\n\n\n\nFrictionless\nLimited investment here  Long checkout lines, complex online interface, boutique feel over convenience\n\n\n\n\n\n\n\nIf we plotted Erewhon in the same visual style as Amazon’s version: - Strong arrow pointing toward Brand (top-left) - Strong arrow toward Experiential (top-right) - Minimal/no arrow toward Low Price (bottom-left) - Light or no arrow toward Frictionless (bottom-right)\nWould you like me to generate an actual image of this matrix in the same visual format?"
+    "text": "LA is a city that’s hard to pin down—it’s massive, spread out, and full of contradictions. One minute you’re stuck in traffic on the 405, and the next you’re driving along the coast with the most unreal sunset in front of you. There’s the Hollywood glamour, sure, but also the grittier, more creative side—street art in the Arts District, taco trucks that serve better food than any five-star restaurant, and a music scene that always feels like it’s one step ahead of everywhere else. It’s a place where everyone seems to be chasing something, whether it’s a career in entertainment, a startup dream, or just the perfect beach day.\nBut LA isn’t just what you see in the movies. It’s got this weird mix of being both super laid-back and insanely competitive at the same time. People wear yoga pants everywhere and act like they don’t care, but also hustle harder than anyone. The neighborhoods feel like their own little worlds—Silver Lake is all about indie coffee shops and thrift stores, while Beverly Hills is just straight-up luxury. And then there’s Koreatown, where you can get the best late-night food, or Venice, where every other person is skating or filming something for TikTok. It’s a city that can feel overwhelming, but also kind of magical if you know where to look.\nWhat I love most about LA is how, despite its craziness, there’s always room to breathe. You can escape to Malibu or hike up to Griffith Observatory and get this insane view of the whole city stretching out forever. There’s something about that mix—city and nature, ambition and chill—that makes LA feel different from anywhere else. People either love it or hate it, but there’s no denying it has a vibe like no other."
   },
   {
-    "objectID": "posts/17 erewhon/Untitled.html#st-follow-up",
-    "href": "posts/17 erewhon/Untitled.html#st-follow-up",
-    "title": "Can GPT build the Kahn Retailing Matrix?",
-    "section": "1st Follow up:",
-    "text": "1st Follow up:\nCan you make the matrix graph itself? this information looks good"
+    "objectID": "posts/5 LA.html#reflection",
+    "href": "posts/5 LA.html#reflection",
+    "title": "Sose’s expertise: LA",
+    "section": "Reflection:",
+    "text": "Reflection:\nThis is after we did the in class activity about looking at different people’s expertise and comparing the ability of AI to match human experience. Here, I can definitely see how my rendition of LA through AI lacks the same human quality that Sose’s did from her memory of growing up there. However, I would be curious if I made it read certain blog posts or content and retry this activity, and see if it could improve its abilities."
   },
   {
-    "objectID": "posts/17 erewhon/Untitled.html#nd-follow-up",
-    "href": "posts/17 erewhon/Untitled.html#nd-follow-up",
-    "title": "Can GPT build the Kahn Retailing Matrix?",
-    "section": "2nd Follow up:",
-    "text": "2nd Follow up:\ncan you make it prettier by using Times New Roman font, changing arrows to be longer towards brand and experiential, shorter to low price and frictionless. Also make sure all the words do not cut off and are spelled correctly."
-  },
-  {
-    "objectID": "posts/17 erewhon/Untitled.html#rd-follow-up",
-    "href": "posts/17 erewhon/Untitled.html#rd-follow-up",
-    "title": "Can GPT build the Kahn Retailing Matrix?",
-    "section": "3 3rd Follow up:",
-    "text": "3 3rd Follow up:\nNo. 1. Make the background white again. 2. Get rid of the “Broduct benefits” “customer preasure” and “elimiate pleasure” labels. 3. get rid of the 0.0 in the center. 4. make the arrows still go all 4 ways but shorter towards low price and frictionless."
-  },
-  {
-    "objectID": "posts/17 erewhon/Untitled.html#my-reflection",
-    "href": "posts/17 erewhon/Untitled.html#my-reflection",
-    "title": "Can GPT build the Kahn Retailing Matrix?",
-    "section": "My reflection:",
-    "text": "My reflection:\nAs I worked on this marketing presentation, I thought it would be interesting if Chat GPT would be able to take reference photos from our lecture slides and try to reconfigure them to fit Erewhon, which was the company we were doing our final keystone presentation on. After giving it 2 examples, I prompted it to then recreate the Kahn Retailling Matrix with details relevant to Erewhon. Here are what I identified as Strengths and Weaknesses.\nStrengths: - Super strong capture of Erewhon details and company background - Good wording for powerful impact and concision\nWeankesses: - Really poor spelling and grammar at some points, evidently not writtten by human - this is interesting given the fact that LLMs are so good at summarizing and writing text when not on a graph, so I’m curious why GPT finds it harder to use good writing style and convention here. - Inability to make edits directly - Even though I prompted GPT several times to do things like change font, change colors, the arrow sizes, add commas, etc., it is not very good at isolating these individual tasks and isntead fixes one problem while creating another.\nOverall, GPT provided a good starting point, but ultimately I had to make the graphs myself."
-  },
-  {
-    "objectID": "posts/13 brave new world/Untitled.html",
-    "href": "posts/13 brave new world/Untitled.html",
-    "title": "Creating a new book cover for Brave New World",
+    "objectID": "posts/2 logic problem/index.html",
+    "href": "posts/2 logic problem/index.html",
+    "title": "Interesting word logic problem",
     "section": "",
-    "text": "Remake the book cover for the book Brave New World by Aldous Huxley."
+    "text": "When we first started playing around with LLMs and seeing if they could properly communicate with humans one of my initial instincts was to see if they could think like humans. Ever since I was a child, something I really enjoyed doing was solving logic puzzles - like those you always found on Youtube made by TED or some other channel. So, I wanted to take this topic one step further and see if AI would be able to create a problem itself and then solve it.\nThus, what I did was ask GPT to create a logic problem for me, inspired by problems where you are given information that can be both true or false, and have to deduce the final answer. After creating the problem, I then fed it into a new window in GPT and tried to see if it could be solved.\nObviously, I also enjoyed myself and had fun solving it as well."
   },
   {
-    "objectID": "posts/13 brave new world/Untitled.html#initial-prompt",
-    "href": "posts/13 brave new world/Untitled.html#initial-prompt",
-    "title": "Creating a new book cover for Brave New World",
+    "objectID": "posts/2 logic problem/index.html#my-thoughts",
+    "href": "posts/2 logic problem/index.html#my-thoughts",
+    "title": "Interesting word logic problem",
+    "section": "My thoughts:",
+    "text": "My thoughts:\nI found this super interesting after trying to make this logic problem out of boredom - and attempting to capture how AI can think through a reasoning problem that humans typically attack in a non-linear fashion. While both different GPT models ended up getting the right result, I was fasicinated by the different methods that the two models used, that were logical but did not at all follow the same framework.\nIn the future, I really want to experiment more with how to use AI to attack these sorts of reasoning problems that may not have a clear direct answer, and think about the actual thinking process of the AI LLM behind it."
+  },
+  {
+    "objectID": "posts/12 taxes.html",
+    "href": "posts/12 taxes.html",
+    "title": "Using GPT to Compare NYC and LA tax structures",
     "section": "",
-    "text": "Remake the book cover for the book Brave New World by Aldous Huxley."
+    "text": "As people do on a Thursday evening, I ended up in a conversation with my friend about how living in different cities post grad would affect our income tax structures and the way we should think about these differences going forward.\nThus, instead of doing the reasonable thing and going on state websites to find the facts straight from the source, we used GPT to try to understand the differences between NYC and LA. Here is what we found:"
   },
   {
-    "objectID": "posts/13 brave new world/Untitled.html#follow-up",
-    "href": "posts/13 brave new world/Untitled.html#follow-up",
-    "title": "Creating a new book cover for Brave New World",
-    "section": "Follow up:",
-    "text": "Follow up:\nThis has no elements that are relevant to the actual content of the book. Please remake it with more specific elements that are drawn from the plot."
-  },
-  {
-    "objectID": "posts/13 brave new world/Untitled.html#gpt-response",
-    "href": "posts/13 brave new world/Untitled.html#gpt-response",
-    "title": "Creating a new book cover for Brave New World",
+    "objectID": "posts/12 taxes.html#gpt-response",
+    "href": "posts/12 taxes.html#gpt-response",
+    "title": "Using GPT to Compare NYC and LA tax structures",
     "section": "GPT response:",
-    "text": "GPT response:\n“I couldn’t generate a new book cover for Brave New World that includes specific elements from the plot because the request violates our content policies.\nIf you’d like, I can still help you design a cover inspired by the book’s broader themes—like technological control, consumerism, or dystopian conformity—without depicting sensitive or restricted content. Just let me know how you’d like to proceed or share a new idea!”\nThis was interesting, because in my prompt I had not explicitly mentioned anything specific from the book that I wanted to include, but GPT automatically jumped to saying that there would be specific elements from the book that would violate content policies. What I assume this is referring to is probably violent/mature content, I would have assumed that GPT had the option to ignore those specific plot elements but still then make a book cover that was more relevant to the book."
+    "text": "GPT response:\nNew York City (NYC) and Los Angeles (LA) have different tax structures due to state and local tax policies. Here’s a comparison:\n\nState Income Tax\n\nNew York State: Progressive tax rates from 4% to 10.9%.\n\nCalifornia: Progressive tax rates from 1% to 13.3% (highest in the U.S.).\n\n\n\nCity Income Tax\n\nNYC: Has its own city income tax, ranging from 3.078% to 3.876% on top of state tax.\n\nLA: No city income tax.\n\n\n\nEffective Tax Burden (State + City)\n\nNYC Residents: Pay both state and city taxes, making their top combined rate up to 14.776%.\n\nLA Residents: Pay only state tax, with a top rate of 13.3%.\n\n\n\nOther Considerations\n\nSales Tax:\n\nNYC: 8.875% (state + local)\n\nLA: 9.5%\n\n\nCost of Living: Both cities are expensive, but NYC has higher rent, while LA has higher transportation costs.\n\nDeductions: California has more favorable tax deductions in some areas, like capital gains.\n\n\n\nOverall\nIf you’re a high earner, NYC generally has a slightly higher tax burden due to its city tax. If you’re middle-income, the difference is smaller, but California’s progressive system can result in a higher rate at the top brackets."
   },
   {
-    "objectID": "posts/13 brave new world/Untitled.html#trying-again",
-    "href": "posts/13 brave new world/Untitled.html#trying-again",
-    "title": "Creating a new book cover for Brave New World",
-    "section": "Trying again:",
-    "text": "Trying again:\nRemake the book cover for the book Brave New World by Aldous Huxley that draws on the dystopian themes of the plot"
-  },
-  {
-    "objectID": "posts/13 brave new world/Untitled.html#final-thoughts",
-    "href": "posts/13 brave new world/Untitled.html#final-thoughts",
-    "title": "Creating a new book cover for Brave New World",
-    "section": "Final thoughts:",
-    "text": "Final thoughts:\nHere, I found that using a more specific prompt was very much more helpful for creating an output that was also more targeted and relevant. I think the wording of “dystopian themes” was the most important part of the prompt, as the final book cover result definitely looks dystopian and mimics the type of mindless and stark world that Huxley created in Brave New World."
-  },
-  {
-    "objectID": "posts/11 PROFILE/11 making Profile.html",
-    "href": "posts/11 PROFILE/11 making Profile.html",
-    "title": "Making a Cartoon profile photo",
+    "objectID": "posts/1 000_test_post/index.html",
+    "href": "posts/1 000_test_post/index.html",
+    "title": "A test post",
     "section": "",
-    "text": "As I was going to edit my blog About page, I wanted to put a photo of myself, but nothing really overly professional or official. So, I decided to try and play with GPT 4o Image generation to see if it could make a profile photo for me that would have enough resemblance as a cartoon character but not be just an actual photo of me."
+    "text": "Read the following and see if you can answer the question:\n\n\nThere are three boxes in a stack. A pink one, a purple one and a green one. The pink one is in the middle of the stack with the purple below it. What is the color of the box on the bottom of the stack?\n\nMost likely you answered purple…\nBut it is possible you first said green (don’t worry if you did it is quite a common response!)\n\n\nIt’s a verbal visual problem that requires some deliberation and most likely for us to create a visual image of a stack of boxes as a reasoning aid.\nNotice also the complexity of the language used in the prompt to describe the scene. The use of natural language as opposed to a formal/logical calculus does hold the potential for ambiguity (multiple interpretations) and inexactness. However, it is the most normal/natural, efficient and broadly accessible way of communicating such information.\nNotice 1. The use of anaphor or reference. - Three BOXES -&gt; a pink/purple/green ONE as opposed to a pink box, a purple box and a green box. - The PINK ONE is in the middle ... the purple {BOX} below IT {the pink box}\nWe tend to try and avoid this kind of repetition to make our speech more coherent.\n\nAlthough the description in language may not be entirely concise, there is no real ambiguity as to how the boxes can be arranged. It must be: | Box | Stack position | | — | — | | GREEN | top | | PINK | middle | | PURPLE | bottom |\n\n\n\n\nGPT3.5 Turbo\n\nHad some difficulties and answered green\nLlama2 (chat 7B version)\n\n\nAnswered correctly (purple) and used some so-called chain-of-thought reasoning\n\nBing Chat (MS Co-pilot)\nThis LLM is GPT4 with some Microsoft specific tuning and RAG (search) additions.\nIt get’s it correct:\n\nThe color of the box on the bottom of the stack is purple. This is because the purple box is below the pink one, which is in the middle of the stack. Therefore, the purple box must be the lowest one. 🟪\n\nBut when you follow up and ask it to create visual representation of the box arrangement\n\nPROMPT: Can you create a visual representation of how the boxes are arranged?\n\nIt responds\n\nRESPONSE: Sure, I’ll try to create that. Here is a visual representation of how the boxes are arranged:\n\nAnd uses DALL-E3 to create 4 different attempts at a visual representation:\n\nNONE OF WHICH ARE CORRECT!!!"
   },
   {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#headshot-as-a-reference-photo",
-    "href": "posts/11 PROFILE/11 making Profile.html#headshot-as-a-reference-photo",
-    "title": "Making a Cartoon profile photo",
-    "section": "Headshot as a Reference photo:",
-    "text": "Headshot as a Reference photo:\n\nUsing the headshot above, I then prompted GPT to “Please make me a cartoon character using the reference photo.”"
-  },
-  {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#st-attempt",
-    "href": "posts/11 PROFILE/11 making Profile.html#st-attempt",
-    "title": "Making a Cartoon profile photo",
-    "section": "1st Attempt:",
-    "text": "1st Attempt:\n\nAfter the first attempt, I wanted to see if I could make some tweaks. I asked GPT to “Remove the freckles and make her slightly blushed, and make the sweater green.”"
-  },
-  {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#nd-attempt",
-    "href": "posts/11 PROFILE/11 making Profile.html#nd-attempt",
-    "title": "Making a Cartoon profile photo",
-    "section": "2nd Attempt:",
-    "text": "2nd Attempt:\n\nThis seemed like all the tweaks were made. However, I did not think that the character looked like me enough, so I asked GPT if it could “Make the character look more like the girl in the reference photo.”"
-  },
-  {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#pushing-too-far",
-    "href": "posts/11 PROFILE/11 making Profile.html#pushing-too-far",
-    "title": "Making a Cartoon profile photo",
-    "section": "Pushing too far:",
-    "text": "Pushing too far:\nI unfortunately got this response:\n“I couldn’t generate the updated cartoon image just now because there’s a short cooldown period due to rate limits — it’ll be about 9 minutes before I can create another one for you.\nIn the meantime, if you have any specific tweaks in mind (like adjusting hairstyle, facial features, outfit details, or background), feel free to let me know so I can get it just right when the cooldown is over!”"
-  },
-  {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#conclusion",
-    "href": "posts/11 PROFILE/11 making Profile.html#conclusion",
-    "title": "Making a Cartoon profile photo",
-    "section": "Conclusion:",
-    "text": "Conclusion:"
-  },
-  {
-    "objectID": "posts/14 schedule advice/Untitled.html",
-    "href": "posts/14 schedule advice/Untitled.html",
-    "title": "Fall 2025 Schedule course registration advice",
+    "objectID": "posts/1 000_test_post/index.html#a-visualization-problem-for-llms",
+    "href": "posts/1 000_test_post/index.html#a-visualization-problem-for-llms",
+    "title": "A test post",
     "section": "",
-    "text": "As advance registration wraps up this weekend, I’ve spent a lot of time slightly obsessing over what classes to take this Fall 2025. Because of my dual degree, as well as trying to get a Data science minor, I’ve ended up having to take a lot of class.\nRight now, I’m slated to take 6.5 course units this fall, which while seems overwhelming, should hopefully be manageable.\nHowever, I was curious about what Chat GPT would say about the courses, even though I know it lacks a lot of the Penn-specific context."
-  },
-  {
-    "objectID": "posts/14 schedule advice/Untitled.html#what-were-dealing-with",
-    "href": "posts/14 schedule advice/Untitled.html#what-were-dealing-with",
-    "title": "Fall 2025 Schedule course registration advice",
-    "section": "",
-    "text": "As advance registration wraps up this weekend, I’ve spent a lot of time slightly obsessing over what classes to take this Fall 2025. Because of my dual degree, as well as trying to get a Data science minor, I’ve ended up having to take a lot of class.\nRight now, I’m slated to take 6.5 course units this fall, which while seems overwhelming, should hopefully be manageable.\nHowever, I was curious about what Chat GPT would say about the courses, even though I know it lacks a lot of the Penn-specific context."
-  },
-  {
-    "objectID": "posts/14 schedule advice/Untitled.html#gpts-response",
-    "href": "posts/14 schedule advice/Untitled.html#gpts-response",
-    "title": "Fall 2025 Schedule course registration advice",
-    "section": "GPT’s response:",
-    "text": "GPT’s response:\nThanks for sharing your cart! Here’s a breakdown of your Fall 2025 class schedule and some advice on balance, workload, and logistics."
-  },
-  {
-    "objectID": "posts/14 schedule advice/Untitled.html#courses-youve-selected",
-    "href": "posts/14 schedule advice/Untitled.html#courses-youve-selected",
-    "title": "Fall 2025 Schedule course registration advice",
-    "section": "✅ Courses You’ve Selected:",
-    "text": "✅ Courses You’ve Selected:\n\n\n\n\n\n\n\n\nCourse\nTitle\nDays & Time\n\n\n\n\nACCT 1020\nStrategic Cost Analysis\nTR 3:30–4:59 PM\n\n\nFNCE 2030\nAdvanced Corporate Finance\nMW 1:45–3:14 PM\n\n\nFREN 1226\nFrench History and Culture to Modern Day\nMW 10:15–11:44 AM\n\n\nHIST 1190\nAmerican Diplomatic History Since 1898\nTR 10:15–11:44 AM\n\n\nLING 0700\nData Science for Studying Language\nTR 12–1:29 PM & R 5:15–6:14 PM\n\n\nMGMT 1110\nMultinational Management\nTR 1:45–3:14 PM\n\n\nMGMT 3010\nTeamwork and Interpersonal Influence\nMW 3:30–4:59 PM"
-  },
-  {
-    "objectID": "posts/14 schedule advice/Untitled.html#whats-good",
-    "href": "posts/14 schedule advice/Untitled.html#whats-good",
-    "title": "Fall 2025 Schedule course registration advice",
-    "section": "🔍 What’s Good",
-    "text": "🔍 What’s Good\n\nNo early mornings: All classes start after 10 AM, which gives breathing room.\nEven distribution: Your classes are pretty evenly spaced between M/W and T/R.\nCourse variety: Mix of finance, management, language, and humanities – a well-rounded semester."
-  },
-  {
-    "objectID": "posts/14 schedule advice/Untitled.html#things-to-consider",
-    "href": "posts/14 schedule advice/Untitled.html#things-to-consider",
-    "title": "Fall 2025 Schedule course registration advice",
-    "section": "🧠 Things to Consider",
-    "text": "🧠 Things to Consider\n\n1. 🔄 Class Overlaps\nYou have a time conflict: - MGMT 1110 (TR 1:45–3:14 PM) and FNCE 2030 (MW 1:45–3:14 PM) are fine individually,\nbut on Tues/Thurs, LING 0700 (12–1:29 PM) runs right up to MGMT 1110. Tight transition — be mindful.\nMore importantly: - TR afternoons are packed: HIST 1190 → LING 0700 → MGMT 1110 → ACCT 1020 = 4.5 hours straight. That’s intense.\n\n\n\n2. 💻 LING 0700 Evening Section\n\nThe Thursday night discussion/lab (5:15–6:14 PM) may feel long after your already-packed TR days.\nDo you need both the lecture and recitation? Consider dropping section 406 unless required.\n\n\n\n\n3. ⚖️ Workload & Cognitive Load\n\nFNCE 2030 and ACCT 1020 are both quantitative and conceptually heavy.\nMGMT 3010 is project-based and time-intensive (teamwork simulations).\nCombined with a language-intensive FREN 1226 and writing-heavy HIST 1190, this is a challenging schedule.\n\n\n\n4. 🧘‍♀️ Wellness Tip\nYou don’t have any days fully free — consider if you want one lighter day (maybe drop one class or spread across the week differently)."
-  },
-  {
-    "objectID": "posts/14 schedule advice/Untitled.html#suggestions",
-    "href": "posts/14 schedule advice/Untitled.html#suggestions",
-    "title": "Fall 2025 Schedule course registration advice",
-    "section": "🧾 Suggestions",
-    "text": "🧾 Suggestions\n\n✅ If you’re confident in your time management, this schedule works — you’re touching all bases: quant, writing, discussion, and teamwork.\n🛠 Trim or shift one class if you want better pacing — perhaps drop HIST 1190 (if not needed for requirements), or ask if LING 0700 recitation is optional.\n🧩 Be ready for group projects in MGMT and potentially FREN — those can stack up in the second half of semester.\n\n\nWant help checking requirements, alternate sections, or evaluating profs? Happy to dig deeper!"
-  },
-  {
-    "objectID": "posts/14 schedule advice/Untitled.html#thoughts",
-    "href": "posts/14 schedule advice/Untitled.html#thoughts",
-    "title": "Fall 2025 Schedule course registration advice",
-    "section": "Thoughts:",
-    "text": "Thoughts:\nUnfortunately, I feel like GPT was not able to offer any additional insights to what I had initially thought about. This is probably because it lacks the knowledge that is intangible and created by being a student at Penn, so I think that this is a good example of a way that AI LLMs lack the same type of human experience that will allow it to be most helpful. This reminds me of when we talked about areas of expertise earlier this semester in class, when Sose and I were thinking about comparing LA and HK from our experience vs. through LLM. Except in this case, GPT was just unable to think about the context and nuances behind the task."
+    "text": "Read the following and see if you can answer the question:\n\n\nThere are three boxes in a stack. A pink one, a purple one and a green one. The pink one is in the middle of the stack with the purple below it. What is the color of the box on the bottom of the stack?\n\nMost likely you answered purple…\nBut it is possible you first said green (don’t worry if you did it is quite a common response!)\n\n\nIt’s a verbal visual problem that requires some deliberation and most likely for us to create a visual image of a stack of boxes as a reasoning aid.\nNotice also the complexity of the language used in the prompt to describe the scene. The use of natural language as opposed to a formal/logical calculus does hold the potential for ambiguity (multiple interpretations) and inexactness. However, it is the most normal/natural, efficient and broadly accessible way of communicating such information.\nNotice 1. The use of anaphor or reference. - Three BOXES -&gt; a pink/purple/green ONE as opposed to a pink box, a purple box and a green box. - The PINK ONE is in the middle ... the purple {BOX} below IT {the pink box}\nWe tend to try and avoid this kind of repetition to make our speech more coherent.\n\nAlthough the description in language may not be entirely concise, there is no real ambiguity as to how the boxes can be arranged. It must be: | Box | Stack position | | — | — | | GREEN | top | | PINK | middle | | PURPLE | bottom |\n\n\n\n\nGPT3.5 Turbo\n\nHad some difficulties and answered green\nLlama2 (chat 7B version)\n\n\nAnswered correctly (purple) and used some so-called chain-of-thought reasoning\n\nBing Chat (MS Co-pilot)\nThis LLM is GPT4 with some Microsoft specific tuning and RAG (search) additions.\nIt get’s it correct:\n\nThe color of the box on the bottom of the stack is purple. This is because the purple box is below the pink one, which is in the middle of the stack. Therefore, the purple box must be the lowest one. 🟪\n\nBut when you follow up and ask it to create visual representation of the box arrangement\n\nPROMPT: Can you create a visual representation of how the boxes are arranged?\n\nIt responds\n\nRESPONSE: Sure, I’ll try to create that. Here is a visual representation of how the boxes are arranged:\n\nAnd uses DALL-E3 to create 4 different attempts at a visual representation:\n\nNONE OF WHICH ARE CORRECT!!!"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "My Explorations with LLMs",
     "section": "",
-    "text": "Can GPT build IS-LM models for a Finance project?\n\n\n\nLLMs\n\nfinance\n\nchart making\n\n\n\nTrying to use GPT to turn sketches of graphs into reality\n\n\n\n\n\nApr 12, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nCan GPT build the Kahn Retailing Matrix?\n\n\n\nLLMs\n\nmarketing\n\nchart making\n\n\n\nSome LLM application for my MKTG 1010 final presentation\n\n\n\n\n\nApr 7, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a new book cover for Brave New World\n\n\n\nLLMs\n\nimage generation\n\nprompting\n\n\n\nTrying out different types of styles and prompting\n\n\n\n\n\nApr 6, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nFall 2025 Schedule course registration advice\n\n\n\nLLMs\n\nadvice\n\nhelp!\n\n\n\nTrying to ask GPT for advice… How helpful is it really?\n\n\n\n\n\nApr 6, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nExplaining Correlation does not equal Causation: 5 levels\n\n\n\nLLMs\n\nteaching\n\nprompting\n\n\n\nCan AI adapt its tone and language to fit different levels?\n\n\n\n\n\nApr 4, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nMaking a Cartoon profile photo\n\n\n\nLLMs\n\nImage generation\n\nprompting\n\n\n\nTesting GPT 4o image generation\n\n\n\n\n\nMar 31, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT to Compare NYC and LA tax structures\n\n\n\nLLMs\n\ntaxes\n\nprompting\n\n\n\nCurious but too lazy to Google\n\n\n\n\n\nMar 14, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT Mollick Prompt for tutoring\n\n\n\nLLMs\n\nFrench\n\nprompting\n\n\n\nTesting Mollick prompt in class, applying to French conjugations\n\n\n\n\n\nMar 5, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nChat GPT for Excel\n\n\n\nLLMs\n\naccounting\n\nExcel\n\n\n\nArranging my personal expense of January and February with AI\n\n\n\n\n\nMar 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nSixers graphic\n\n\n\nLLMs\n\nimage creation\n\nsports\n\n\n\nInspired by in class activity of Public Health PSA and going to a Sixers game last week\n\n\n\n\n\nMar 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT for French\n\n\n\nLLMs\n\nFrench\n\nlanguage learning\n\n\n\nReflecting on my tutoring session last weekend\n\n\n\n\n\nFeb 22, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nTravel reccomendations\n\n\n\nLLMs\n\ntravelling\n\n\n\nBrainstorming with AI\n\n\n\n\n\nFeb 22, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nSose’s expertise: LA\n\n\n\nLLMs\n\nin class\n\n\n\nNot best city\n\n\n\n\n\nFeb 12, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nGame theory problem\n\n\n\nLLMs\n\ngame theory\n\nlogic\n\n\n\nRolling dice\n\n\n\n\n\nFeb 7, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nNew use case: math problem\n\n\n\nLLMs\n\nprompting\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nInteresting word logic problem\n\n\n\nLLMs\n\nword problem\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\nLLMs\n\nprompting\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 1, 2024\n\n\nAn LLM User\n\n\n\n\n\nNo matching items"
+    "text": "Linguistic curiosities - How well can GPT help me learn different languages?\n\n\n\nLLMs\n\nlanguage\n\nlearning!\n\n\n\nGrowing up across the world, I was always curious about languages. I speak English, Chinese, and French myself, and am always open to learning more!\n\n\n\n\n\nMay 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nCan GPT build IS-LM models for a Finance project?\n\n\n\nLLMs\n\nfinance\n\nchart making\n\n\n\nTrying to use GPT to turn sketches of graphs into reality\n\n\n\n\n\nApr 12, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nCan GPT build the Kahn Retailing Matrix?\n\n\n\nLLMs\n\nmarketing\n\nchart making\n\n\n\nSome LLM application for my MKTG 1010 final presentation\n\n\n\n\n\nApr 7, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a new book cover for Brave New World\n\n\n\nLLMs\n\nimage generation\n\nprompting\n\n\n\nTrying out different types of styles and prompting\n\n\n\n\n\nApr 6, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nFall 2025 Schedule course registration advice\n\n\n\nLLMs\n\nadvice\n\nhelp!\n\n\n\nTrying to ask GPT for advice… How helpful is it really?\n\n\n\n\n\nApr 6, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nExplaining Correlation does not equal Causation: 5 levels\n\n\n\nLLMs\n\nteaching\n\nprompting\n\n\n\nCan AI adapt its tone and language to fit different levels?\n\n\n\n\n\nApr 4, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nMaking a Cartoon profile photo\n\n\n\nLLMs\n\nImage generation\n\nprompting\n\n\n\nTesting GPT 4o image generation\n\n\n\n\n\nMar 31, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT to Compare NYC and LA tax structures\n\n\n\nLLMs\n\ntaxes\n\nprompting\n\n\n\nCurious but too lazy to Google\n\n\n\n\n\nMar 14, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT Mollick Prompt for tutoring\n\n\n\nLLMs\n\nFrench\n\nprompting\n\n\n\nTesting Mollick prompt in class, applying to French conjugations\n\n\n\n\n\nMar 5, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nChat GPT for Excel\n\n\n\nLLMs\n\naccounting\n\nExcel\n\n\n\nArranging my personal expense of January and February with AI\n\n\n\n\n\nMar 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nSixers graphic\n\n\n\nLLMs\n\nimage creation\n\nsports\n\n\n\nInspired by in class activity of Public Health PSA and going to a Sixers game last week\n\n\n\n\n\nMar 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT for French\n\n\n\nLLMs\n\nFrench\n\nlanguage learning\n\n\n\nReflecting on my tutoring session last weekend\n\n\n\n\n\nFeb 22, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nTravel reccomendations\n\n\n\nLLMs\n\ntravelling\n\n\n\nBrainstorming with AI\n\n\n\n\n\nFeb 22, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nSose’s expertise: LA\n\n\n\nLLMs\n\nin class\n\n\n\nNot best city\n\n\n\n\n\nFeb 12, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nGame theory problem\n\n\n\nLLMs\n\ngame theory\n\nlogic\n\n\n\nRolling dice\n\n\n\n\n\nFeb 7, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nNew use case: math problem\n\n\n\nLLMs\n\nprompting\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nInteresting word logic problem\n\n\n\nLLMs\n\nword problem\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\nLLMs\n\nprompting\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 1, 2024\n\n\nAn LLM User\n\n\n\n\n\nNo matching items"
   }
 ]
