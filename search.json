@@ -84,60 +84,39 @@
     "text": "Original, lengthy prompt:\nI’m doing a project for my macroeconomics class about the Argentine Great Depression (1998-2001) and I need you to help me in research, application to the class, and structuring/creating the content for my presentation.\nTo start, I want you to just give a few paragraphs summary on what happened in this Argentine Great Depression, and what the results were. Give it to me in simple, concise, yet accurate sentences for me to best understand the event quickly.\nAfter that, I want you to utilize the deep research to meet the presentation requirements: “Background: 1-2 slides which provide an overview of the country’s economy and relevant historical background. • The overview of the economy can include a description of the large sectors (in terms of value added) in the economy, a comparison of GDP per capita to neighboring countries at the time, the demographics of the country (if relevant), etc. 2) Overview of the crisis: 1-2 slides that describes the events leading to the crisis, how the crisis unfolded, and the ensuing recovery. 3) Analysis: 2-4 slides in which you analyze the economic crisis using the tools learned in class (primarily the IS-LM model). You need to decide how the shock should be modeled in the framework, and interpret the unfolding of the crisis and its recovery using the model. In doing so, you should present data on the behavior of key economic variables, such as real GDP, unemployment, investment, consumption, exports, imports, and the exchange rate.” For each of these three components, I want in depth explanations and fitting content so that I can make a presentation with your response. I also want to emphasize the imporance of the third component. I need to very simply yet accurately apply the IS-LM model to the event. Let me know if you have any questions about what class materials you should be refrencing for this section. For economic data, utilize World bank: https://data.worldbank.org/ 2. International monetary fund: https://data.imf.org/ 3. OECD: https://data.oecd.org/\n\n\nGPT’s follow up questions:\nGot it! To create the best possible presentation and analysis, could you please clarify a couple of things:\nDo you already have a specific country or countries in mind for GDP per capita comparisons in the background section, or should I choose neighboring ones like Brazil, Chile, and Uruguay?\nDo you have any class notes or slides on the IS-LM model that describe what assumptions or simplifications your professor prefers (e.g., fixed vs. flexible exchange rates, openness to trade, capital mobility)? That way I can make sure to tailor the IS-LM analysis to your course.\nWould you prefer charts and tables included in the response that you can directly insert into your slides, or mostly written explanations that you can then convert into slides?\nOnce I have these details, I’ll dive into the full research and presentation structure for you!\n\n\nMy team"
   },
   {
-    "objectID": "posts/21 X/Untitled.html",
-    "href": "posts/21 X/Untitled.html",
-    "title": "An AI stock picker: Can a LLM help me make good investments?",
+    "objectID": "posts/2 logic problem/index.html",
+    "href": "posts/2 logic problem/index.html",
+    "title": "Creating an interesting word logic problem: Can AI solve it properly?",
     "section": "",
-    "text": "You are my stock picker. Read about the tariffs and pick 10 stocks I should look deeper into."
+    "text": "When we first started playing around with LLMs and seeing if they could properly communicate with humans one of my initial instincts was to see if they could think like humans. Ever since I was a child, something I really enjoyed doing was solving logic puzzles - like those you always found on Youtube made by TED or some other channel. So, I wanted to take this topic one step further and see if AI would be able to create a problem itself and then solve it.\nThus, what I did was ask GPT to create a logic problem for me, inspired by problems where you are given information that can be both true or false, and have to deduce the final answer. After creating the problem, I then fed it into a new window in GPT and tried to see if it could be solved.\nObviously, I also enjoyed myself and had fun solving it as well."
   },
   {
-    "objectID": "posts/21 X/Untitled.html#stock-market-information-for-carvana-co.-cvna",
-    "href": "posts/21 X/Untitled.html#stock-market-information-for-carvana-co.-cvna",
-    "title": "An AI stock picker: Can a LLM help me make good investments?",
-    "section": "Stock market information for Carvana Co. (CVNA)",
-    "text": "Stock market information for Carvana Co. (CVNA)\n\nCarvana Co. is a equity in the USA market.\nThe price is 273.58 USD currently with a change of 5.46 USD (0.02%) from the previous close.\nThe latest open price was 274.26 USD and the intraday volume is 1882051.\nThe intraday high is 284.17 USD and the intraday low is 267.18 USD.\nThe latest trade time is Monday, May 12, 09:29:01 MST.\n\nPlease let me know if you’d like further analysis on any of these companies or assistance in comparing specific metrics."
+    "objectID": "posts/2 logic problem/index.html#my-thoughts",
+    "href": "posts/2 logic problem/index.html#my-thoughts",
+    "title": "Creating an interesting word logic problem: Can AI solve it properly?",
+    "section": "My thoughts:",
+    "text": "My thoughts:\nI found this super interesting after trying to make this logic problem out of boredom - and attempting to capture how AI can think through a reasoning problem that humans typically attack in a non-linear fashion. While both different GPT models ended up getting the right result, I was fasicinated by the different methods that the two models used, that were logical but did not at all follow the same framework.\nIn the future, I really want to experiment more with how to use AI to attack these sorts of reasoning problems that may not have a clear direct answer, and think about the actual thinking process of the AI LLM behind it.\nIf this problem were to get more complicated, I’d be curious about how the AI could form strings of thought that would mimic the sequential way humans tend to think about problems."
   },
   {
-    "objectID": "posts/17 erewhon/Untitled.html",
-    "href": "posts/17 erewhon/Untitled.html",
-    "title": "Can GPT build the Kahn Retailing Matrix?",
+    "objectID": "posts/5 LA.html",
+    "href": "posts/5 LA.html",
+    "title": "In class exercise: Sose’s expertise of LA",
     "section": "",
-    "text": "Can you recreate this matrix but for Erewhon, the LA grocery store. they are strongest in brand and experiential.\nI used the two graphs below as examples of what the Kahn Retailing Matrix looks like and how to apply it to a company.\n \nHere is a recreation of the Kahn Retailing Success Matrix applied to Erewhon, emphasizing their strengths in Brand and Experiential:\n\n\n\n\n\n\n\n\n\n\n\nCustomer Experience\n\n\n\n\n\nExperiential  Curated ambiance, wellness lifestyle integration, premium sampling events, organic café spaces\n\n\nProduct Benefits\n\n\n\nBrand\nCult Brand Identity  LA status symbol, wellness authority, exclusive product curation\n\n\n\n\n\n\nLow Price\nNot a focus – premium pricing strategy\n\n\n\n\n\n\nFrictionless\nLimited investment here  Long checkout lines, complex online interface, boutique feel over convenience\n\n\n\n\n\n\n\nIf we plotted Erewhon in the same visual style as Amazon’s version: - Strong arrow pointing toward Brand (top-left) - Strong arrow toward Experiential (top-right) - Minimal/no arrow toward Low Price (bottom-left) - Light or no arrow toward Frictionless (bottom-right)\nWould you like me to generate an actual image of this matrix in the same visual format?"
+    "text": "LA is a city that’s hard to pin down—it’s massive, spread out, and full of contradictions. One minute you’re stuck in traffic on the 405, and the next you’re driving along the coast with the most unreal sunset in front of you. There’s the Hollywood glamour, sure, but also the grittier, more creative side—street art in the Arts District, taco trucks that serve better food than any five-star restaurant, and a music scene that always feels like it’s one step ahead of everywhere else. It’s a place where everyone seems to be chasing something, whether it’s a career in entertainment, a startup dream, or just the perfect beach day.\nBut LA isn’t just what you see in the movies. It’s got this weird mix of being both super laid-back and insanely competitive at the same time. People wear yoga pants everywhere and act like they don’t care, but also hustle harder than anyone. The neighborhoods feel like their own little worlds—Silver Lake is all about indie coffee shops and thrift stores, while Beverly Hills is just straight-up luxury. And then there’s Koreatown, where you can get the best late-night food, or Venice, where every other person is skating or filming something for TikTok. It’s a city that can feel overwhelming, but also kind of magical if you know where to look.\nWhat I love most about LA is how, despite its craziness, there’s always room to breathe. You can escape to Malibu or hike up to Griffith Observatory and get this insane view of the whole city stretching out forever. There’s something about that mix—city and nature, ambition and chill—that makes LA feel different from anywhere else. People either love it or hate it, but there’s no denying it has a vibe like no other."
   },
   {
-    "objectID": "posts/17 erewhon/Untitled.html#prompt",
-    "href": "posts/17 erewhon/Untitled.html#prompt",
-    "title": "Can GPT build the Kahn Retailing Matrix?",
+    "objectID": "posts/5 LA.html#los-angeles-reflection-by-ai",
+    "href": "posts/5 LA.html#los-angeles-reflection-by-ai",
+    "title": "In class exercise: Sose’s expertise of LA",
     "section": "",
-    "text": "Can you recreate this matrix but for Erewhon, the LA grocery store. they are strongest in brand and experiential.\nI used the two graphs below as examples of what the Kahn Retailing Matrix looks like and how to apply it to a company.\n \nHere is a recreation of the Kahn Retailing Success Matrix applied to Erewhon, emphasizing their strengths in Brand and Experiential:\n\n\n\n\n\n\n\n\n\n\n\nCustomer Experience\n\n\n\n\n\nExperiential  Curated ambiance, wellness lifestyle integration, premium sampling events, organic café spaces\n\n\nProduct Benefits\n\n\n\nBrand\nCult Brand Identity  LA status symbol, wellness authority, exclusive product curation\n\n\n\n\n\n\nLow Price\nNot a focus – premium pricing strategy\n\n\n\n\n\n\nFrictionless\nLimited investment here  Long checkout lines, complex online interface, boutique feel over convenience\n\n\n\n\n\n\n\nIf we plotted Erewhon in the same visual style as Amazon’s version: - Strong arrow pointing toward Brand (top-left) - Strong arrow toward Experiential (top-right) - Minimal/no arrow toward Low Price (bottom-left) - Light or no arrow toward Frictionless (bottom-right)\nWould you like me to generate an actual image of this matrix in the same visual format?"
+    "text": "LA is a city that’s hard to pin down—it’s massive, spread out, and full of contradictions. One minute you’re stuck in traffic on the 405, and the next you’re driving along the coast with the most unreal sunset in front of you. There’s the Hollywood glamour, sure, but also the grittier, more creative side—street art in the Arts District, taco trucks that serve better food than any five-star restaurant, and a music scene that always feels like it’s one step ahead of everywhere else. It’s a place where everyone seems to be chasing something, whether it’s a career in entertainment, a startup dream, or just the perfect beach day.\nBut LA isn’t just what you see in the movies. It’s got this weird mix of being both super laid-back and insanely competitive at the same time. People wear yoga pants everywhere and act like they don’t care, but also hustle harder than anyone. The neighborhoods feel like their own little worlds—Silver Lake is all about indie coffee shops and thrift stores, while Beverly Hills is just straight-up luxury. And then there’s Koreatown, where you can get the best late-night food, or Venice, where every other person is skating or filming something for TikTok. It’s a city that can feel overwhelming, but also kind of magical if you know where to look.\nWhat I love most about LA is how, despite its craziness, there’s always room to breathe. You can escape to Malibu or hike up to Griffith Observatory and get this insane view of the whole city stretching out forever. There’s something about that mix—city and nature, ambition and chill—that makes LA feel different from anywhere else. People either love it or hate it, but there’s no denying it has a vibe like no other."
   },
   {
-    "objectID": "posts/17 erewhon/Untitled.html#st-follow-up",
-    "href": "posts/17 erewhon/Untitled.html#st-follow-up",
-    "title": "Can GPT build the Kahn Retailing Matrix?",
-    "section": "1st Follow up:",
-    "text": "1st Follow up:\nCan you make the matrix graph itself? this information looks good"
-  },
-  {
-    "objectID": "posts/17 erewhon/Untitled.html#nd-follow-up",
-    "href": "posts/17 erewhon/Untitled.html#nd-follow-up",
-    "title": "Can GPT build the Kahn Retailing Matrix?",
-    "section": "2nd Follow up:",
-    "text": "2nd Follow up:\ncan you make it prettier by using Times New Roman font, changing arrows to be longer towards brand and experiential, shorter to low price and frictionless. Also make sure all the words do not cut off and are spelled correctly."
-  },
-  {
-    "objectID": "posts/17 erewhon/Untitled.html#rd-follow-up",
-    "href": "posts/17 erewhon/Untitled.html#rd-follow-up",
-    "title": "Can GPT build the Kahn Retailing Matrix?",
-    "section": "3 3rd Follow up:",
-    "text": "3 3rd Follow up:\nNo. 1. Make the background white again. 2. Get rid of the “Broduct benefits” “customer preasure” and “elimiate pleasure” labels. 3. get rid of the 0.0 in the center. 4. make the arrows still go all 4 ways but shorter towards low price and frictionless."
-  },
-  {
-    "objectID": "posts/17 erewhon/Untitled.html#my-reflection",
-    "href": "posts/17 erewhon/Untitled.html#my-reflection",
-    "title": "Can GPT build the Kahn Retailing Matrix?",
-    "section": "My reflection:",
-    "text": "My reflection:\nAs I worked on this marketing presentation, I thought it would be interesting if Chat GPT would be able to take reference photos from our lecture slides and try to reconfigure them to fit Erewhon, which was the company we were doing our final keystone presentation on. After giving it 2 examples, I prompted it to then recreate the Kahn Retailling Matrix with details relevant to Erewhon. Here are what I identified as Strengths and Weaknesses.\nStrengths: - Super strong capture of Erewhon details and company background - Good wording for powerful impact and concision\nWeankesses: - Really poor spelling and grammar at some points, evidently not writtten by human - this is interesting given the fact that LLMs are so good at summarizing and writing text when not on a graph, so I’m curious why GPT finds it harder to use good writing style and convention here. - Inability to make edits directly - Even though I prompted GPT several times to do things like change font, change colors, the arrow sizes, add commas, etc., it is not very good at isolating these individual tasks and isntead fixes one problem while creating another.\nOverall, GPT provided a good starting point, but ultimately I had to make the graphs myself."
+    "objectID": "posts/5 LA.html#reflection",
+    "href": "posts/5 LA.html#reflection",
+    "title": "In class exercise: Sose’s expertise of LA",
+    "section": "Reflection:",
+    "text": "Reflection:\nThis is after we did the in class activity about looking at different people’s expertise and comparing the ability of AI to match human experience. Here, I can definitely see how my rendition of LA through AI lacks the same human quality that Sose’s did from her memory of growing up there. However, I would be curious if I made it read certain blog posts or content and retry this activity, and see if it could improve its abilities."
   },
   {
     "objectID": "posts/19 language learning/Untitled.html",
@@ -462,39 +441,60 @@
     "text": "Reflection:\nThis was my second time using AI to tackle a logic-based challenge, but this time I shifted my focus to a numerical question instead of a purely logical one. Once again, I was amazed by the AI’s ability to uncover the underlying patterns in the problem and reach the same conclusion I did. Its quick ability for recognizing structure and efficiently following logical sequences was really clear, sparking my curiosity about how AI processes various types of information.\nWhat I find especially intriguing is the difference between AI’s strengths and weaknesses. While it excelled in this more complex, structured task, we’ve also observed it struggling with simpler problems, like counting the number of ’r’s in the word “strawberry” as we spoke about earlier this semester. This disparity raises interesting questions about how AI interprets information and where its limitations might be. It seems that AI thrives when it operates within a clearly defined framework, particularly when dealing with numerical or pattern-based reasoning. However, it tends to fail and struggle with tasks that require more flexible cognitive skills, such as interpretation, contextual understanding, or ambiguities in language."
   },
   {
-    "objectID": "posts/5 LA.html",
-    "href": "posts/5 LA.html",
-    "title": "In class exercise: Sose’s expertise of LA",
+    "objectID": "posts/21 finance/Untitled.html",
+    "href": "posts/21 finance/Untitled.html",
+    "title": "An AI stock picker: Can a LLM help me make good investments?",
     "section": "",
-    "text": "LA is a city that’s hard to pin down—it’s massive, spread out, and full of contradictions. One minute you’re stuck in traffic on the 405, and the next you’re driving along the coast with the most unreal sunset in front of you. There’s the Hollywood glamour, sure, but also the grittier, more creative side—street art in the Arts District, taco trucks that serve better food than any five-star restaurant, and a music scene that always feels like it’s one step ahead of everywhere else. It’s a place where everyone seems to be chasing something, whether it’s a career in entertainment, a startup dream, or just the perfect beach day.\nBut LA isn’t just what you see in the movies. It’s got this weird mix of being both super laid-back and insanely competitive at the same time. People wear yoga pants everywhere and act like they don’t care, but also hustle harder than anyone. The neighborhoods feel like their own little worlds—Silver Lake is all about indie coffee shops and thrift stores, while Beverly Hills is just straight-up luxury. And then there’s Koreatown, where you can get the best late-night food, or Venice, where every other person is skating or filming something for TikTok. It’s a city that can feel overwhelming, but also kind of magical if you know where to look.\nWhat I love most about LA is how, despite its craziness, there’s always room to breathe. You can escape to Malibu or hike up to Griffith Observatory and get this insane view of the whole city stretching out forever. There’s something about that mix—city and nature, ambition and chill—that makes LA feel different from anywhere else. People either love it or hate it, but there’s no denying it has a vibe like no other."
+    "text": "You are my stock picker. Read about the tariffs and pick 10 stocks I should look deeper into."
   },
   {
-    "objectID": "posts/5 LA.html#los-angeles-reflection-by-ai",
-    "href": "posts/5 LA.html#los-angeles-reflection-by-ai",
-    "title": "In class exercise: Sose’s expertise of LA",
+    "objectID": "posts/21 finance/Untitled.html#stock-market-information-for-carvana-co.-cvna",
+    "href": "posts/21 finance/Untitled.html#stock-market-information-for-carvana-co.-cvna",
+    "title": "An AI stock picker: Can a LLM help me make good investments?",
+    "section": "Stock market information for Carvana Co. (CVNA)",
+    "text": "Stock market information for Carvana Co. (CVNA)\n\nCarvana Co. is a equity in the USA market.\nThe price is 273.58 USD currently with a change of 5.46 USD (0.02%) from the previous close.\nThe latest open price was 274.26 USD and the intraday volume is 1882051.\nThe intraday high is 284.17 USD and the intraday low is 267.18 USD.\nThe latest trade time is Monday, May 12, 09:29:01 MST.\n\nPlease let me know if you’d like further analysis on any of these companies or assistance in comparing specific metrics."
+  },
+  {
+    "objectID": "posts/17 erewhon/Untitled.html",
+    "href": "posts/17 erewhon/Untitled.html",
+    "title": "Can GPT build the Kahn Retailing Matrix?",
     "section": "",
-    "text": "LA is a city that’s hard to pin down—it’s massive, spread out, and full of contradictions. One minute you’re stuck in traffic on the 405, and the next you’re driving along the coast with the most unreal sunset in front of you. There’s the Hollywood glamour, sure, but also the grittier, more creative side—street art in the Arts District, taco trucks that serve better food than any five-star restaurant, and a music scene that always feels like it’s one step ahead of everywhere else. It’s a place where everyone seems to be chasing something, whether it’s a career in entertainment, a startup dream, or just the perfect beach day.\nBut LA isn’t just what you see in the movies. It’s got this weird mix of being both super laid-back and insanely competitive at the same time. People wear yoga pants everywhere and act like they don’t care, but also hustle harder than anyone. The neighborhoods feel like their own little worlds—Silver Lake is all about indie coffee shops and thrift stores, while Beverly Hills is just straight-up luxury. And then there’s Koreatown, where you can get the best late-night food, or Venice, where every other person is skating or filming something for TikTok. It’s a city that can feel overwhelming, but also kind of magical if you know where to look.\nWhat I love most about LA is how, despite its craziness, there’s always room to breathe. You can escape to Malibu or hike up to Griffith Observatory and get this insane view of the whole city stretching out forever. There’s something about that mix—city and nature, ambition and chill—that makes LA feel different from anywhere else. People either love it or hate it, but there’s no denying it has a vibe like no other."
+    "text": "Can you recreate this matrix but for Erewhon, the LA grocery store. they are strongest in brand and experiential.\nI used the two graphs below as examples of what the Kahn Retailing Matrix looks like and how to apply it to a company.\n \nHere is a recreation of the Kahn Retailing Success Matrix applied to Erewhon, emphasizing their strengths in Brand and Experiential:\n\n\n\n\n\n\n\n\n\n\n\nCustomer Experience\n\n\n\n\n\nExperiential  Curated ambiance, wellness lifestyle integration, premium sampling events, organic café spaces\n\n\nProduct Benefits\n\n\n\nBrand\nCult Brand Identity  LA status symbol, wellness authority, exclusive product curation\n\n\n\n\n\n\nLow Price\nNot a focus – premium pricing strategy\n\n\n\n\n\n\nFrictionless\nLimited investment here  Long checkout lines, complex online interface, boutique feel over convenience\n\n\n\n\n\n\n\nIf we plotted Erewhon in the same visual style as Amazon’s version: - Strong arrow pointing toward Brand (top-left) - Strong arrow toward Experiential (top-right) - Minimal/no arrow toward Low Price (bottom-left) - Light or no arrow toward Frictionless (bottom-right)\nWould you like me to generate an actual image of this matrix in the same visual format?"
   },
   {
-    "objectID": "posts/5 LA.html#reflection",
-    "href": "posts/5 LA.html#reflection",
-    "title": "In class exercise: Sose’s expertise of LA",
-    "section": "Reflection:",
-    "text": "Reflection:\nThis is after we did the in class activity about looking at different people’s expertise and comparing the ability of AI to match human experience. Here, I can definitely see how my rendition of LA through AI lacks the same human quality that Sose’s did from her memory of growing up there. However, I would be curious if I made it read certain blog posts or content and retry this activity, and see if it could improve its abilities."
-  },
-  {
-    "objectID": "posts/2 logic problem/index.html",
-    "href": "posts/2 logic problem/index.html",
-    "title": "Creating an interesting word logic problem: Can AI solve it properly?",
+    "objectID": "posts/17 erewhon/Untitled.html#prompt",
+    "href": "posts/17 erewhon/Untitled.html#prompt",
+    "title": "Can GPT build the Kahn Retailing Matrix?",
     "section": "",
-    "text": "When we first started playing around with LLMs and seeing if they could properly communicate with humans one of my initial instincts was to see if they could think like humans. Ever since I was a child, something I really enjoyed doing was solving logic puzzles - like those you always found on Youtube made by TED or some other channel. So, I wanted to take this topic one step further and see if AI would be able to create a problem itself and then solve it.\nThus, what I did was ask GPT to create a logic problem for me, inspired by problems where you are given information that can be both true or false, and have to deduce the final answer. After creating the problem, I then fed it into a new window in GPT and tried to see if it could be solved.\nObviously, I also enjoyed myself and had fun solving it as well."
+    "text": "Can you recreate this matrix but for Erewhon, the LA grocery store. they are strongest in brand and experiential.\nI used the two graphs below as examples of what the Kahn Retailing Matrix looks like and how to apply it to a company.\n \nHere is a recreation of the Kahn Retailing Success Matrix applied to Erewhon, emphasizing their strengths in Brand and Experiential:\n\n\n\n\n\n\n\n\n\n\n\nCustomer Experience\n\n\n\n\n\nExperiential  Curated ambiance, wellness lifestyle integration, premium sampling events, organic café spaces\n\n\nProduct Benefits\n\n\n\nBrand\nCult Brand Identity  LA status symbol, wellness authority, exclusive product curation\n\n\n\n\n\n\nLow Price\nNot a focus – premium pricing strategy\n\n\n\n\n\n\nFrictionless\nLimited investment here  Long checkout lines, complex online interface, boutique feel over convenience\n\n\n\n\n\n\n\nIf we plotted Erewhon in the same visual style as Amazon’s version: - Strong arrow pointing toward Brand (top-left) - Strong arrow toward Experiential (top-right) - Minimal/no arrow toward Low Price (bottom-left) - Light or no arrow toward Frictionless (bottom-right)\nWould you like me to generate an actual image of this matrix in the same visual format?"
   },
   {
-    "objectID": "posts/2 logic problem/index.html#my-thoughts",
-    "href": "posts/2 logic problem/index.html#my-thoughts",
-    "title": "Creating an interesting word logic problem: Can AI solve it properly?",
-    "section": "My thoughts:",
-    "text": "My thoughts:\nI found this super interesting after trying to make this logic problem out of boredom - and attempting to capture how AI can think through a reasoning problem that humans typically attack in a non-linear fashion. While both different GPT models ended up getting the right result, I was fasicinated by the different methods that the two models used, that were logical but did not at all follow the same framework.\nIn the future, I really want to experiment more with how to use AI to attack these sorts of reasoning problems that may not have a clear direct answer, and think about the actual thinking process of the AI LLM behind it.\nIf this problem were to get more complicated, I’d be curious about how the AI could form strings of thought that would mimic the sequential way humans tend to think about problems."
+    "objectID": "posts/17 erewhon/Untitled.html#st-follow-up",
+    "href": "posts/17 erewhon/Untitled.html#st-follow-up",
+    "title": "Can GPT build the Kahn Retailing Matrix?",
+    "section": "1st Follow up:",
+    "text": "1st Follow up:\nCan you make the matrix graph itself? this information looks good"
+  },
+  {
+    "objectID": "posts/17 erewhon/Untitled.html#nd-follow-up",
+    "href": "posts/17 erewhon/Untitled.html#nd-follow-up",
+    "title": "Can GPT build the Kahn Retailing Matrix?",
+    "section": "2nd Follow up:",
+    "text": "2nd Follow up:\ncan you make it prettier by using Times New Roman font, changing arrows to be longer towards brand and experiential, shorter to low price and frictionless. Also make sure all the words do not cut off and are spelled correctly."
+  },
+  {
+    "objectID": "posts/17 erewhon/Untitled.html#rd-follow-up",
+    "href": "posts/17 erewhon/Untitled.html#rd-follow-up",
+    "title": "Can GPT build the Kahn Retailing Matrix?",
+    "section": "3 3rd Follow up:",
+    "text": "3 3rd Follow up:\nNo. 1. Make the background white again. 2. Get rid of the “Broduct benefits” “customer preasure” and “elimiate pleasure” labels. 3. get rid of the 0.0 in the center. 4. make the arrows still go all 4 ways but shorter towards low price and frictionless."
+  },
+  {
+    "objectID": "posts/17 erewhon/Untitled.html#my-reflection",
+    "href": "posts/17 erewhon/Untitled.html#my-reflection",
+    "title": "Can GPT build the Kahn Retailing Matrix?",
+    "section": "My reflection:",
+    "text": "My reflection:\nAs I worked on this marketing presentation, I thought it would be interesting if Chat GPT would be able to take reference photos from our lecture slides and try to reconfigure them to fit Erewhon, which was the company we were doing our final keystone presentation on. After giving it 2 examples, I prompted it to then recreate the Kahn Retailling Matrix with details relevant to Erewhon. Here are what I identified as Strengths and Weaknesses.\nStrengths: - Super strong capture of Erewhon details and company background - Good wording for powerful impact and concision\nWeankesses: - Really poor spelling and grammar at some points, evidently not writtten by human - this is interesting given the fact that LLMs are so good at summarizing and writing text when not on a graph, so I’m curious why GPT finds it harder to use good writing style and convention here. - Inability to make edits directly - Even though I prompted GPT several times to do things like change font, change colors, the arrow sizes, add commas, etc., it is not very good at isolating these individual tasks and isntead fixes one problem while creating another.\nOverall, GPT provided a good starting point, but ultimately I had to make the graphs myself."
   },
   {
     "objectID": "posts/13 brave new world/Untitled.html",
