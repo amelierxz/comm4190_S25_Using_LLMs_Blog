@@ -63,88 +63,375 @@
     "text": "Thoughts:\nUnfortunately, I feel like GPT was not able to offer any additional insights to what I had initially thought about. This is probably because it lacks the knowledge that is intangible and created by being a student at Penn, so I think that this is a good example of a way that AI LLMs lack the same type of human experience that will allow it to be most helpful. This reminds me of when we talked about areas of expertise earlier this semester in class, when Sose and I were thinking about comparing LA and HK from our experience vs. through LLM. Except in this case, GPT was just unable to think about the context and nuances behind the task."
   },
   {
-    "objectID": "posts/11 PROFILE/11 making Profile.html",
-    "href": "posts/11 PROFILE/11 making Profile.html",
-    "title": "Making a Cartoon profile photo",
+    "objectID": "posts/12 taxes.html",
+    "href": "posts/12 taxes.html",
+    "title": "Using GPT to Compare NYC and LA tax structures",
     "section": "",
-    "text": "As I was going to edit my blog About page, I wanted to put a photo of myself, but nothing really overly professional or official. So, I decided to try and play with GPT 4o Image generation to see if it could make a profile photo for me that would have enough resemblance as a cartoon character but not be just an actual photo of me."
+    "text": "As people do on a Thursday evening, I ended up in a conversation with my friend about how living in different cities post grad would affect our income tax structures and the way we should think about these differences going forward.\nThus, instead of doing the reasonable thing and going on state websites to find the facts straight from the source, we used GPT to try to understand the differences between NYC and LA. Here is what we found:"
   },
   {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#headshot-as-a-reference-photo",
-    "href": "posts/11 PROFILE/11 making Profile.html#headshot-as-a-reference-photo",
-    "title": "Making a Cartoon profile photo",
-    "section": "Headshot as a Reference photo:",
-    "text": "Headshot as a Reference photo:\n\nUsing the headshot above, I then prompted GPT to “Please make me a cartoon character using the reference photo.”"
-  },
-  {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#st-attempt",
-    "href": "posts/11 PROFILE/11 making Profile.html#st-attempt",
-    "title": "Making a Cartoon profile photo",
-    "section": "1st Attempt:",
-    "text": "1st Attempt:\n\nAfter the first attempt, I wanted to see if I could make some tweaks. I asked GPT to “Remove the freckles and make her slightly blushed, and make the sweater green.”"
-  },
-  {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#nd-attempt",
-    "href": "posts/11 PROFILE/11 making Profile.html#nd-attempt",
-    "title": "Making a Cartoon profile photo",
-    "section": "2nd Attempt:",
-    "text": "2nd Attempt:\n\nThis seemed like all the tweaks were made. However, I did not think that the character looked like me enough, so I asked GPT if it could “Make the character look more like the girl in the reference photo.”"
-  },
-  {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#pushing-too-far",
-    "href": "posts/11 PROFILE/11 making Profile.html#pushing-too-far",
-    "title": "Making a Cartoon profile photo",
-    "section": "Pushing too far:",
-    "text": "Pushing too far:\nI unfortunately got this response:\n“I couldn’t generate the updated cartoon image just now because there’s a short cooldown period due to rate limits — it’ll be about 9 minutes before I can create another one for you.\nIn the meantime, if you have any specific tweaks in mind (like adjusting hairstyle, facial features, outfit details, or background), feel free to let me know so I can get it just right when the cooldown is over!”"
-  },
-  {
-    "objectID": "posts/11 PROFILE/11 making Profile.html#conclusion",
-    "href": "posts/11 PROFILE/11 making Profile.html#conclusion",
-    "title": "Making a Cartoon profile photo",
-    "section": "Conclusion:",
-    "text": "Conclusion:"
-  },
-  {
-    "objectID": "posts/13 brave new world/Untitled.html",
-    "href": "posts/13 brave new world/Untitled.html",
-    "title": "Creating a new book cover for Brave New World",
-    "section": "",
-    "text": "Remake the book cover for the book Brave New World by Aldous Huxley."
-  },
-  {
-    "objectID": "posts/13 brave new world/Untitled.html#initial-prompt",
-    "href": "posts/13 brave new world/Untitled.html#initial-prompt",
-    "title": "Creating a new book cover for Brave New World",
-    "section": "",
-    "text": "Remake the book cover for the book Brave New World by Aldous Huxley."
-  },
-  {
-    "objectID": "posts/13 brave new world/Untitled.html#follow-up",
-    "href": "posts/13 brave new world/Untitled.html#follow-up",
-    "title": "Creating a new book cover for Brave New World",
-    "section": "Follow up:",
-    "text": "Follow up:\nThis has no elements that are relevant to the actual content of the book. Please remake it with more specific elements that are drawn from the plot."
-  },
-  {
-    "objectID": "posts/13 brave new world/Untitled.html#gpt-response",
-    "href": "posts/13 brave new world/Untitled.html#gpt-response",
-    "title": "Creating a new book cover for Brave New World",
+    "objectID": "posts/12 taxes.html#gpt-response",
+    "href": "posts/12 taxes.html#gpt-response",
+    "title": "Using GPT to Compare NYC and LA tax structures",
     "section": "GPT response:",
-    "text": "GPT response:\n“I couldn’t generate a new book cover for Brave New World that includes specific elements from the plot because the request violates our content policies.\nIf you’d like, I can still help you design a cover inspired by the book’s broader themes—like technological control, consumerism, or dystopian conformity—without depicting sensitive or restricted content. Just let me know how you’d like to proceed or share a new idea!”\nThis was interesting, because in my prompt I had not explicitly mentioned anything specific from the book that I wanted to include, but GPT automatically jumped to saying that there would be specific elements from the book that would violate content policies. What I assume this is referring to is probably violent/mature content, I would have assumed that GPT had the option to ignore those specific plot elements but still then make a book cover that was more relevant to the book."
+    "text": "GPT response:\nNew York City (NYC) and Los Angeles (LA) have different tax structures due to state and local tax policies. Here’s a comparison:\n\nState Income Tax\n\nNew York State: Progressive tax rates from 4% to 10.9%.\n\nCalifornia: Progressive tax rates from 1% to 13.3% (highest in the U.S.).\n\n\n\nCity Income Tax\n\nNYC: Has its own city income tax, ranging from 3.078% to 3.876% on top of state tax.\n\nLA: No city income tax.\n\n\n\nEffective Tax Burden (State + City)\n\nNYC Residents: Pay both state and city taxes, making their top combined rate up to 14.776%.\n\nLA Residents: Pay only state tax, with a top rate of 13.3%.\n\n\n\nOther Considerations\n\nSales Tax:\n\nNYC: 8.875% (state + local)\n\nLA: 9.5%\n\n\nCost of Living: Both cities are expensive, but NYC has higher rent, while LA has higher transportation costs.\n\nDeductions: California has more favorable tax deductions in some areas, like capital gains.\n\n\n\nOverall\nIf you’re a high earner, NYC generally has a slightly higher tax burden due to its city tax. If you’re middle-income, the difference is smaller, but California’s progressive system can result in a higher rate at the top brackets."
   },
   {
-    "objectID": "posts/13 brave new world/Untitled.html#trying-again",
-    "href": "posts/13 brave new world/Untitled.html#trying-again",
-    "title": "Creating a new book cover for Brave New World",
-    "section": "Trying again:",
-    "text": "Trying again:\nRemake the book cover for the book Brave New World by Aldous Huxley that draws on the dystopian themes of the plot"
+    "objectID": "posts/2 logic problem/index.html",
+    "href": "posts/2 logic problem/index.html",
+    "title": "Creating an interesting word logic problem: Can AI solve it properly?",
+    "section": "",
+    "text": "When we first started playing around with LLMs and seeing if they could properly communicate with humans one of my initial instincts was to see if they could think like humans. Ever since I was a child, something I really enjoyed doing was solving logic puzzles - like those you always found on Youtube made by TED or some other channel. So, I wanted to take this topic one step further and see if AI would be able to create a problem itself and then solve it.\nThus, what I did was ask GPT to create a logic problem for me, inspired by problems where you are given information that can be both true or false, and have to deduce the final answer. After creating the problem, I then fed it into a new window in GPT and tried to see if it could be solved.\nObviously, I also enjoyed myself and had fun solving it as well."
   },
   {
-    "objectID": "posts/13 brave new world/Untitled.html#final-thoughts",
-    "href": "posts/13 brave new world/Untitled.html#final-thoughts",
-    "title": "Creating a new book cover for Brave New World",
-    "section": "Final thoughts:",
-    "text": "Final thoughts:\nHere, I found that using a more specific prompt was very much more helpful for creating an output that was also more targeted and relevant. I think the wording of “dystopian themes” was the most important part of the prompt, as the final book cover result definitely looks dystopian and mimics the type of mindless and stark world that Huxley created in Brave New World."
+    "objectID": "posts/2 logic problem/index.html#my-thoughts",
+    "href": "posts/2 logic problem/index.html#my-thoughts",
+    "title": "Creating an interesting word logic problem: Can AI solve it properly?",
+    "section": "My thoughts:",
+    "text": "My thoughts:\nI found this super interesting after trying to make this logic problem out of boredom - and attempting to capture how AI can think through a reasoning problem that humans typically attack in a non-linear fashion. While both different GPT models ended up getting the right result, I was fasicinated by the different methods that the two models used, that were logical but did not at all follow the same framework.\nIn the future, I really want to experiment more with how to use AI to attack these sorts of reasoning problems that may not have a clear direct answer, and think about the actual thinking process of the AI LLM behind it.\nIf this problem were to get more complicated, I’d be curious about how the AI could form strings of thought that would mimic the sequential way humans tend to think about problems."
+  },
+  {
+    "objectID": "posts/5 LA.html",
+    "href": "posts/5 LA.html",
+    "title": "In class exercise: Sose’s expertise of LA",
+    "section": "",
+    "text": "LA is a city that’s hard to pin down—it’s massive, spread out, and full of contradictions. One minute you’re stuck in traffic on the 405, and the next you’re driving along the coast with the most unreal sunset in front of you. There’s the Hollywood glamour, sure, but also the grittier, more creative side—street art in the Arts District, taco trucks that serve better food than any five-star restaurant, and a music scene that always feels like it’s one step ahead of everywhere else. It’s a place where everyone seems to be chasing something, whether it’s a career in entertainment, a startup dream, or just the perfect beach day.\nBut LA isn’t just what you see in the movies. It’s got this weird mix of being both super laid-back and insanely competitive at the same time. People wear yoga pants everywhere and act like they don’t care, but also hustle harder than anyone. The neighborhoods feel like their own little worlds—Silver Lake is all about indie coffee shops and thrift stores, while Beverly Hills is just straight-up luxury. And then there’s Koreatown, where you can get the best late-night food, or Venice, where every other person is skating or filming something for TikTok. It’s a city that can feel overwhelming, but also kind of magical if you know where to look.\nWhat I love most about LA is how, despite its craziness, there’s always room to breathe. You can escape to Malibu or hike up to Griffith Observatory and get this insane view of the whole city stretching out forever. There’s something about that mix—city and nature, ambition and chill—that makes LA feel different from anywhere else. People either love it or hate it, but there’s no denying it has a vibe like no other."
+  },
+  {
+    "objectID": "posts/5 LA.html#los-angeles-reflection-by-ai",
+    "href": "posts/5 LA.html#los-angeles-reflection-by-ai",
+    "title": "In class exercise: Sose’s expertise of LA",
+    "section": "",
+    "text": "LA is a city that’s hard to pin down—it’s massive, spread out, and full of contradictions. One minute you’re stuck in traffic on the 405, and the next you’re driving along the coast with the most unreal sunset in front of you. There’s the Hollywood glamour, sure, but also the grittier, more creative side—street art in the Arts District, taco trucks that serve better food than any five-star restaurant, and a music scene that always feels like it’s one step ahead of everywhere else. It’s a place where everyone seems to be chasing something, whether it’s a career in entertainment, a startup dream, or just the perfect beach day.\nBut LA isn’t just what you see in the movies. It’s got this weird mix of being both super laid-back and insanely competitive at the same time. People wear yoga pants everywhere and act like they don’t care, but also hustle harder than anyone. The neighborhoods feel like their own little worlds—Silver Lake is all about indie coffee shops and thrift stores, while Beverly Hills is just straight-up luxury. And then there’s Koreatown, where you can get the best late-night food, or Venice, where every other person is skating or filming something for TikTok. It’s a city that can feel overwhelming, but also kind of magical if you know where to look.\nWhat I love most about LA is how, despite its craziness, there’s always room to breathe. You can escape to Malibu or hike up to Griffith Observatory and get this insane view of the whole city stretching out forever. There’s something about that mix—city and nature, ambition and chill—that makes LA feel different from anywhere else. People either love it or hate it, but there’s no denying it has a vibe like no other."
+  },
+  {
+    "objectID": "posts/5 LA.html#reflection",
+    "href": "posts/5 LA.html#reflection",
+    "title": "In class exercise: Sose’s expertise of LA",
+    "section": "Reflection:",
+    "text": "Reflection:\nThis is after we did the in class activity about looking at different people’s expertise and comparing the ability of AI to match human experience. Here, I can definitely see how my rendition of LA through AI lacks the same human quality that Sose’s did from her memory of growing up there. However, I would be curious if I made it read certain blog posts or content and retry this activity, and see if it could improve its abilities."
+  },
+  {
+    "objectID": "posts/3 missing number.html",
+    "href": "posts/3 missing number.html",
+    "title": "Another logic problem: This time focusing on math",
+    "section": "",
+    "text": "Following down the rabbit hole niche of having AI create logic problems for me, I wanted to move away from just logical problems and see if it would be able to tackle quantitative problems as well. Thus, I repeated my prompting to get GPT to give me a numerical pattern problem, and again put it through different AI models to see if it would be able to solve them.\nCompared to the logic problem, I found that this mathematical equation somehow was so much easier for humans, because we don’t neccesarily process information bit by bit, compared to the LLM which literally generates its output building on each last letter. As such, I was interested to also dig deeper into the different thought processes the models would use."
+  },
+  {
+    "objectID": "posts/3 missing number.html#solving-the-pattern-manually",
+    "href": "posts/3 missing number.html#solving-the-pattern-manually",
+    "title": "Another logic problem: This time focusing on math",
+    "section": "Solving the Pattern manually",
+    "text": "Solving the Pattern manually\nTo determine the missing number, let’s analyze the pattern in the sequence:\n3, 5, 9, 17, ?\nWe examine the differences between consecutive terms:\n5 − 3 = 2\n9 - 5 = 4\n17 − 9 = 8\nThis gives us the difference sequence:\n2, 4, 8\nObserving this pattern, we see that each difference doubles the previous one:\n2 , 4 , 8 , 16\nFollowing this doubling pattern, the next difference should be 16.\nThus, the missing number in the sequence is:\n17+16=33 ### Answer: 33"
+  },
+  {
+    "objectID": "posts/3 missing number.html#gpt-4os-approach",
+    "href": "posts/3 missing number.html#gpt-4os-approach",
+    "title": "Another logic problem: This time focusing on math",
+    "section": "GPT-4o’s Approach",
+    "text": "GPT-4o’s Approach\nGPT-4o follows a structured method to detect numerical patterns. It:\nIdentifies the differences between terms. Recognizes a doubling pattern in these differences. Extends the pattern logically to predict the next term. Computes the missing number using the established rule. 📌 GPT-4o’s Answer: 33."
+  },
+  {
+    "objectID": "posts/3 missing number.html#gpt-4o1s-approach",
+    "href": "posts/3 missing number.html#gpt-4o1s-approach",
+    "title": "Another logic problem: This time focusing on math",
+    "section": "GPT-4o1’s Approach",
+    "text": "GPT-4o1’s Approach\nGPT-4o1 arrives at the same conclusion using a similar approach:\nIt calculates the first-order differences: 2, 4, 8. It recognizes that each difference is doubling. It predicts the next difference as 16. It adds 16 to the last number (17) to find 33. 📌 GPT-4o1’s Answer: 33."
+  },
+  {
+    "objectID": "posts/3 missing number.html#perplexitys-approach",
+    "href": "posts/3 missing number.html#perplexitys-approach",
+    "title": "Another logic problem: This time focusing on math",
+    "section": "Perplexity’s Approach",
+    "text": "Perplexity’s Approach\nThe number that should replace the question mark (?) in the sequence 3, 5, 9, 17, ? is 33.\nTo understand this, let’s examine the pattern:\nFirst, we calculate the differences between consecutive terms:\n5 - 3 = 2\n9 - 5 = 4\n17 - 9 = 8\nWe can observe that these differences are doubling each time:\n2 → 4 (2 × 2)\n4 → 8 (4 × 2)\nFollowing this pattern, the next difference would be:\n8 → 16 (8 × 2)\nTo find the missing number, we add this new difference to the last known term:\n17 + 16 = 33\nTherefore, the logical rule for this sequence is that the difference between each consecutive term doubles, and the missing number that completes the pattern is 33."
+  },
+  {
+    "objectID": "posts/3 missing number.html#reflection",
+    "href": "posts/3 missing number.html#reflection",
+    "title": "Another logic problem: This time focusing on math",
+    "section": "Reflection:",
+    "text": "Reflection:\nThis was my second time using AI to tackle a logic-based challenge, but this time I shifted my focus to a numerical question instead of a purely logical one. Once again, I was amazed by the AI’s ability to uncover the underlying patterns in the problem and reach the same conclusion I did. Its quick ability for recognizing structure and efficiently following logical sequences was really clear, sparking my curiosity about how AI processes various types of information.\nWhat I find especially intriguing is the difference between AI’s strengths and weaknesses. While it excelled in this more complex, structured task, we’ve also observed it struggling with simpler problems, like counting the number of ’r’s in the word “strawberry” as we spoke about earlier this semester. This disparity raises interesting questions about how AI interprets information and where its limitations might be. It seems that AI thrives when it operates within a clearly defined framework, particularly when dealing with numerical or pattern-based reasoning. However, it tends to fail and struggle with tasks that require more flexible cognitive skills, such as interpretation, contextual understanding, or ambiguities in language."
+  },
+  {
+    "objectID": "posts/9 travel.html",
+    "href": "posts/9 travel.html",
+    "title": "Travel recommendations: Where do I go for spring break?",
+    "section": "",
+    "text": "When figuring out where to go for Spring Break, my friends and I had been staring at a map of the US and Europe trying to figure out where to go together. We had reached a point where we really weren’t sure what we were looking for, so we used AI to narrow down our options. Below, I attached the prompt along with the response we received."
+  },
+  {
+    "objectID": "posts/9 travel.html#prompt",
+    "href": "posts/9 travel.html#prompt",
+    "title": "Travel recommendations: Where do I go for spring break?",
+    "section": "Prompt:",
+    "text": "Prompt:\nPlease give me beach vacation destinations 6 hours max from NYC, What about things like Charleston?"
+  },
+  {
+    "objectID": "posts/9 travel.html#response",
+    "href": "posts/9 travel.html#response",
+    "title": "Travel recommendations: Where do I go for spring break?",
+    "section": "Response:",
+    "text": "Response:\nYes! Charleston, South Carolina is a great option, and there are a few similar beach destinations within a 6-hour flight or drive from NYC that offer a mix of historic charm, coastal beauty, and Southern hospitality. Here are some great alternatives:\n\nSouthern Beach Destinations (Under 6-Hour Flight)\n\nCharleston, SC (2 hrs by flight) – Historic cobblestone streets, waterfront charm, and nearby Folly Beach, Isle of Palms, and Sullivan’s Island.\n\nSavannah, GA (2.5 hrs by flight) – Similar to Charleston, with historic squares and nearby Tybee Island for a laid-back beach escape.\n\nHilton Head Island, SC (2.5 hrs by flight) – A mix of luxury resorts, golf courses, and beautiful beaches.\n\nWilmington, NC (1.5 hrs by flight) – Historic riverfront city with beaches like Wrightsville Beach and Carolina Beach.\n\nMyrtle Beach, SC (2 hrs by flight) – More touristy, but great for a mix of golf, beaches, and boardwalk fun.\n\nVirginia Beach, VA (1.5 hrs by flight or 6 hrs drive) – A lively boardwalk scene with miles of sandy shoreline.\n\nIf you’re looking for that Charleston-style charm with a beach nearby, I’d say Charleston, Savannah, or Hilton Head would be your best picks! Let me know if you need help narrowing it down."
+  },
+  {
+    "objectID": "posts/9 travel.html#reflection",
+    "href": "posts/9 travel.html#reflection",
+    "title": "Travel recommendations: Where do I go for spring break?",
+    "section": "Reflection:",
+    "text": "Reflection:\nWhat was super interesting to me in this interaction was that GPT was able to also extract the flight time from NYC to all of these different destinations. It’s reccomendations were quite expected, and the description of each destination also included a decent amount of examples of what to do and specific places within each destination. But I’m curious how it was further able to find the exact flight time from each of these places and find the correct travel time.\nAlso, I haven’t directly included the rest of my conversations with GPT but it was quite able to adapt its suggestions and move them to suit what I was asking for, especially when I got very nuanced about what features I wanted in my destination and was picky about the region of the US I would be in.\nAlas - I did not heed any of GPT’s advice and did not end up picking any of these destinations as the final decision."
+  },
+  {
+    "objectID": "posts/7/7 sixers.html",
+    "href": "posts/7/7 sixers.html",
+    "title": "Creating a Sixers graphic: Playing with image generation",
+    "section": "",
+    "text": "Last Monday, we attempted to use different LLM models in class to make public health posters that raised awareness about bikers going down the wrong lane outside of the Annenberg Center. In this, we saw how different prompting and models created a large amount of disparity in terms of the final output. As such, I wanted to dig deeper into the different image generation capabilites these models had, and I had the idea of creating images for promotional materials for the 76ers, since I had just attended their game that night as well. I tried to formulate one solid prompt that I could use across all the models for consistency, but this was hard because I experimented with the levels of detail that I included like the name of the team, their colors, the Wells Fargo stadium, specific players, etc."
+  },
+  {
+    "objectID": "posts/7/7 sixers.html#intro",
+    "href": "posts/7/7 sixers.html#intro",
+    "title": "Creating a Sixers graphic: Playing with image generation",
+    "section": "",
+    "text": "Last Monday, we attempted to use different LLM models in class to make public health posters that raised awareness about bikers going down the wrong lane outside of the Annenberg Center. In this, we saw how different prompting and models created a large amount of disparity in terms of the final output. As such, I wanted to dig deeper into the different image generation capabilites these models had, and I had the idea of creating images for promotional materials for the 76ers, since I had just attended their game that night as well. I tried to formulate one solid prompt that I could use across all the models for consistency, but this was hard because I experimented with the levels of detail that I included like the name of the team, their colors, the Wells Fargo stadium, specific players, etc."
+  },
+  {
+    "objectID": "posts/7/7 sixers.html#my-prompt",
+    "href": "posts/7/7 sixers.html#my-prompt",
+    "title": "Creating a Sixers graphic: Playing with image generation",
+    "section": "My prompt:",
+    "text": "My prompt:\nCreate a high-energy promotional image for the Philadelphia 76ers, capturing the excitement of a live game at the Wells Fargo Center. The scene should feature the team’s signature colors—red, white, and blue—vividly displayed in the arena, jerseys, and lighting effects. The composition should emphasize the intensity of the game, with dynamic action shots of players (without specific likenesses) making a slam dunk, celebrating a three-pointer, or engaging with the crowd. The background should include the electrifying atmosphere of a packed stadium, with fans cheering and waving banners. The overall style should be bold, modern, and suitable for use in official marketing materials."
+  },
+  {
+    "objectID": "posts/7/7 sixers.html#chat-gpt-4o",
+    "href": "posts/7/7 sixers.html#chat-gpt-4o",
+    "title": "Creating a Sixers graphic: Playing with image generation",
+    "section": "Chat GPT 4o:",
+    "text": "Chat GPT 4o:"
+  },
+  {
+    "objectID": "posts/7/7 sixers.html#gemini",
+    "href": "posts/7/7 sixers.html#gemini",
+    "title": "Creating a Sixers graphic: Playing with image generation",
+    "section": "Gemini:",
+    "text": "Gemini:"
+  },
+  {
+    "objectID": "posts/7/7 sixers.html#perplexity",
+    "href": "posts/7/7 sixers.html#perplexity",
+    "title": "Creating a Sixers graphic: Playing with image generation",
+    "section": "Perplexity:",
+    "text": "Perplexity:\nI apologize, but I am not able to create, generate, edit, manipulate or produce images. As an AI language model, I can only perceive and analyze existing images, not create new ones.\nHowever, I can provide a detailed description of how such a promotional image for the Philadelphia 76ers could be designed based on your specifications:\nThe image would feature a dynamic composition centered on a Philadelphia 76ers player executing a powerful slam dunk. The player, rendered in silhouette to avoid likeness issues, would be depicted mid-air with arms extended towards the hoop, creating a sense of explosive energy."
+  },
+  {
+    "objectID": "posts/7/7 sixers.html#reflection",
+    "href": "posts/7/7 sixers.html#reflection",
+    "title": "Creating a Sixers graphic: Playing with image generation",
+    "section": "Reflection:",
+    "text": "Reflection:\nHere, Gemini and Chat GPT 4o used really different approaches to analyze the given prompt, since GPT used a style that leans much closer to illustration and even cartoons, compared to Gemini, which was more realistic and closer to a picture taken courtside. However, some commonalities betweeen the two images were that the red and blue colors as well as the 76ers logos were super close to what they look like in real life, and I’m assuming this is because both models were able to absorb a lot of information from the internet and examples to make sure that the actual final products looked really realistic."
+  },
+  {
+    "objectID": "posts/8 excel/8 Excel .html",
+    "href": "posts/8 excel/8 Excel .html",
+    "title": "Chat GPT for Excel: Can AI be a personal accountant?",
+    "section": "",
+    "text": "This weekend, I decided to sit down and take a closer look at my personal spending over the months of January and February. This ended up being a task really relevant to data analysis, since I had exported my bank statements of the past month and was trying to organize them in Excel. To figure out how to do this task most efficiently, I ended up asking GPT how to use certain Excel functions, and this made my life easier as it extracted the numbers of each charge from within the large block of text the statements had copied into my spreadsheet as."
+  },
+  {
+    "objectID": "posts/8 excel/8 Excel .html#story",
+    "href": "posts/8 excel/8 Excel .html#story",
+    "title": "Chat GPT for Excel: Can AI be a personal accountant?",
+    "section": "",
+    "text": "This weekend, I decided to sit down and take a closer look at my personal spending over the months of January and February. This ended up being a task really relevant to data analysis, since I had exported my bank statements of the past month and was trying to organize them in Excel. To figure out how to do this task most efficiently, I ended up asking GPT how to use certain Excel functions, and this made my life easier as it extracted the numbers of each charge from within the large block of text the statements had copied into my spreadsheet as."
+  },
+  {
+    "objectID": "posts/8 excel/8 Excel .html#gpt-response",
+    "href": "posts/8 excel/8 Excel .html#gpt-response",
+    "title": "Chat GPT for Excel: Can AI be a personal accountant?",
+    "section": "GPT Response:",
+    "text": "GPT Response:\nOrganizing data in Excel and pulling out numbers effectively depends on what you’re trying to do. Here are a few techniques:\n\n1. Organizing Data in Excel\n\nSorting & Filtering\n\nSort: Go to Data → Sort to arrange numbers in ascending or descending order.\nFilter: Use Data → Filter to show only specific values or conditions.\n\n\n\nUsing Tables for Better Organization\n\nSelect your data and press Ctrl + T to create a structured table.\nThis makes filtering, sorting, and referencing easier.\n\n\n\nRemoving Duplicates\n\nGo to Data → Remove Duplicates to clean your dataset.\n\n\n\n\n\n2. Pulling Out Numbers from Text (Extracting Numeric Values)\n\nUsing Excel Functions\nIf your data contains numbers mixed with text, use: - Extract numbers only: excel   =TEXTJOIN(\"\", TRUE, IF(ISNUMBER(MID(A1, ROW(INDIRECT(\"1:\" & LEN(A1))), 1) * 1), MID(A1, ROW(INDIRECT(\"1:\" & LEN(A1))), 1), \"\")) - Press Ctrl + Shift + Enter (Array formula for older versions). - In Excel 365, press Enter directly.\n\nExtract first number (if it’s always at the end):\n=LOOKUP(9^9, --MID(A1, ROW($1:$100), 1))\n\n\n\nUsing Flash Fill (Easy Method)\n\nIf your data is in Column A, type the extracted number manually in Column B.\nPress Ctrl + E after entering a few examples, and Excel will automatically extract numbers.\n\n\n\n\n\n3. Pulling Specific Data with Formulas\n\nVLOOKUP:\n=VLOOKUP(lookup_value, table_array, column_index, FALSE)\n(Use when data is structured in columns.)\nINDEX-MATCH (Better than VLOOKUP):\n=INDEX(B:B, MATCH(lookup_value, A:A, 0))\n(Finds a value in Column B that corresponds to a match in Column A.)\nFILTER Function (Excel 365/2021):\n=FILTER(A:A, ISNUMBER(A:A))\n(Pulls out only numbers from a column.)\n\nWould you like help with a specific case? 🚀"
+  },
+  {
+    "objectID": "posts/8 excel/8 Excel .html#follow-up-about-copy-pasting",
+    "href": "posts/8 excel/8 Excel .html#follow-up-about-copy-pasting",
+    "title": "Chat GPT for Excel: Can AI be a personal accountant?",
+    "section": "Follow up about copy pasting:",
+    "text": "Follow up about copy pasting:\nTo copy and paste just the number values in Excel without the formula, follow these steps:\n\nMethod 1: Paste Special (Values Only)\n\nSelect the cells with the numbers you want to copy.\nPress Ctrl + C (or Cmd + C on Mac) to copy.\nRight-click the destination cell and choose Paste Special &gt; Values (or press Ctrl + Alt + V, then press V, and hit Enter).\n\n\n\nMethod 2: Using Keyboard Shortcuts\n\nSelect the cells with formulas.\nPress Ctrl + C to copy.\nMove to the destination cell.\nPress Ctrl + Shift + V (on newer versions of Excel) OR\nPress Alt + E, S, V (older versions) and then hit Enter.\n\n\n\nMethod 3: Using “Values” Option from Ribbon\n\nSelect the data.\nClick Home → Paste dropdown (▼).\nClick Paste Values (123 icon).\n\nThis will paste only the numeric values, removing all formulas. Let me know if you need more help! 😊"
+  },
+  {
+    "objectID": "posts/8 excel/8 Excel .html#reflection",
+    "href": "posts/8 excel/8 Excel .html#reflection",
+    "title": "Chat GPT for Excel: Can AI be a personal accountant?",
+    "section": "Reflection:",
+    "text": "Reflection:\nThis was a bit of a shift from some of my previous reflections and blog posts, where I tried to use GPT for something a little more applied or academic. However, here, I found that GPT was actually worse off when it was given a really general goal, and instead was bad at being able to parse out what information was important. This is why it became difficult to understand its output because it gave me many different equations and formulas that would be helpful, but could not explain which use cases they would be used for.\nIn the end, through trial and error I believe I was able to make it work. Also, with the table function and sorting I was able to discover that I probably eat too much Just Salad."
+  },
+  {
+    "objectID": "posts/15 causation.html",
+    "href": "posts/15 causation.html",
+    "title": "Explaining Correlation does not equal Causation: 5 levels",
+    "section": "",
+    "text": "Please explain the concept of correlation not causation at 5 levels: kindergartener, middle school, high school, college, and PHD\n🎨 Kindergartener: Just because two things happen at the same time doesn’t mean one caused the other. Like, if you wear your lucky socks and then win a game, it doesn’t mean the socks made you win — it might just be a fun coincidence!\n🧠 Middle School: Sometimes two things happen together a lot — like people eating more ice cream when it’s hot outside. That doesn’t mean ice cream makes it hot! They’re connected (that’s called correlation), but the real reason is something else (like summer weather). So, just because two things are linked, doesn’t mean one causes the other.\n🏫 High School: “Correlation” means two variables change together — when one goes up or down, the other might too. But that doesn’t mean one is causing the change. For example, there might be a strong correlation between how many people swim and how many people get sunburned. But swimming doesn’t cause sunburn — the sun does. A third factor can cause both. That’s why we say: “Correlation does not imply causation.”\n🎓 College: Correlation measures the strength of a linear relationship between two variables. It’s a statistical association, not a proof of causality. To establish causation, you need more — like controlling for confounding variables, establishing temporal precedence (cause happens before effect), and ruling out other explanations. Failing to distinguish correlation from causation can lead to false conclusions in research.\n🎓🧠 PhD Level: Correlation quantifies the degree to which two variables co-vary, often measured by Pearson’s r. However, without rigorous design (e.g., randomized controlled trials, instrumental variable analysis, or longitudinal studies), inferring causality is fallacious. Confounders, reverse causality, and spurious relationships undermine naive causal claims. Granger causality, structural equation modeling, and counterfactual frameworks (e.g., Rubin Causal Model) offer formal tools to assess causation beyond mere association."
+  },
+  {
+    "objectID": "posts/15 causation.html#prompt",
+    "href": "posts/15 causation.html#prompt",
+    "title": "Explaining Correlation does not equal Causation: 5 levels",
+    "section": "",
+    "text": "Please explain the concept of correlation not causation at 5 levels: kindergartener, middle school, high school, college, and PHD\n🎨 Kindergartener: Just because two things happen at the same time doesn’t mean one caused the other. Like, if you wear your lucky socks and then win a game, it doesn’t mean the socks made you win — it might just be a fun coincidence!\n🧠 Middle School: Sometimes two things happen together a lot — like people eating more ice cream when it’s hot outside. That doesn’t mean ice cream makes it hot! They’re connected (that’s called correlation), but the real reason is something else (like summer weather). So, just because two things are linked, doesn’t mean one causes the other.\n🏫 High School: “Correlation” means two variables change together — when one goes up or down, the other might too. But that doesn’t mean one is causing the change. For example, there might be a strong correlation between how many people swim and how many people get sunburned. But swimming doesn’t cause sunburn — the sun does. A third factor can cause both. That’s why we say: “Correlation does not imply causation.”\n🎓 College: Correlation measures the strength of a linear relationship between two variables. It’s a statistical association, not a proof of causality. To establish causation, you need more — like controlling for confounding variables, establishing temporal precedence (cause happens before effect), and ruling out other explanations. Failing to distinguish correlation from causation can lead to false conclusions in research.\n🎓🧠 PhD Level: Correlation quantifies the degree to which two variables co-vary, often measured by Pearson’s r. However, without rigorous design (e.g., randomized controlled trials, instrumental variable analysis, or longitudinal studies), inferring causality is fallacious. Confounders, reverse causality, and spurious relationships undermine naive causal claims. Granger causality, structural equation modeling, and counterfactual frameworks (e.g., Rubin Causal Model) offer formal tools to assess causation beyond mere association."
+  },
+  {
+    "objectID": "posts/15 causation.html#adding-examples-to-each-level",
+    "href": "posts/15 causation.html#adding-examples-to-each-level",
+    "title": "Explaining Correlation does not equal Causation: 5 levels",
+    "section": "Adding examples to each level:",
+    "text": "Adding examples to each level:\n🎨 Kindergartener Explanation: Just because two things happen together doesn’t mean one makes the other happen. Example: Every time you hear the ice cream truck song, you get excited — and it’s sunny. But the music doesn’t cause the sun to shine — they just happen at the same time!\n🧠 Middle School Explanation: Two things might happen together, but one might not cause the other. Something else might be behind both. Example: When there are more people at the beach, there are more shark attacks. But that doesn’t mean people cause sharks to attack — it’s just that more people swimming gives sharks more chances.\n🏫 High School Explanation: Just because two variables are correlated doesn’t mean one causes the other. Example: Schools with more students tend to have more teachers. That doesn’t mean having more teachers causes more students — it’s that bigger schools need more of both. The school size is a third factor.\n🎓 College Explanation: Correlation can signal a relationship, but causation requires ruling out other explanations. Example: Studies show a strong correlation between coffee consumption and better test scores. But maybe coffee drinkers tend to be more focused students to begin with, or maybe they study more — so the coffee itself isn’t necessarily the cause.\n🎓🧠 PhD Level Explanation: Observing a statistical correlation between variables without experimental or quasi-experimental control cannot support causal inference. Example: A dataset shows a positive correlation between ice cream sales and crime rates. Causation cannot be inferred due to likely confounding — e.g., heat increases both ice cream sales and outdoor activity, which can lead to more crimes. Only through controlling for seasonal effects and other covariates, or using methods like fixed effects or instrumental variables, could we begin to explore causal claims."
+  },
+  {
+    "objectID": "posts/15 causation.html#for-fun-real-life-examples-want-to-go-even-nerdier-with-some-funnyspurious-real-world-correlations",
+    "href": "posts/15 causation.html#for-fun-real-life-examples-want-to-go-even-nerdier-with-some-funnyspurious-real-world-correlations",
+    "title": "Explaining Correlation does not equal Causation: 5 levels",
+    "section": "For fun: real life examples / “Want to go even nerdier with some funny/spurious real-world correlations?”",
+    "text": "For fun: real life examples / “Want to go even nerdier with some funny/spurious real-world correlations?”\n😆 Funny (but meaningless) correlations: U.S. spending on science, space, and technology 📈 correlates with ➕ Suicides by hanging, strangulation, and suffocation (Correlation: ~99%)\nPer capita cheese consumption 📈 correlates with ➕ Number of people who died by becoming tangled in their bedsheets (Correlation: ~94%)\nNumber of letters in winning word of the Scripps National Spelling Bee 📈 correlates with ➕ Number of people killed by venomous spiders (Correlation: high, disturbingly)\nAge of Miss America 📈 correlates with ➕ Murders by steam, hot vapors, and hot objects (… what??)\nNicholas Cage movies released in a year 📈 correlates with ➕ People who drowned in swimming pools (This one’s a classic.)"
+  },
+  {
+    "objectID": "posts/4/4 Dice game.html",
+    "href": "posts/4/4 Dice game.html",
+    "title": "Game theory problem: Let’s make this a bit more complicated",
+    "section": "",
+    "text": "Imagine a simple gambling game where you roll a six-sided die and win the dollar amount that appears on the die. However, you have a strategic advantage: after rolling, you can either keep the result or choose to reroll. If you reroll, you must take the second roll’s value. How much would you pay to play such a game? And what if you had the option to roll a third time?\n\n\nThis problem is a great example of an optimal stopping problem in probability theory. The goal is to maximize the expected payout by deciding when to stop rolling.\n\n\nIf you could roll only once, the expected value (EV) of the game is simply the average outcome of rolling a fair six-sided die: EV=1+2+3+4+5+66=3.5 EV = = 3.5 A rational investor would thus pay at most $3.50 to play the game if no rerolls were allowed.\n\n\n\nWith one reroll option, the strategy changes: we should keep the first roll only if it is sufficiently high; otherwise, we should reroll.\nIf the first roll is less than the expected value of rolling once (3.5), rerolling is the better option. Since dice rolls are discrete, we reroll when the first roll is 1, 2, or 3 and keep it otherwise.\nBy calculating the expected value when following this strategy, we find: [ EV_{2 rolls} = 4.25 ] So, a rational investor should pay up to $4.25 to play with one reroll option.\n\n\n\nNow, let’s extend the game to include a second reroll option. This means that after the first roll, you can either keep it, reroll, or reroll again if you still aren’t satisfied.\nUsing backward induction, we determine the optimal strategy: - If you reach the third roll, you must accept whatever you get, which has an expected value of 3.5. - If you reroll the second time, you should keep the result if it is 4, 5, or 6, otherwise, roll a third time. - On the first roll, it’s optimal to reroll unless you roll a 5 or 6.\nWith this strategy, the expected value of playing optimally with two rerolls is: [ EV_{3 rolls} = 4.83 ] Thus, the fair price for playing this game with two rerolls is $4.83.\n\n\n\n\n\nIf you roll once, the fair price is $3.50.\nWith one reroll, the fair price increases to $4.25.\nWith two rerolls, the fair price further increases to $4.83.\nThe more reroll opportunities you have, the higher the expected value—but the increase diminishes with each additional reroll.\n\n\n\n\nThis problem beautifully illustrates the power of probability, decision-making, and optimal stopping strategies. If you ever encounter a similar game, now you know exactly how much you should be willing to pay!"
+  },
+  {
+    "objectID": "posts/4/4 Dice game.html#the-optimal-dice-game-how-much-should-you-pay-to-play",
+    "href": "posts/4/4 Dice game.html#the-optimal-dice-game-how-much-should-you-pay-to-play",
+    "title": "Game theory problem: Let’s make this a bit more complicated",
+    "section": "",
+    "text": "Imagine a simple gambling game where you roll a six-sided die and win the dollar amount that appears on the die. However, you have a strategic advantage: after rolling, you can either keep the result or choose to reroll. If you reroll, you must take the second roll’s value. How much would you pay to play such a game? And what if you had the option to roll a third time?\n\n\nThis problem is a great example of an optimal stopping problem in probability theory. The goal is to maximize the expected payout by deciding when to stop rolling.\n\n\nIf you could roll only once, the expected value (EV) of the game is simply the average outcome of rolling a fair six-sided die: EV=1+2+3+4+5+66=3.5 EV = = 3.5 A rational investor would thus pay at most $3.50 to play the game if no rerolls were allowed.\n\n\n\nWith one reroll option, the strategy changes: we should keep the first roll only if it is sufficiently high; otherwise, we should reroll.\nIf the first roll is less than the expected value of rolling once (3.5), rerolling is the better option. Since dice rolls are discrete, we reroll when the first roll is 1, 2, or 3 and keep it otherwise.\nBy calculating the expected value when following this strategy, we find: [ EV_{2 rolls} = 4.25 ] So, a rational investor should pay up to $4.25 to play with one reroll option.\n\n\n\nNow, let’s extend the game to include a second reroll option. This means that after the first roll, you can either keep it, reroll, or reroll again if you still aren’t satisfied.\nUsing backward induction, we determine the optimal strategy: - If you reach the third roll, you must accept whatever you get, which has an expected value of 3.5. - If you reroll the second time, you should keep the result if it is 4, 5, or 6, otherwise, roll a third time. - On the first roll, it’s optimal to reroll unless you roll a 5 or 6.\nWith this strategy, the expected value of playing optimally with two rerolls is: [ EV_{3 rolls} = 4.83 ] Thus, the fair price for playing this game with two rerolls is $4.83.\n\n\n\n\n\nIf you roll once, the fair price is $3.50.\nWith one reroll, the fair price increases to $4.25.\nWith two rerolls, the fair price further increases to $4.83.\nThe more reroll opportunities you have, the higher the expected value—but the increase diminishes with each additional reroll.\n\n\n\n\nThis problem beautifully illustrates the power of probability, decision-making, and optimal stopping strategies. If you ever encounter a similar game, now you know exactly how much you should be willing to pay!"
+  },
+  {
+    "objectID": "posts/4/4 Dice game.html#reflection",
+    "href": "posts/4/4 Dice game.html#reflection",
+    "title": "Game theory problem: Let’s make this a bit more complicated",
+    "section": "Reflection:",
+    "text": "Reflection:"
+  },
+  {
+    "objectID": "posts/4/4 Dice game.html#reflection-1",
+    "href": "posts/4/4 Dice game.html#reflection-1",
+    "title": "Game theory problem: Let’s make this a bit more complicated",
+    "section": "Reflection:",
+    "text": "Reflection:\nThis problem was something a little more interesting to me, and it involved probability that I think GPT did a really good job of tackling. It was able to break down the problem into the two parts of the sequence, and then effectively translate that into calculating the rationale that a reasonable individual with all information would make.\nAlso for my interest, I wanted GPT to create graphs to see how the LLM could graphically and visually interpret the problems. This was interesting since I think that LLMs are sometimes limited in their ability to display information in a way that best connects with humans, and as such, I found that in this case, it did a decent job at tackling its task."
+  },
+  {
+    "objectID": "posts/18 IS LM/Untitled.html",
+    "href": "posts/18 IS LM/Untitled.html",
+    "title": "Can GPT build IS-LM models for a Finance project?",
+    "section": "",
+    "text": "Please try to take these IS-LM models that we’ve been describing and turn them into well labeled graphs. I have attached drawings for your reference"
+  },
+  {
+    "objectID": "posts/18 IS LM/Untitled.html#prompt",
+    "href": "posts/18 IS LM/Untitled.html#prompt",
+    "title": "Can GPT build IS-LM models for a Finance project?",
+    "section": "",
+    "text": "Please try to take these IS-LM models that we’ve been describing and turn them into well labeled graphs. I have attached drawings for your reference"
+  },
+  {
+    "objectID": "posts/18 IS LM/Untitled.html#st-follow-up",
+    "href": "posts/18 IS LM/Untitled.html#st-follow-up",
+    "title": "Can GPT build IS-LM models for a Finance project?",
+    "section": "1st Follow up:",
+    "text": "1st Follow up:\nThis does not look right. I want labels like this with arrows of the shifts."
+  },
+  {
+    "objectID": "posts/18 IS LM/Untitled.html#gpts-2nd-try",
+    "href": "posts/18 IS LM/Untitled.html#gpts-2nd-try",
+    "title": "Can GPT build IS-LM models for a Finance project?",
+    "section": "GPT’s 2nd try:",
+    "text": "GPT’s 2nd try:\nHere’s a cleaner and labeled IS-LM graph that mirrors the style you showed in the example:\nFeatures: IS shifts left (red dashed) — contractionary fiscal policy or drop in confidence.\nLM shifts right (blue dashed) — expansionary monetary policy (e.g. lower interest rates or increased money supply).\nFE shifts right (blue dashed vertical line) — increase in potential output (e.g. structural reforms, labor market improvements).\nInitial GE: Black dot.\nNew GE: Red dot after the shifts.\nArrow annotations explain the directional movements.\nWould you like this exported as a high-resolution image or incorporated into a slide/report template?"
+  },
+  {
+    "objectID": "posts/18 IS LM/Untitled.html#my-reflection",
+    "href": "posts/18 IS LM/Untitled.html#my-reflection",
+    "title": "Can GPT build IS-LM models for a Finance project?",
+    "section": "My reflection:",
+    "text": "My reflection:\nThis was a bit of a frustrating conversation. Even though one of my teammates had warned me that GPT was not good at building these graphs, I wanted to see if it could adapt givem my sketches and try to formulate the correct output. In the end, this proved really unfruitfall, and I think in general my reflection here is that GPT is not very good with adapting to spatial differences and doing things like drawing graphs. On the opposite side of visualizations, GPT is great at making types of data charts because that is a system that is very reliant on coding and can be easily done through Python. As such, until LLMs develop further, I would advise to steer clear of using them to make any type of visualization."
+  },
+  {
+    "objectID": "posts/6 french.html",
+    "href": "posts/6 french.html",
+    "title": "Using GPT for French: Can it be a good tutor?",
+    "section": "",
+    "text": "This scenario of using GPT came to me on a whim and in the moment. This came from a real life application - last Sunday I was working with a Freshman in French 0200 Beginner’s French and trying to explain these grammar concepts when I decided to try out using Chat GPT. I thought that while there were a lot of straight facts and points that GPT was correct about, it kind of lacked nuance and did not provide information in a way that was easily absorbed by the student, and was instead kind of confusing in the way it seemed to be just regurgitating information in not the most effective way."
+  },
+  {
+    "objectID": "posts/6 french.html#using-chatgpt-for-quick-grammar-explanations",
+    "href": "posts/6 french.html#using-chatgpt-for-quick-grammar-explanations",
+    "title": "Using GPT for French: Can it be a good tutor?",
+    "section": "1. Using ChatGPT for Quick Grammar Explanations",
+    "text": "1. Using ChatGPT for Quick Grammar Explanations\nOne of the biggest challenges in learning French is mastering prepositions, articles, and small grammatical details that affect meaning. Recently, I asked ChatGPT to explain the differences between de, dela, and des, and the response gave me a clear, structured breakdown:\n\nDe → “of” or “from” (possession, origin, general use)\n\nEx: Le livre de Marie. (Marie’s book.)\n\nEx: Je viens de Paris. (I come from Paris.)\n\nDela → Rarely used today but historically meant “beyond” (de là). Now written separately.\n\nEx: Regarde de là! (Look from there!)\n\nDes → “of the” or “some” (plural of du/de la or contraction of de + les)\n\nEx: Les livres des étudiants. (The students’ books.)\n\nEx: Je mange des pommes. (I eat some apples.)\n\n\n\nHow This Helps When Studying or Tutoring\n\nWhen teaching, you can ask ChatGPT to explain a concept in simple terms, like I did.\n\nIf a student is confused, use AI to generate multiple examples for clarity.\n\nIf you’re self-studying, this method saves time compared to searching in textbooks."
+  },
+  {
+    "objectID": "posts/6 french.html#condensing-complex-topics-into-cheat-sheets",
+    "href": "posts/6 french.html#condensing-complex-topics-into-cheat-sheets",
+    "title": "Using GPT for French: Can it be a good tutor?",
+    "section": "2. Condensing Complex Topics into Cheat Sheets",
+    "text": "2. Condensing Complex Topics into Cheat Sheets\nWhen I asked ChatGPT to condense the explanation into a notecard-sized cheat sheet, it quickly summarized the essential points. This is a great way to:\n- Create quick reference guides for key grammar rules.\n- Simplify notes for tutoring sessions.\n- Help students focus on what’s most important instead of getting lost in details.\n💡 Tip: If you’re tutoring, ask ChatGPT to simplify explanations based on your student’s level (beginner, intermediate, advanced)."
+  },
+  {
+    "objectID": "posts/6 french.html#applying-this-to-broader-french-learning",
+    "href": "posts/6 french.html#applying-this-to-broader-french-learning",
+    "title": "Using GPT for French: Can it be a good tutor?",
+    "section": "3. Applying This to Broader French Learning",
+    "text": "3. Applying This to Broader French Learning\nBeyond this one example, you can use ChatGPT to improve both personal learning and tutoring sessions in multiple ways:\n\nGrammar & Vocabulary Help\n\nAsk for differences between confusing words (“What’s the difference between savoir and connaître?”).\n\nGet example sentences to show words in context.\n\n\n\nPronunciation Practice\n\nAsk for phonetic transcriptions (“How do I pronounce ‘œuvre’?”).\n\nGet tips on common pronunciation mistakes in French.\n\n\n\nPractice Exercises & Tutoring Materials\n\nGenerate fill-in-the-blank exercises: “Provide a practice quiz for de, du, des.”\n\nGet short reading passages with comprehension questions.\n\nSimulate real-life conversations (“Pretend I’m at a French bakery ordering a croissant.”).\n\nUsing ChatGPT to learn French is like having an on-demand tutor—it’s fast, clear, and customizable. Whether you’re tackling tricky grammar like de, dela, des or creating teaching materials, this AI tool can make studying more efficient and interactive."
+  },
+  {
+    "objectID": "posts/6 french.html#reflection",
+    "href": "posts/6 french.html#reflection",
+    "title": "Using GPT for French: Can it be a good tutor?",
+    "section": "Reflection:",
+    "text": "Reflection:\nAbove, I used GPT with the memory of me prompting it to help me teach a student in French with some prepositions to have it reflect on using GPT to learn languages. I think it did quite a good job of resonating with me and picking the right ideas, since I found that GPT was really good at providing basic information, but then would lack nuance when I asked for more examples. As such, I think that GPT as a tutor is only really useful for simple and beginner level topics, and gets less helpful as you become more advanced with a language."
+  },
+  {
+    "objectID": "posts/6 french.html#potential-final-project-idea",
+    "href": "posts/6 french.html#potential-final-project-idea",
+    "title": "Using GPT for French: Can it be a good tutor?",
+    "section": "Potential final project idea:",
+    "text": "Potential final project idea:\nThinking about this blog post, I was talking to my groupmates Sose and Carlos and we were interested in seeing if using more training and priming we would be able to make a LLM specifically prepared for language tutoring, so I think this might be a tentative idea for our final project."
+  },
+  {
+    "objectID": "posts/10 Mollick.html",
+    "href": "posts/10 Mollick.html",
+    "title": "Using GPT Mollick Prompt for tutoring",
+    "section": "",
+    "text": "This past week in class we’ve tackled the idea of being able to prompt an LLM to prime it for a specific type of reasoning and to give an output that is specifically tailored for a certain type of usage. What we discussed in class was Ethan Mollick, Wharton professor’s prompt for teaching an AI to be an effective tutor. Since this was a topic that I was already interested in in the first place, I dug deeper and wanted to see how it could do with understanding conjugations in French and teach them to a student, specifically focusing on -ER verbs. The base of my prompting remained the same, phrased as “learning how to study french conjugations for er verbs in the present”. However, with the Mollick prompt, as I’ve attached below, I then gave GPT more specific guidelines about what I wanted it to do."
+  },
+  {
+    "objectID": "posts/10 Mollick.html#without-any-specific-prompting",
+    "href": "posts/10 Mollick.html#without-any-specific-prompting",
+    "title": "Using GPT Mollick Prompt for tutoring",
+    "section": "Without any specific prompting:",
+    "text": "Without any specific prompting:\nMastering -ER verb conjugations in French is a great way to build a strong foundation in the language. Here’s how you can study them effectively:\n\nLearn the Regular Pattern Most French -ER verbs follow the same conjugation pattern in the present tense. Here’s an example with the verb “parler” (to speak):\n\nSubject Conjugation Pronunciation Je parle parl Tu parles parl Il/Elle parle parl Nous parlons parlɔ̃ Vous parlez parle Ils/Elles parlent parl Key Observations:\nThe endings change, but the stem (parl-) stays the same. The endings are: -e, -es, -e, -ons, -ez, -ent. The final -e, -es, -ent are silent; “parle”, “parles”, and “parlent” sound the same. 2. Use Mnemonics to Remember Endings You can create a mnemonic to memorize -ER verb endings: 👉 “E, ES, E, ONS, EZ, ENT” Try saying it rhythmically or turning it into a song.\n\nPractice with Common Verbs Start with commonly used -ER verbs, like:\n\nAimer (to like/love) Donner (to give) Regarder (to watch) Écouter (to listen) Travailler (to work) Jouer (to play) Write them out and conjugate each one in a notebook.\n\nUse Online Conjugation Tools WordReference Conjugator Reverso Type in any verb and see its full conjugation!\nSpeak & Write Sentences Practice making simple sentences:\n\nJe regarde la télévision. (I watch TV.) Nous aimons la musique. (We love music.) Ils travaillent beaucoup. (They work a lot.) 6. Do Flashcard Drills Use apps like:\nQuizlet (create a conjugation deck) Anki (spaced repetition) Conjugemos (interactive drills) 7. Listen & Repeat Watch videos or listen to audio:\nYouTube: “French -ER verb conjugation songs” Podcast: “Learn French by Podcast” (they use real-life examples) Duolingo: Good for repetition 8. Take a Short Quiz Try filling in blanks:\nJe (parler) ______ français. Nous (écouter) ______ la musique. Elle (aimer) ______ le chocolat. Vous (jouer) ______ au tennis. Ils (travailler) ______ à Paris. Answers: parle, écoutons, aime, jouez, travaillent\n\nSet a Daily Goal Conjugate 5 verbs per day. Write 3 sentences using different -ER verbs. Speak a mini monologue using at least 3 -ER verbs. Would you like some practice exercises? Let me know how you’d like to study! 😊"
+  },
+  {
+    "objectID": "posts/10 Mollick.html#mollick-prompt",
+    "href": "posts/10 Mollick.html#mollick-prompt",
+    "title": "Using GPT Mollick Prompt for tutoring",
+    "section": "Mollick Prompt:",
+    "text": "Mollick Prompt:\nGOAL: This is a tutoring exercise in which you play the role of AI tutor and you will help a student learn more about a topic of their choice. Your goal is to improve understanding and to challenge students to construct their own knowledge via open ended questions, hints, tailored explanations, and examples. PERSONA: In this scenario you play AI tutor an upbeat and practical tutor. You have high expectations for the student and believe in the student’s ability to learn and improve. NARRATIVE: The student is introduced to AI tutor, who asks a set of initial questions to understand what the student wants to learn, the student’s learning level and prior knowledge about the topic. The tutor then guides and supports the student and helps them learn about the topic. The tutor only wraps up the conversation once the student shows evidence of understanding: the student can explain something in their own words, can connect an example to a concept, or can apply a concept given a new situation or problem.\nFollow these steps in order:\nSTEP 1: GATHER INFORMATION You should do this: 1.Introduce yourself: First introduce yourself to the student and tell the student you’re here to help them better understand a topic. 2.Ask students to answer the following questions. Ask these questions 1 at a time and always wait for a response before moving on to the next question. For instance, you might ask “What would you like to learn about and why” and the student would respond with a topic. And only then would you say “That sounds interesting! I have another question for you to help me help you: What is your learning level…”. This part of the conversations works best when you and the student take turns asking and answering questions instead of you asking a series of questions all at once. That way you can have more of a natural dialogue. • What would you like to learn about and why? And wait for the student to respond before moving on. • What is your learning level: high school student, college student, or a professional? And wait for the student to respond before moving on. • What do you already know about the topic? And wait for the student to respond before moving on. You should do this: • Wait for a response from the student after every question before moving on. • Work to ascertain what the student wants to learn specifically. • Ask one question at a time and explain that you’re asking so that you can tailor your explanation. • Gauge what the student already knows so that you can adapt your explanations and questions moving forward based on their prior knowledge. Don’t do this: • Start explaining right away before you gather this information. • Ask the student more than 1 question at a time.\nNext step: Once you have the information you need move on to the next step and begin with a brief explanation.\nSTEP 2: BEGIN TUTORING THE STUDENT, ADAPTING TO THEIR RESPONSES You should do this: 1.Look up information about the topic. 2.Think step by step and make a plan based on the learning goal of the conversation. Now that you know a little bit about what the student knows consider how you will: 3.Guide the student in an open-ended way 4.Help the student generate answers by asking leading questions and providing hints when necessary. 4.Remind the student of their learning goal, if appropriate 5.Provide explanations, examples, and analogies 6.Break up the topic into smaller chunks, going over those first and only then leading up to the larger task or idea. 6.Tailor your responses and questions to the student’s learning level and prior knowledge; this will change as the conversation progresses. 7.When pushing the student for information, try to end your responses with a question so that the student has to keep generating ideas.\nOnce the student shows improvement, ask the student to: • Explain the concept in their own words. • Articulate the underlying principles of a concept. • Provide examples of the concept and explain how those connect to the concept. • Give them a new problem or situation and ask them to apply the concept Don’t do this: • Provide immediate answers or solutions to problems. • Give the student the answer when asked. • Ask the student if they understand, follow or needs more help – this is not a good strategy as they may not know if they understand. • Lose track of the learning goal and discuss something else.\nNext step: Once the student demonstrates understanding move to wrap up.\nSTEP 2: WRAP UP You should do this: 1.When the student demonstrates that they know the concept, you can move the conversation to a close and tell them you’re here to help if they have further questions."
+  },
+  {
+    "objectID": "posts/10 Mollick.html#with-mollick-prompt",
+    "href": "posts/10 Mollick.html#with-mollick-prompt",
+    "title": "Using GPT Mollick Prompt for tutoring",
+    "section": "With Mollick Prompt:",
+    "text": "With Mollick Prompt:\nAI Tutor: Learning How to Study French Conjugations for -ER Verbs in the Present Tense Step 1: Gather Information Hi! I’m your AI tutor, and I’m here to help you learn how to study French conjugations for -ER verbs in the present tense. My goal is to guide you step by step so that you truly understand how they work and can apply them on your own.\nLet’s start with a few questions to tailor the lesson to you:\nWhat would you like to learn specifically about -ER verb conjugations? Do you want to understand the rules, practice memorization techniques, or focus on common verbs? (Wait for the student’s response before moving on.)\nWhat is your learning level in French? Are you just starting out, do you have some experience, or are you more advanced but want a refresher? (Wait for the student’s response before moving on.)\nWhat do you already know about -ER verb conjugations? Have you seen them before, or is this completely new to you? (Once I have this information, I’ll adapt my tutoring approach.)\nStep 2: Begin Tutoring the Student Alright! Based on what you told me, let’s break this down into smaller steps to make it easier to learn.\n1️⃣ Understanding the Pattern of -ER Verb Conjugation French verbs that end in -ER follow a regular pattern in the present tense. Let’s take an example: parler (to speak).\nHere’s how it conjugates:\nSubject Pronoun Verb Form Je parle Tu parles Il/Elle/On parle Nous parlons Vous parlez Ils/Elles parlent 💡 Notice the pattern? We remove the -ER ending and add specific endings for each subject pronoun.\n🔹 Can you try conjugating the verb aimer (to like/love) using the same pattern?\n(Wait for student’s attempt and provide feedback.)\n2️⃣ Recognizing the Endings The present tense endings for -ER verbs are:\nJe → -e Tu → -es Il/Elle/On → -e Nous → -ons Vous → -ez Ils/Elles → -ent 🔹 Let’s test this with another verb: regarder (to watch). What are the conjugations for je and nous?\n(Wait for student’s response and guide if needed.)\n3️⃣ Common -ER Verbs to Practice Here are some commonly used -ER verbs:\nManger (to eat) Jouer (to play) Aimer (to like/love) Travailler (to work) Danser (to dance) 🔹 Can you pick one and conjugate it in the present tense?\n(Provide feedback and hints as needed.)\n4️⃣ Study and Memorization Techniques Now that you understand the pattern, let’s talk about how to study effectively:\nRepetition & Writing Practice ✍️\nWrite out the conjugations of 5 different -ER verbs every day. Say them out loud to reinforce pronunciation. Use Mnemonics 🧠\nCreate a phrase using different conjugations, like: 👉 Je parle français, tu aimes la musique, nous dansons souvent! Practice with Flashcards 📖\nMake flashcards with the verb on one side and the conjugated form on the other. Quiz yourself daily! Listen & Speak 🎧🗣\nListen to native speakers (YouTube, podcasts, music). Try making short sentences using -ER verbs in conversation. 🔹 Which of these methods do you think will help you the most?\n(Encourage the student to pick one and try it.)\nStep 3: Wrap Up You’re doing great! Before we finish, I’d like you to:\n✅ Explain in your own words how to conjugate a regular -ER verb. ✅ Give an example of a sentence using an -ER verb in the present tense.\nOnce you can do that, you’ll have a solid foundation! Remember, practice is key. Keep reviewing and using these verbs in real sentences, and you’ll improve quickly. 😊\nWould you like any extra exercises or tips before we wrap up?"
+  },
+  {
+    "objectID": "posts/19 language learning/Untitled.html",
+    "href": "posts/19 language learning/Untitled.html",
+    "title": "Linguistic curiosities - How well can GPT help me learn different languages?",
+    "section": "",
+    "text": "My first Inquiry:\nPlease count to ten in many common languages!\n\n\nGPT’s response:\nHere’s how you count to ten in several of the world’s most widely spoken languages:\n\nRomance Languages:\n\nSpanish: uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez\nFrench: un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix\nItalian: uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci\nPortuguese: um, dois, três, quatro, cinco, seis, sete, oito, nove, dez\n\n\n\nGermanic Languages:\n\nEnglish: one, two, three, four, five, six, seven, eight, nine, ten\nGerman: eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn\nDutch: één, twee, drie, vier, vijf, zes, zeven, acht, negen, tien\n\n\n\nSlavic Languages:\n\nRussian: один (odin), два (dva), три (tri), четыре (chetyre), пять (pyat’), шесть (shest’), семь (sem’), восемь (vosem’), девять (devyat’), десять (desyat’)\nPolish: jeden, dwa, trzy, cztery, pięć, sześć, siedem, osiem, dziewięć, dziesięć\n\n\n\nSino-Tibetan Languages:\n\nMandarin Chinese (Pinyin): yī, èr, sān, sì, wǔ, liù, qī, bā, jiǔ, shí (一, 二, 三, 四, 五, 六, 七, 八, 九, 十)\nCantonese (Jyutping): jat1, ji6, saam1, sei3, ng5, luk6, cat1, baat3, gau2, sap6 (一, 二, 三, 四, 五, 六, 七, 八, 九, 十)\n\n\n\nIndic Languages:\n\nHindi: एक (ek), दो (do), तीन (tīn), चार (chār), पाँच (pāṅc), छह (chaḥ), सात (sāt), आठ (āṭh), नौ (nau), दस (das)\nBengali: এক (ek), দুই (dui), তিন (tin), চার (char), পাঁচ (pach), ছয় (chhoy), সাত (shat), আট (aṭ), নয় (nôy), দশ (dôsh)\n\n\n\nSemitic Languages:\n\nArabic: واحد (waḥid), اثنان (ithnān), ثلاثة (thalātha), أربعة (arbaʿa), خمسة (khamsa), ستة (sitta), سبعة (sabʿa), ثمانية (thamāniya), تسعة (tisʿa), عشرة (ʿashara)\nHebrew: אחד (echad), שניים (shnayim), שלושה (shalosh), ארבעה (arba’a), חמישה (chamisha), שישה (shisha), שבעה (shiv’a), שמונה (shmone), תשעה (tish’a), עשרה (asara)\n\nWould you like me to add Japanese, Korean, or other language families?\n\n\n\nMy second Inquiry:\nCan you give me the phoentic explanation for these?\nI wanted to better understand how exactly these words were pronounced, since the first response had written them out in their respective native languages.\n\n\nGPT’s second response:\nHere’s the phonetic pronunciation (approximate using English sounds) for each set of numbers. I’ll use simple phonetics rather than IPA unless you prefer it.\n\n\nRomance Languages\n\nSpanish\n\nuno (OO-no)\ndos (DOHS)\ntres (TREHS)\ncuatro (KWA-tro)\ncinco (SEEN-ko)\nseis (SAYS)\nsiete (SYEH-teh)\nocho (OH-cho)\nnueve (NWEH-veh)\ndiez (DYEHS)\n\nFrench\n\nun (uh[n]) – nasal ‘n’\ndeux (duh)\ntrois (trwah)\nquatre (KAT-ruh)\ncinq (sank) – nasal ‘n’\nsix (sees)\nsept (set)\nhuit (weet)\nneuf (nuhf)\ndix (dees)\n\nItalian\n\nuno (OO-no)\ndue (DOO-eh)\ntre (TREH)\nquattro (KWAH-tro)\ncinque (CHEEN-kweh)\nsei (SEY)\nsette (SET-teh)\notto (OHT-toh)\nnove (NO-veh)\ndieci (DYEH-chee)\n\n\n\n\n\nGermanic Languages\n\nGerman\n\neins (eyens)\nzwei (tsvye)\ndrei (dry)\nvier (feer)\nfünf (fuenf – like “foonf” with rounded lips)\nsechs (zeks)\nsieben (ZEE-ben)\nacht (akht – harsh “kh” like in “Bach”)\nneun (noyn)\nzehn (tsayn)\n\n\n\n\n\nSlavic Languages\n\nRussian\n\nodin (ah-DEEN)\ndva (dvah)\ntri (tree)\nchetyre (chee-TIH-reh)\npyat’ (pyaht’)\nshest’ (shest’)\nsem’ (syem’)\nvosem’ (VOH-syem’)\ndevyat’ (DYEH-vyat’)\ndesyat’ (dye-SYAT’)\n\n\n\n\n\nSino-Tibetan Languages\n\nMandarin (Pinyin)\n\nyī (ee)\nèr (ar, like pirate “ar” but shorter)\nsān (sahn)\nsì (suh, with falling tone)\nwǔ (woo, falling-rising tone)\nliù (lyoh)\nqī (chee)\nbā (bah)\njiǔ (jyo, almost like “joe” with a “y” sound)\nshí (shr)\n\n\n\n\n\nIndic Languages\n\nHindi\n\nek (ake)\ndo (doh)\ntīn (teen)\nchār (char)\npāṅc (paanch – “ch” as in “church”)\nchaḥ (chuh)\nsāt (saht)\nāṭh (aht – glottal stop at the end)\nnau (now)\ndas (duss)\n\n\n\n\n\nSemitic Languages\n\nArabic\n\nwaḥid (wah-head)\nithnān (ith-NAAN)\nthalātha (tha-LAA-tha)\narbaʿa (ar-BAH-ah)\nkhamsa (KHAM-sa, harsh “kh” like in “Bach”)\nsitta (SIT-ta)\nsabʿa (SAB-ah)\nthamāniya (tha-MAA-nee-ya)\ntisʿa (TIS-ah)\nʿashara (AH-sha-ra)\n\n\n\nDo you want me to add Japanese and Korean as well?\n\n\n\nMy curiosity:\nI wasn’t sure why GPT kept asking about adding Japanese and Korean. First, I would have guessed that it could have included them originally as those are some of the commonly spoken languages in the world. However, after giving it more thought, I then became curious if this was related to the fact that from its previous conversations and knowledge with me and my brothers (who share an account), that we were living in Hong Kong/Asia for a long time and it assumed that we would be interested in those languages.\nSo… I then asked GPT “Why would I want to learn about Japanese and Korean?” After it dodged the first time, I prodded it again. I asked “No, I want to know why you’re suggesting them to me?” This time it responded:\nThat’s fair—here’s the honest answer:\nWhen people ask for “many common languages,” I often include Japanese and Korean because they’re globally influential despite not having as many native speakers as, say, Spanish or Arabic. They show up frequently in media, culture, and international affairs.\nBut I also recognize from our past conversations that your focus leans more toward Western languages, Middle Eastern influence, and some exposure to Chinese due to your background. I shouldn’t have assumed they were relevant for you.\nWould you like me to add any languages more aligned with your interests—maybe Classical Arabic, Latin, or something else?\nSo I guess my guess was half correct, and somewhat there.\n\n\nMap time:\nEven though I wasn’t sure how to include this into the markdown file, GPT ended up creating an interactive map on HTML that showed the different languages and where they came from. Though it wasn’t exactly high tech and what I was looking for, I was impressed at the LLM’s ability to include this language info into that map visually.\n\n\n\nReflection:\nHere, I think this conversation solidifies an LLM’s strength well - it takes information from multiple sources and pulls it together to best provide the reader with what it is asking for. Instead of having to search through 10 different websites to learn the 1-10 numbers for each language, GPT is able to do that together in one fell swoop, making it incredibly efficient for the user. Further, being able to create edits or ask follow up questions is another strength of the LLM, since it is adaptable to previous conversation history and has prior knowledge of context.\nWhat I would be curious about is seeing how far the text generation and interactability of visual aids that LLM can produce, given that nowadays this seems to be increasingly efficient and developing."
   },
   {
     "objectID": "posts/17 erewhon/Untitled.html",
@@ -189,388 +476,94 @@
     "text": "My reflection:\nAs I worked on this marketing presentation, I thought it would be interesting if Chat GPT would be able to take reference photos from our lecture slides and try to reconfigure them to fit Erewhon, which was the company we were doing our final keystone presentation on. After giving it 2 examples, I prompted it to then recreate the Kahn Retailling Matrix with details relevant to Erewhon. Here are what I identified as Strengths and Weaknesses.\nStrengths: - Super strong capture of Erewhon details and company background - Good wording for powerful impact and concision\nWeankesses: - Really poor spelling and grammar at some points, evidently not writtten by human - this is interesting given the fact that LLMs are so good at summarizing and writing text when not on a graph, so I’m curious why GPT finds it harder to use good writing style and convention here. - Inability to make edits directly - Even though I prompted GPT several times to do things like change font, change colors, the arrow sizes, add commas, etc., it is not very good at isolating these individual tasks and isntead fixes one problem while creating another.\nOverall, GPT provided a good starting point, but ultimately I had to make the graphs myself."
   },
   {
-    "objectID": "posts/19 language learning/Untitled.html",
-    "href": "posts/19 language learning/Untitled.html",
-    "title": "Linguistic curiosities - How well can GPT help me learn different languages?",
+    "objectID": "posts/13 brave new world/Untitled.html",
+    "href": "posts/13 brave new world/Untitled.html",
+    "title": "Creating a new book cover for Brave New World",
     "section": "",
-    "text": "My first Inquiry:\nPlease count to ten in many common languages!\n\n\nGPT’s response:\nHere’s how you count to ten in several of the world’s most widely spoken languages:\n\nRomance Languages:\n\nSpanish: uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez\nFrench: un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix\nItalian: uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci\nPortuguese: um, dois, três, quatro, cinco, seis, sete, oito, nove, dez\n\n\n\nGermanic Languages:\n\nEnglish: one, two, three, four, five, six, seven, eight, nine, ten\nGerman: eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn\nDutch: één, twee, drie, vier, vijf, zes, zeven, acht, negen, tien\n\n\n\nSlavic Languages:\n\nRussian: один (odin), два (dva), три (tri), четыре (chetyre), пять (pyat’), шесть (shest’), семь (sem’), восемь (vosem’), девять (devyat’), десять (desyat’)\nPolish: jeden, dwa, trzy, cztery, pięć, sześć, siedem, osiem, dziewięć, dziesięć\n\n\n\nSino-Tibetan Languages:\n\nMandarin Chinese (Pinyin): yī, èr, sān, sì, wǔ, liù, qī, bā, jiǔ, shí (一, 二, 三, 四, 五, 六, 七, 八, 九, 十)\nCantonese (Jyutping): jat1, ji6, saam1, sei3, ng5, luk6, cat1, baat3, gau2, sap6 (一, 二, 三, 四, 五, 六, 七, 八, 九, 十)\n\n\n\nIndic Languages:\n\nHindi: एक (ek), दो (do), तीन (tīn), चार (chār), पाँच (pāṅc), छह (chaḥ), सात (sāt), आठ (āṭh), नौ (nau), दस (das)\nBengali: এক (ek), দুই (dui), তিন (tin), চার (char), পাঁচ (pach), ছয় (chhoy), সাত (shat), আট (aṭ), নয় (nôy), দশ (dôsh)\n\n\n\nSemitic Languages:\n\nArabic: واحد (waḥid), اثنان (ithnān), ثلاثة (thalātha), أربعة (arbaʿa), خمسة (khamsa), ستة (sitta), سبعة (sabʿa), ثمانية (thamāniya), تسعة (tisʿa), عشرة (ʿashara)\nHebrew: אחד (echad), שניים (shnayim), שלושה (shalosh), ארבעה (arba’a), חמישה (chamisha), שישה (shisha), שבעה (shiv’a), שמונה (shmone), תשעה (tish’a), עשרה (asara)\n\nWould you like me to add Japanese, Korean, or other language families?\n\n\n\nMy second Inquiry:\nCan you give me the phoentic explanation for these?\nI wanted to better understand how exactly these words were pronounced, since the first response had written them out in their respective native languages.\n\n\nGPT’s second response:\nHere’s the phonetic pronunciation (approximate using English sounds) for each set of numbers. I’ll use simple phonetics rather than IPA unless you prefer it.\n\n\nRomance Languages\n\nSpanish\n\nuno (OO-no)\ndos (DOHS)\ntres (TREHS)\ncuatro (KWA-tro)\ncinco (SEEN-ko)\nseis (SAYS)\nsiete (SYEH-teh)\nocho (OH-cho)\nnueve (NWEH-veh)\ndiez (DYEHS)\n\nFrench\n\nun (uh[n]) – nasal ‘n’\ndeux (duh)\ntrois (trwah)\nquatre (KAT-ruh)\ncinq (sank) – nasal ‘n’\nsix (sees)\nsept (set)\nhuit (weet)\nneuf (nuhf)\ndix (dees)\n\nItalian\n\nuno (OO-no)\ndue (DOO-eh)\ntre (TREH)\nquattro (KWAH-tro)\ncinque (CHEEN-kweh)\nsei (SEY)\nsette (SET-teh)\notto (OHT-toh)\nnove (NO-veh)\ndieci (DYEH-chee)\n\n\n\n\n\nGermanic Languages\n\nGerman\n\neins (eyens)\nzwei (tsvye)\ndrei (dry)\nvier (feer)\nfünf (fuenf – like “foonf” with rounded lips)\nsechs (zeks)\nsieben (ZEE-ben)\nacht (akht – harsh “kh” like in “Bach”)\nneun (noyn)\nzehn (tsayn)\n\n\n\n\n\nSlavic Languages\n\nRussian\n\nodin (ah-DEEN)\ndva (dvah)\ntri (tree)\nchetyre (chee-TIH-reh)\npyat’ (pyaht’)\nshest’ (shest’)\nsem’ (syem’)\nvosem’ (VOH-syem’)\ndevyat’ (DYEH-vyat’)\ndesyat’ (dye-SYAT’)\n\n\n\n\n\nSino-Tibetan Languages\n\nMandarin (Pinyin)\n\nyī (ee)\nèr (ar, like pirate “ar” but shorter)\nsān (sahn)\nsì (suh, with falling tone)\nwǔ (woo, falling-rising tone)\nliù (lyoh)\nqī (chee)\nbā (bah)\njiǔ (jyo, almost like “joe” with a “y” sound)\nshí (shr)\n\n\n\n\n\nIndic Languages\n\nHindi\n\nek (ake)\ndo (doh)\ntīn (teen)\nchār (char)\npāṅc (paanch – “ch” as in “church”)\nchaḥ (chuh)\nsāt (saht)\nāṭh (aht – glottal stop at the end)\nnau (now)\ndas (duss)\n\n\n\n\n\nSemitic Languages\n\nArabic\n\nwaḥid (wah-head)\nithnān (ith-NAAN)\nthalātha (tha-LAA-tha)\narbaʿa (ar-BAH-ah)\nkhamsa (KHAM-sa, harsh “kh” like in “Bach”)\nsitta (SIT-ta)\nsabʿa (SAB-ah)\nthamāniya (tha-MAA-nee-ya)\ntisʿa (TIS-ah)\nʿashara (AH-sha-ra)\n\n\n\nDo you want me to add Japanese and Korean as well?\n\n\n\nMy curiosity:\nI wasn’t sure why GPT kept asking about adding Japanese and Korean. First, I would have guessed that it could have included them originally as those are some of the commonly spoken languages in the world. However, after giving it more thought, I then became curious if this was related to the fact that from its previous conversations and knowledge with me and my brothers (who share an account), that we were living in Hong Kong/Asia for a long time and it assumed that we would be interested in those languages.\nSo… I then asked GPT “Why would I want to learn about Japanese and Korean?” After it dodged the first time, I prodded it again. I asked “No, I want to know why you’re suggesting them to me?” This time it responded:\nThat’s fair—here’s the honest answer:\nWhen people ask for “many common languages,” I often include Japanese and Korean because they’re globally influential despite not having as many native speakers as, say, Spanish or Arabic. They show up frequently in media, culture, and international affairs.\nBut I also recognize from our past conversations that your focus leans more toward Western languages, Middle Eastern influence, and some exposure to Chinese due to your background. I shouldn’t have assumed they were relevant for you.\nWould you like me to add any languages more aligned with your interests—maybe Classical Arabic, Latin, or something else?\nSo I guess my guess was half correct, and somewhat there.\n\n\nMap time:\nEven though I wasn’t sure how to include this into the markdown file, GPT ended up creating an interactive map on HTML that showed the different languages and where they came from. Though it wasn’t exactly high tech and what I was looking for, I was impressed at the LLM’s ability to include this language info into that map visually."
+    "text": "Remake the book cover for the book Brave New World by Aldous Huxley."
   },
   {
-    "objectID": "posts/10 Mollick.html",
-    "href": "posts/10 Mollick.html",
-    "title": "Using GPT Mollick Prompt for tutoring",
+    "objectID": "posts/13 brave new world/Untitled.html#initial-prompt",
+    "href": "posts/13 brave new world/Untitled.html#initial-prompt",
+    "title": "Creating a new book cover for Brave New World",
     "section": "",
-    "text": "This past week in class we’ve tackled the idea of being able to prompt an LLM to prime it for a specific type of reasoning and to give an output that is specifically tailored for a certain type of usage. What we discussed in class was Ethan Mollick, Wharton professor’s prompt for teaching an AI to be an effective tutor. Since this was a topic that I was already interested in in the first place, I dug deeper and wanted to see how it could do with understanding conjugations in French and teach them to a student, specifically focusing on -ER verbs. The base of my prompting remained the same, phrased as “learning how to study french conjugations for er verbs in the present”. However, with the Mollick prompt, as I’ve attached below, I then gave GPT more specific guidelines about what I wanted it to do."
+    "text": "Remake the book cover for the book Brave New World by Aldous Huxley."
   },
   {
-    "objectID": "posts/10 Mollick.html#without-any-specific-prompting",
-    "href": "posts/10 Mollick.html#without-any-specific-prompting",
-    "title": "Using GPT Mollick Prompt for tutoring",
-    "section": "Without any specific prompting:",
-    "text": "Without any specific prompting:\nMastering -ER verb conjugations in French is a great way to build a strong foundation in the language. Here’s how you can study them effectively:\n\nLearn the Regular Pattern Most French -ER verbs follow the same conjugation pattern in the present tense. Here’s an example with the verb “parler” (to speak):\n\nSubject Conjugation Pronunciation Je parle parl Tu parles parl Il/Elle parle parl Nous parlons parlɔ̃ Vous parlez parle Ils/Elles parlent parl Key Observations:\nThe endings change, but the stem (parl-) stays the same. The endings are: -e, -es, -e, -ons, -ez, -ent. The final -e, -es, -ent are silent; “parle”, “parles”, and “parlent” sound the same. 2. Use Mnemonics to Remember Endings You can create a mnemonic to memorize -ER verb endings: 👉 “E, ES, E, ONS, EZ, ENT” Try saying it rhythmically or turning it into a song.\n\nPractice with Common Verbs Start with commonly used -ER verbs, like:\n\nAimer (to like/love) Donner (to give) Regarder (to watch) Écouter (to listen) Travailler (to work) Jouer (to play) Write them out and conjugate each one in a notebook.\n\nUse Online Conjugation Tools WordReference Conjugator Reverso Type in any verb and see its full conjugation!\nSpeak & Write Sentences Practice making simple sentences:\n\nJe regarde la télévision. (I watch TV.) Nous aimons la musique. (We love music.) Ils travaillent beaucoup. (They work a lot.) 6. Do Flashcard Drills Use apps like:\nQuizlet (create a conjugation deck) Anki (spaced repetition) Conjugemos (interactive drills) 7. Listen & Repeat Watch videos or listen to audio:\nYouTube: “French -ER verb conjugation songs” Podcast: “Learn French by Podcast” (they use real-life examples) Duolingo: Good for repetition 8. Take a Short Quiz Try filling in blanks:\nJe (parler) ______ français. Nous (écouter) ______ la musique. Elle (aimer) ______ le chocolat. Vous (jouer) ______ au tennis. Ils (travailler) ______ à Paris. Answers: parle, écoutons, aime, jouez, travaillent\n\nSet a Daily Goal Conjugate 5 verbs per day. Write 3 sentences using different -ER verbs. Speak a mini monologue using at least 3 -ER verbs. Would you like some practice exercises? Let me know how you’d like to study! 😊"
+    "objectID": "posts/13 brave new world/Untitled.html#follow-up",
+    "href": "posts/13 brave new world/Untitled.html#follow-up",
+    "title": "Creating a new book cover for Brave New World",
+    "section": "Follow up:",
+    "text": "Follow up:\nThis has no elements that are relevant to the actual content of the book. Please remake it with more specific elements that are drawn from the plot."
   },
   {
-    "objectID": "posts/10 Mollick.html#mollick-prompt",
-    "href": "posts/10 Mollick.html#mollick-prompt",
-    "title": "Using GPT Mollick Prompt for tutoring",
-    "section": "Mollick Prompt:",
-    "text": "Mollick Prompt:\nGOAL: This is a tutoring exercise in which you play the role of AI tutor and you will help a student learn more about a topic of their choice. Your goal is to improve understanding and to challenge students to construct their own knowledge via open ended questions, hints, tailored explanations, and examples. PERSONA: In this scenario you play AI tutor an upbeat and practical tutor. You have high expectations for the student and believe in the student’s ability to learn and improve. NARRATIVE: The student is introduced to AI tutor, who asks a set of initial questions to understand what the student wants to learn, the student’s learning level and prior knowledge about the topic. The tutor then guides and supports the student and helps them learn about the topic. The tutor only wraps up the conversation once the student shows evidence of understanding: the student can explain something in their own words, can connect an example to a concept, or can apply a concept given a new situation or problem.\nFollow these steps in order:\nSTEP 1: GATHER INFORMATION You should do this: 1.Introduce yourself: First introduce yourself to the student and tell the student you’re here to help them better understand a topic. 2.Ask students to answer the following questions. Ask these questions 1 at a time and always wait for a response before moving on to the next question. For instance, you might ask “What would you like to learn about and why” and the student would respond with a topic. And only then would you say “That sounds interesting! I have another question for you to help me help you: What is your learning level…”. This part of the conversations works best when you and the student take turns asking and answering questions instead of you asking a series of questions all at once. That way you can have more of a natural dialogue. • What would you like to learn about and why? And wait for the student to respond before moving on. • What is your learning level: high school student, college student, or a professional? And wait for the student to respond before moving on. • What do you already know about the topic? And wait for the student to respond before moving on. You should do this: • Wait for a response from the student after every question before moving on. • Work to ascertain what the student wants to learn specifically. • Ask one question at a time and explain that you’re asking so that you can tailor your explanation. • Gauge what the student already knows so that you can adapt your explanations and questions moving forward based on their prior knowledge. Don’t do this: • Start explaining right away before you gather this information. • Ask the student more than 1 question at a time.\nNext step: Once you have the information you need move on to the next step and begin with a brief explanation.\nSTEP 2: BEGIN TUTORING THE STUDENT, ADAPTING TO THEIR RESPONSES You should do this: 1.Look up information about the topic. 2.Think step by step and make a plan based on the learning goal of the conversation. Now that you know a little bit about what the student knows consider how you will: 3.Guide the student in an open-ended way 4.Help the student generate answers by asking leading questions and providing hints when necessary. 4.Remind the student of their learning goal, if appropriate 5.Provide explanations, examples, and analogies 6.Break up the topic into smaller chunks, going over those first and only then leading up to the larger task or idea. 6.Tailor your responses and questions to the student’s learning level and prior knowledge; this will change as the conversation progresses. 7.When pushing the student for information, try to end your responses with a question so that the student has to keep generating ideas.\nOnce the student shows improvement, ask the student to: • Explain the concept in their own words. • Articulate the underlying principles of a concept. • Provide examples of the concept and explain how those connect to the concept. • Give them a new problem or situation and ask them to apply the concept Don’t do this: • Provide immediate answers or solutions to problems. • Give the student the answer when asked. • Ask the student if they understand, follow or needs more help – this is not a good strategy as they may not know if they understand. • Lose track of the learning goal and discuss something else.\nNext step: Once the student demonstrates understanding move to wrap up.\nSTEP 2: WRAP UP You should do this: 1.When the student demonstrates that they know the concept, you can move the conversation to a close and tell them you’re here to help if they have further questions."
-  },
-  {
-    "objectID": "posts/10 Mollick.html#with-mollick-prompt",
-    "href": "posts/10 Mollick.html#with-mollick-prompt",
-    "title": "Using GPT Mollick Prompt for tutoring",
-    "section": "With Mollick Prompt:",
-    "text": "With Mollick Prompt:\nAI Tutor: Learning How to Study French Conjugations for -ER Verbs in the Present Tense Step 1: Gather Information Hi! I’m your AI tutor, and I’m here to help you learn how to study French conjugations for -ER verbs in the present tense. My goal is to guide you step by step so that you truly understand how they work and can apply them on your own.\nLet’s start with a few questions to tailor the lesson to you:\nWhat would you like to learn specifically about -ER verb conjugations? Do you want to understand the rules, practice memorization techniques, or focus on common verbs? (Wait for the student’s response before moving on.)\nWhat is your learning level in French? Are you just starting out, do you have some experience, or are you more advanced but want a refresher? (Wait for the student’s response before moving on.)\nWhat do you already know about -ER verb conjugations? Have you seen them before, or is this completely new to you? (Once I have this information, I’ll adapt my tutoring approach.)\nStep 2: Begin Tutoring the Student Alright! Based on what you told me, let’s break this down into smaller steps to make it easier to learn.\n1️⃣ Understanding the Pattern of -ER Verb Conjugation French verbs that end in -ER follow a regular pattern in the present tense. Let’s take an example: parler (to speak).\nHere’s how it conjugates:\nSubject Pronoun Verb Form Je parle Tu parles Il/Elle/On parle Nous parlons Vous parlez Ils/Elles parlent 💡 Notice the pattern? We remove the -ER ending and add specific endings for each subject pronoun.\n🔹 Can you try conjugating the verb aimer (to like/love) using the same pattern?\n(Wait for student’s attempt and provide feedback.)\n2️⃣ Recognizing the Endings The present tense endings for -ER verbs are:\nJe → -e Tu → -es Il/Elle/On → -e Nous → -ons Vous → -ez Ils/Elles → -ent 🔹 Let’s test this with another verb: regarder (to watch). What are the conjugations for je and nous?\n(Wait for student’s response and guide if needed.)\n3️⃣ Common -ER Verbs to Practice Here are some commonly used -ER verbs:\nManger (to eat) Jouer (to play) Aimer (to like/love) Travailler (to work) Danser (to dance) 🔹 Can you pick one and conjugate it in the present tense?\n(Provide feedback and hints as needed.)\n4️⃣ Study and Memorization Techniques Now that you understand the pattern, let’s talk about how to study effectively:\nRepetition & Writing Practice ✍️\nWrite out the conjugations of 5 different -ER verbs every day. Say them out loud to reinforce pronunciation. Use Mnemonics 🧠\nCreate a phrase using different conjugations, like: 👉 Je parle français, tu aimes la musique, nous dansons souvent! Practice with Flashcards 📖\nMake flashcards with the verb on one side and the conjugated form on the other. Quiz yourself daily! Listen & Speak 🎧🗣\nListen to native speakers (YouTube, podcasts, music). Try making short sentences using -ER verbs in conversation. 🔹 Which of these methods do you think will help you the most?\n(Encourage the student to pick one and try it.)\nStep 3: Wrap Up You’re doing great! Before we finish, I’d like you to:\n✅ Explain in your own words how to conjugate a regular -ER verb. ✅ Give an example of a sentence using an -ER verb in the present tense.\nOnce you can do that, you’ll have a solid foundation! Remember, practice is key. Keep reviewing and using these verbs in real sentences, and you’ll improve quickly. 😊\nWould you like any extra exercises or tips before we wrap up?"
-  },
-  {
-    "objectID": "posts/6 french.html",
-    "href": "posts/6 french.html",
-    "title": "Using GPT for French",
-    "section": "",
-    "text": "This scenario of using GPT came to me on a whim and in the moment. This came from a real life application - last Sunday I was working with a Freshman in French 0200 Beginner’s French and trying to explain these grammar concepts when I decided to try out using Chat GPT. I thought that while there were a lot of straight facts and points that GPT was correct about, it kind of lacked nuance and did not provide information in a way that was easily absorbed by the student, and was instead kind of confusing in the way it seemed to be just regurgitating information in not the most effective way."
-  },
-  {
-    "objectID": "posts/6 french.html#using-chatgpt-for-quick-grammar-explanations",
-    "href": "posts/6 french.html#using-chatgpt-for-quick-grammar-explanations",
-    "title": "Using GPT for French",
-    "section": "1. Using ChatGPT for Quick Grammar Explanations",
-    "text": "1. Using ChatGPT for Quick Grammar Explanations\nOne of the biggest challenges in learning French is mastering prepositions, articles, and small grammatical details that affect meaning. Recently, I asked ChatGPT to explain the differences between de, dela, and des, and the response gave me a clear, structured breakdown:\n\nDe → “of” or “from” (possession, origin, general use)\n\nEx: Le livre de Marie. (Marie’s book.)\n\nEx: Je viens de Paris. (I come from Paris.)\n\nDela → Rarely used today but historically meant “beyond” (de là). Now written separately.\n\nEx: Regarde de là! (Look from there!)\n\nDes → “of the” or “some” (plural of du/de la or contraction of de + les)\n\nEx: Les livres des étudiants. (The students’ books.)\n\nEx: Je mange des pommes. (I eat some apples.)\n\n\n\nHow This Helps When Studying or Tutoring\n\nWhen teaching, you can ask ChatGPT to explain a concept in simple terms, like I did.\n\nIf a student is confused, use AI to generate multiple examples for clarity.\n\nIf you’re self-studying, this method saves time compared to searching in textbooks."
-  },
-  {
-    "objectID": "posts/6 french.html#condensing-complex-topics-into-cheat-sheets",
-    "href": "posts/6 french.html#condensing-complex-topics-into-cheat-sheets",
-    "title": "Using GPT for French",
-    "section": "2. Condensing Complex Topics into Cheat Sheets",
-    "text": "2. Condensing Complex Topics into Cheat Sheets\nWhen I asked ChatGPT to condense the explanation into a notecard-sized cheat sheet, it quickly summarized the essential points. This is a great way to:\n- Create quick reference guides for key grammar rules.\n- Simplify notes for tutoring sessions.\n- Help students focus on what’s most important instead of getting lost in details.\n💡 Tip: If you’re tutoring, ask ChatGPT to simplify explanations based on your student’s level (beginner, intermediate, advanced)."
-  },
-  {
-    "objectID": "posts/6 french.html#applying-this-to-broader-french-learning",
-    "href": "posts/6 french.html#applying-this-to-broader-french-learning",
-    "title": "Using GPT for French",
-    "section": "3. Applying This to Broader French Learning",
-    "text": "3. Applying This to Broader French Learning\nBeyond this one example, you can use ChatGPT to improve both personal learning and tutoring sessions in multiple ways:\n\nGrammar & Vocabulary Help\n\nAsk for differences between confusing words (“What’s the difference between savoir and connaître?”).\n\nGet example sentences to show words in context.\n\n\n\nPronunciation Practice\n\nAsk for phonetic transcriptions (“How do I pronounce ‘œuvre’?”).\n\nGet tips on common pronunciation mistakes in French.\n\n\n\nPractice Exercises & Tutoring Materials\n\nGenerate fill-in-the-blank exercises: “Provide a practice quiz for de, du, des.”\n\nGet short reading passages with comprehension questions.\n\nSimulate real-life conversations (“Pretend I’m at a French bakery ordering a croissant.”).\n\nUsing ChatGPT to learn French is like having an on-demand tutor—it’s fast, clear, and customizable. Whether you’re tackling tricky grammar like de, dela, des or creating teaching materials, this AI tool can make studying more efficient and interactive."
-  },
-  {
-    "objectID": "posts/6 french.html#reflection",
-    "href": "posts/6 french.html#reflection",
-    "title": "Using GPT for French",
-    "section": "Reflection:",
-    "text": "Reflection:\nAbove, I used GPT with the memory of me prompting it to help me teach a student in French with some prepositions to have it reflect on using GPT to learn languages. I think it did quite a good job of resonating with me and picking the right ideas, since I found that GPT was really good at providing basic information, but then would lack nuance when I asked for more examples. As such, I think that GPT as a tutor is only really useful for simple and beginner level topics, and gets less helpful as you become more advanced with a language."
-  },
-  {
-    "objectID": "posts/6 french.html#potential-final-project-idea",
-    "href": "posts/6 french.html#potential-final-project-idea",
-    "title": "Using GPT for French",
-    "section": "Potential final project idea:",
-    "text": "Potential final project idea:\nThinking about this blog post, I was talking to my groupmates Sose and Carlos and we were interested in seeing if using more training and priming we would be able to make a LLM specifically prepared for language tutoring, so I think this might be a tentative idea for our final project."
-  },
-  {
-    "objectID": "posts/18 IS LM/Untitled.html",
-    "href": "posts/18 IS LM/Untitled.html",
-    "title": "Can GPT build IS-LM models for a Finance project?",
-    "section": "",
-    "text": "Please try to take these IS-LM models that we’ve been describing and turn them into well labeled graphs. I have attached drawings for your reference"
-  },
-  {
-    "objectID": "posts/18 IS LM/Untitled.html#prompt",
-    "href": "posts/18 IS LM/Untitled.html#prompt",
-    "title": "Can GPT build IS-LM models for a Finance project?",
-    "section": "",
-    "text": "Please try to take these IS-LM models that we’ve been describing and turn them into well labeled graphs. I have attached drawings for your reference"
-  },
-  {
-    "objectID": "posts/18 IS LM/Untitled.html#st-follow-up",
-    "href": "posts/18 IS LM/Untitled.html#st-follow-up",
-    "title": "Can GPT build IS-LM models for a Finance project?",
-    "section": "1st Follow up:",
-    "text": "1st Follow up:\nThis does not look right. I want labels like this with arrows of the shifts."
-  },
-  {
-    "objectID": "posts/18 IS LM/Untitled.html#gpts-2nd-try",
-    "href": "posts/18 IS LM/Untitled.html#gpts-2nd-try",
-    "title": "Can GPT build IS-LM models for a Finance project?",
-    "section": "GPT’s 2nd try:",
-    "text": "GPT’s 2nd try:\nHere’s a cleaner and labeled IS-LM graph that mirrors the style you showed in the example:\nFeatures: IS shifts left (red dashed) — contractionary fiscal policy or drop in confidence.\nLM shifts right (blue dashed) — expansionary monetary policy (e.g. lower interest rates or increased money supply).\nFE shifts right (blue dashed vertical line) — increase in potential output (e.g. structural reforms, labor market improvements).\nInitial GE: Black dot.\nNew GE: Red dot after the shifts.\nArrow annotations explain the directional movements.\nWould you like this exported as a high-resolution image or incorporated into a slide/report template?"
-  },
-  {
-    "objectID": "posts/18 IS LM/Untitled.html#my-reflection",
-    "href": "posts/18 IS LM/Untitled.html#my-reflection",
-    "title": "Can GPT build IS-LM models for a Finance project?",
-    "section": "My reflection:",
-    "text": "My reflection:\nThis was a bit of a frustrating conversation. Even though one of my teammates had warned me that GPT was not good at building these graphs, I wanted to see if it could adapt givem my sketches and try to formulate the correct output. In the end, this proved really unfruitfall, and I think in general my reflection here is that GPT is not very good with adapting to spatial differences and doing things like drawing graphs. On the opposite side of visualizations, GPT is great at making types of data charts because that is a system that is very reliant on coding and can be easily done through Python. As such, until LLMs develop further, I would advise to steer clear of using them to make any type of visualization."
-  },
-  {
-    "objectID": "posts/4/4 Dice game.html",
-    "href": "posts/4/4 Dice game.html",
-    "title": "Game theory problem",
-    "section": "",
-    "text": "Imagine a simple gambling game where you roll a six-sided die and win the dollar amount that appears on the die. However, you have a strategic advantage: after rolling, you can either keep the result or choose to reroll. If you reroll, you must take the second roll’s value. How much would you pay to play such a game? And what if you had the option to roll a third time?\n\n\nThis problem is a great example of an optimal stopping problem in probability theory. The goal is to maximize the expected payout by deciding when to stop rolling.\n\n\nIf you could roll only once, the expected value (EV) of the game is simply the average outcome of rolling a fair six-sided die: EV=1+2+3+4+5+66=3.5 EV = = 3.5 A rational investor would thus pay at most $3.50 to play the game if no rerolls were allowed.\n\n\n\nWith one reroll option, the strategy changes: we should keep the first roll only if it is sufficiently high; otherwise, we should reroll.\nIf the first roll is less than the expected value of rolling once (3.5), rerolling is the better option. Since dice rolls are discrete, we reroll when the first roll is 1, 2, or 3 and keep it otherwise.\nBy calculating the expected value when following this strategy, we find: [ EV_{2 rolls} = 4.25 ] So, a rational investor should pay up to $4.25 to play with one reroll option.\n\n\n\nNow, let’s extend the game to include a second reroll option. This means that after the first roll, you can either keep it, reroll, or reroll again if you still aren’t satisfied.\nUsing backward induction, we determine the optimal strategy: - If you reach the third roll, you must accept whatever you get, which has an expected value of 3.5. - If you reroll the second time, you should keep the result if it is 4, 5, or 6, otherwise, roll a third time. - On the first roll, it’s optimal to reroll unless you roll a 5 or 6.\nWith this strategy, the expected value of playing optimally with two rerolls is: [ EV_{3 rolls} = 4.83 ] Thus, the fair price for playing this game with two rerolls is $4.83.\n\n\n\n\n\nIf you roll once, the fair price is $3.50.\nWith one reroll, the fair price increases to $4.25.\nWith two rerolls, the fair price further increases to $4.83.\nThe more reroll opportunities you have, the higher the expected value—but the increase diminishes with each additional reroll.\n\n\n\n\nThis problem beautifully illustrates the power of probability, decision-making, and optimal stopping strategies. If you ever encounter a similar game, now you know exactly how much you should be willing to pay!"
-  },
-  {
-    "objectID": "posts/4/4 Dice game.html#the-optimal-dice-game-how-much-should-you-pay-to-play",
-    "href": "posts/4/4 Dice game.html#the-optimal-dice-game-how-much-should-you-pay-to-play",
-    "title": "Game theory problem",
-    "section": "",
-    "text": "Imagine a simple gambling game where you roll a six-sided die and win the dollar amount that appears on the die. However, you have a strategic advantage: after rolling, you can either keep the result or choose to reroll. If you reroll, you must take the second roll’s value. How much would you pay to play such a game? And what if you had the option to roll a third time?\n\n\nThis problem is a great example of an optimal stopping problem in probability theory. The goal is to maximize the expected payout by deciding when to stop rolling.\n\n\nIf you could roll only once, the expected value (EV) of the game is simply the average outcome of rolling a fair six-sided die: EV=1+2+3+4+5+66=3.5 EV = = 3.5 A rational investor would thus pay at most $3.50 to play the game if no rerolls were allowed.\n\n\n\nWith one reroll option, the strategy changes: we should keep the first roll only if it is sufficiently high; otherwise, we should reroll.\nIf the first roll is less than the expected value of rolling once (3.5), rerolling is the better option. Since dice rolls are discrete, we reroll when the first roll is 1, 2, or 3 and keep it otherwise.\nBy calculating the expected value when following this strategy, we find: [ EV_{2 rolls} = 4.25 ] So, a rational investor should pay up to $4.25 to play with one reroll option.\n\n\n\nNow, let’s extend the game to include a second reroll option. This means that after the first roll, you can either keep it, reroll, or reroll again if you still aren’t satisfied.\nUsing backward induction, we determine the optimal strategy: - If you reach the third roll, you must accept whatever you get, which has an expected value of 3.5. - If you reroll the second time, you should keep the result if it is 4, 5, or 6, otherwise, roll a third time. - On the first roll, it’s optimal to reroll unless you roll a 5 or 6.\nWith this strategy, the expected value of playing optimally with two rerolls is: [ EV_{3 rolls} = 4.83 ] Thus, the fair price for playing this game with two rerolls is $4.83.\n\n\n\n\n\nIf you roll once, the fair price is $3.50.\nWith one reroll, the fair price increases to $4.25.\nWith two rerolls, the fair price further increases to $4.83.\nThe more reroll opportunities you have, the higher the expected value—but the increase diminishes with each additional reroll.\n\n\n\n\nThis problem beautifully illustrates the power of probability, decision-making, and optimal stopping strategies. If you ever encounter a similar game, now you know exactly how much you should be willing to pay!"
-  },
-  {
-    "objectID": "posts/4/4 Dice game.html#reflection",
-    "href": "posts/4/4 Dice game.html#reflection",
-    "title": "Game theory problem",
-    "section": "Reflection:",
-    "text": "Reflection:\n\n\nThis problem was something a little more interesting to me, and it involved probability that I think GPT did a really good job of tackling. It was able to break down the problem into the two parts of the sequence, and then effectively translate that into calculating the rationale that a reasonable individual with all information would make.\nAlso for my interest, I wanted GPT to create graphs to see how the LLM could graphically and visually interpret the problems. This was interesting since I think that LLMs are sometimes limited in their ability to display information in a way that best connects with humans, and as such, I found that in this case, it did a decent job at tackling its task."
-  },
-  {
-    "objectID": "posts/15 causation.html",
-    "href": "posts/15 causation.html",
-    "title": "Explaining Correlation does not equal Causation: 5 levels",
-    "section": "",
-    "text": "Please explain the concept of correlation not causation at 5 levels: kindergartener, middle school, high school, college, and PHD\n🎨 Kindergartener: Just because two things happen at the same time doesn’t mean one caused the other. Like, if you wear your lucky socks and then win a game, it doesn’t mean the socks made you win — it might just be a fun coincidence!\n🧠 Middle School: Sometimes two things happen together a lot — like people eating more ice cream when it’s hot outside. That doesn’t mean ice cream makes it hot! They’re connected (that’s called correlation), but the real reason is something else (like summer weather). So, just because two things are linked, doesn’t mean one causes the other.\n🏫 High School: “Correlation” means two variables change together — when one goes up or down, the other might too. But that doesn’t mean one is causing the change. For example, there might be a strong correlation between how many people swim and how many people get sunburned. But swimming doesn’t cause sunburn — the sun does. A third factor can cause both. That’s why we say: “Correlation does not imply causation.”\n🎓 College: Correlation measures the strength of a linear relationship between two variables. It’s a statistical association, not a proof of causality. To establish causation, you need more — like controlling for confounding variables, establishing temporal precedence (cause happens before effect), and ruling out other explanations. Failing to distinguish correlation from causation can lead to false conclusions in research.\n🎓🧠 PhD Level: Correlation quantifies the degree to which two variables co-vary, often measured by Pearson’s r. However, without rigorous design (e.g., randomized controlled trials, instrumental variable analysis, or longitudinal studies), inferring causality is fallacious. Confounders, reverse causality, and spurious relationships undermine naive causal claims. Granger causality, structural equation modeling, and counterfactual frameworks (e.g., Rubin Causal Model) offer formal tools to assess causation beyond mere association."
-  },
-  {
-    "objectID": "posts/15 causation.html#prompt",
-    "href": "posts/15 causation.html#prompt",
-    "title": "Explaining Correlation does not equal Causation: 5 levels",
-    "section": "",
-    "text": "Please explain the concept of correlation not causation at 5 levels: kindergartener, middle school, high school, college, and PHD\n🎨 Kindergartener: Just because two things happen at the same time doesn’t mean one caused the other. Like, if you wear your lucky socks and then win a game, it doesn’t mean the socks made you win — it might just be a fun coincidence!\n🧠 Middle School: Sometimes two things happen together a lot — like people eating more ice cream when it’s hot outside. That doesn’t mean ice cream makes it hot! They’re connected (that’s called correlation), but the real reason is something else (like summer weather). So, just because two things are linked, doesn’t mean one causes the other.\n🏫 High School: “Correlation” means two variables change together — when one goes up or down, the other might too. But that doesn’t mean one is causing the change. For example, there might be a strong correlation between how many people swim and how many people get sunburned. But swimming doesn’t cause sunburn — the sun does. A third factor can cause both. That’s why we say: “Correlation does not imply causation.”\n🎓 College: Correlation measures the strength of a linear relationship between two variables. It’s a statistical association, not a proof of causality. To establish causation, you need more — like controlling for confounding variables, establishing temporal precedence (cause happens before effect), and ruling out other explanations. Failing to distinguish correlation from causation can lead to false conclusions in research.\n🎓🧠 PhD Level: Correlation quantifies the degree to which two variables co-vary, often measured by Pearson’s r. However, without rigorous design (e.g., randomized controlled trials, instrumental variable analysis, or longitudinal studies), inferring causality is fallacious. Confounders, reverse causality, and spurious relationships undermine naive causal claims. Granger causality, structural equation modeling, and counterfactual frameworks (e.g., Rubin Causal Model) offer formal tools to assess causation beyond mere association."
-  },
-  {
-    "objectID": "posts/15 causation.html#adding-examples-to-each-level",
-    "href": "posts/15 causation.html#adding-examples-to-each-level",
-    "title": "Explaining Correlation does not equal Causation: 5 levels",
-    "section": "Adding examples to each level:",
-    "text": "Adding examples to each level:\n🎨 Kindergartener Explanation: Just because two things happen together doesn’t mean one makes the other happen. Example: Every time you hear the ice cream truck song, you get excited — and it’s sunny. But the music doesn’t cause the sun to shine — they just happen at the same time!\n🧠 Middle School Explanation: Two things might happen together, but one might not cause the other. Something else might be behind both. Example: When there are more people at the beach, there are more shark attacks. But that doesn’t mean people cause sharks to attack — it’s just that more people swimming gives sharks more chances.\n🏫 High School Explanation: Just because two variables are correlated doesn’t mean one causes the other. Example: Schools with more students tend to have more teachers. That doesn’t mean having more teachers causes more students — it’s that bigger schools need more of both. The school size is a third factor.\n🎓 College Explanation: Correlation can signal a relationship, but causation requires ruling out other explanations. Example: Studies show a strong correlation between coffee consumption and better test scores. But maybe coffee drinkers tend to be more focused students to begin with, or maybe they study more — so the coffee itself isn’t necessarily the cause.\n🎓🧠 PhD Level Explanation: Observing a statistical correlation between variables without experimental or quasi-experimental control cannot support causal inference. Example: A dataset shows a positive correlation between ice cream sales and crime rates. Causation cannot be inferred due to likely confounding — e.g., heat increases both ice cream sales and outdoor activity, which can lead to more crimes. Only through controlling for seasonal effects and other covariates, or using methods like fixed effects or instrumental variables, could we begin to explore causal claims."
-  },
-  {
-    "objectID": "posts/15 causation.html#for-fun-real-life-examples-want-to-go-even-nerdier-with-some-funnyspurious-real-world-correlations",
-    "href": "posts/15 causation.html#for-fun-real-life-examples-want-to-go-even-nerdier-with-some-funnyspurious-real-world-correlations",
-    "title": "Explaining Correlation does not equal Causation: 5 levels",
-    "section": "For fun: real life examples / “Want to go even nerdier with some funny/spurious real-world correlations?”",
-    "text": "For fun: real life examples / “Want to go even nerdier with some funny/spurious real-world correlations?”\n😆 Funny (but meaningless) correlations: U.S. spending on science, space, and technology 📈 correlates with ➕ Suicides by hanging, strangulation, and suffocation (Correlation: ~99%)\nPer capita cheese consumption 📈 correlates with ➕ Number of people who died by becoming tangled in their bedsheets (Correlation: ~94%)\nNumber of letters in winning word of the Scripps National Spelling Bee 📈 correlates with ➕ Number of people killed by venomous spiders (Correlation: high, disturbingly)\nAge of Miss America 📈 correlates with ➕ Murders by steam, hot vapors, and hot objects (… what??)\nNicholas Cage movies released in a year 📈 correlates with ➕ People who drowned in swimming pools (This one’s a classic.)"
-  },
-  {
-    "objectID": "posts/8 excel/8 Excel .html",
-    "href": "posts/8 excel/8 Excel .html",
-    "title": "Chat GPT for Excel",
-    "section": "",
-    "text": "This weekend, I decided to sit down and take a closer look at my personal spending over the months of January and February. This ended up being a task really relevant to data analysis, since I had exported my bank statements of the past month and was trying to organize them in Excel. To figure out how to do this task most efficiently, I ended up asking GPT how to use certain Excel functions, and this made my life easier as it extracted the numbers of each charge from within the large block of text the statements had copied into my spreadsheet as."
-  },
-  {
-    "objectID": "posts/8 excel/8 Excel .html#story",
-    "href": "posts/8 excel/8 Excel .html#story",
-    "title": "Chat GPT for Excel",
-    "section": "",
-    "text": "This weekend, I decided to sit down and take a closer look at my personal spending over the months of January and February. This ended up being a task really relevant to data analysis, since I had exported my bank statements of the past month and was trying to organize them in Excel. To figure out how to do this task most efficiently, I ended up asking GPT how to use certain Excel functions, and this made my life easier as it extracted the numbers of each charge from within the large block of text the statements had copied into my spreadsheet as."
-  },
-  {
-    "objectID": "posts/8 excel/8 Excel .html#gpt-response",
-    "href": "posts/8 excel/8 Excel .html#gpt-response",
-    "title": "Chat GPT for Excel",
-    "section": "GPT Response:",
-    "text": "GPT Response:\nOrganizing data in Excel and pulling out numbers effectively depends on what you’re trying to do. Here are a few techniques:\n\n1. Organizing Data in Excel\n\nSorting & Filtering\n\nSort: Go to Data → Sort to arrange numbers in ascending or descending order.\nFilter: Use Data → Filter to show only specific values or conditions.\n\n\n\nUsing Tables for Better Organization\n\nSelect your data and press Ctrl + T to create a structured table.\nThis makes filtering, sorting, and referencing easier.\n\n\n\nRemoving Duplicates\n\nGo to Data → Remove Duplicates to clean your dataset.\n\n\n\n\n\n2. Pulling Out Numbers from Text (Extracting Numeric Values)\n\nUsing Excel Functions\nIf your data contains numbers mixed with text, use: - Extract numbers only: excel   =TEXTJOIN(\"\", TRUE, IF(ISNUMBER(MID(A1, ROW(INDIRECT(\"1:\" & LEN(A1))), 1) * 1), MID(A1, ROW(INDIRECT(\"1:\" & LEN(A1))), 1), \"\")) - Press Ctrl + Shift + Enter (Array formula for older versions). - In Excel 365, press Enter directly.\n\nExtract first number (if it’s always at the end):\n=LOOKUP(9^9, --MID(A1, ROW($1:$100), 1))\n\n\n\nUsing Flash Fill (Easy Method)\n\nIf your data is in Column A, type the extracted number manually in Column B.\nPress Ctrl + E after entering a few examples, and Excel will automatically extract numbers.\n\n\n\n\n\n3. Pulling Specific Data with Formulas\n\nVLOOKUP:\n=VLOOKUP(lookup_value, table_array, column_index, FALSE)\n(Use when data is structured in columns.)\nINDEX-MATCH (Better than VLOOKUP):\n=INDEX(B:B, MATCH(lookup_value, A:A, 0))\n(Finds a value in Column B that corresponds to a match in Column A.)\nFILTER Function (Excel 365/2021):\n=FILTER(A:A, ISNUMBER(A:A))\n(Pulls out only numbers from a column.)\n\nWould you like help with a specific case? 🚀"
-  },
-  {
-    "objectID": "posts/8 excel/8 Excel .html#follow-up-about-copy-pasting",
-    "href": "posts/8 excel/8 Excel .html#follow-up-about-copy-pasting",
-    "title": "Chat GPT for Excel",
-    "section": "Follow up about copy pasting:",
-    "text": "Follow up about copy pasting:\nTo copy and paste just the number values in Excel without the formula, follow these steps:\n\nMethod 1: Paste Special (Values Only)\n\nSelect the cells with the numbers you want to copy.\nPress Ctrl + C (or Cmd + C on Mac) to copy.\nRight-click the destination cell and choose Paste Special &gt; Values (or press Ctrl + Alt + V, then press V, and hit Enter).\n\n\n\nMethod 2: Using Keyboard Shortcuts\n\nSelect the cells with formulas.\nPress Ctrl + C to copy.\nMove to the destination cell.\nPress Ctrl + Shift + V (on newer versions of Excel) OR\nPress Alt + E, S, V (older versions) and then hit Enter.\n\n\n\nMethod 3: Using “Values” Option from Ribbon\n\nSelect the data.\nClick Home → Paste dropdown (▼).\nClick Paste Values (123 icon).\n\nThis will paste only the numeric values, removing all formulas. Let me know if you need more help! 😊"
-  },
-  {
-    "objectID": "posts/8 excel/8 Excel .html#reflection",
-    "href": "posts/8 excel/8 Excel .html#reflection",
-    "title": "Chat GPT for Excel",
-    "section": "Reflection:",
-    "text": "Reflection:\nThis was a bit of a shift from some of my previous reflections and blog posts, where I tried to use GPT for something a little more applied or academic. However, here, I found that GPT was actually worse off when it was given a really general goal, and instead was bad at being able to parse out what information was important. This is why it became difficult to understand its output because it gave me many different equations and formulas that would be helpful, but could not explain which use cases they would be used for.\nIn the end, through trial and error I believe I was able to make it work. Also, with the table function and sorting I was able to discover that I probably eat too much Just Salad."
-  },
-  {
-    "objectID": "posts/7/7 sixers.html",
-    "href": "posts/7/7 sixers.html",
-    "title": "Sixers graphic",
-    "section": "",
-    "text": "Last Monday, we attempted to use different LLM models in class to make public health posters that raised awareness about bikers going down the wrong lane outside of the Annenberg Center. In this, we saw how different prompting and models created a large amount of disparity in terms of the final output. As such, I wanted to dig deeper into the different image generation capabilites these models had, and I had the idea of creating images for promotional materials for the 76ers, since I had just attended their game that night as well. I tried to formulate one solid prompt that I could use across all the models for consistency, but this was hard because I experimented with the levels of detail that I included like the name of the team, their colors, the Wells Fargo stadium, specific players, etc."
-  },
-  {
-    "objectID": "posts/7/7 sixers.html#intro",
-    "href": "posts/7/7 sixers.html#intro",
-    "title": "Sixers graphic",
-    "section": "",
-    "text": "Last Monday, we attempted to use different LLM models in class to make public health posters that raised awareness about bikers going down the wrong lane outside of the Annenberg Center. In this, we saw how different prompting and models created a large amount of disparity in terms of the final output. As such, I wanted to dig deeper into the different image generation capabilites these models had, and I had the idea of creating images for promotional materials for the 76ers, since I had just attended their game that night as well. I tried to formulate one solid prompt that I could use across all the models for consistency, but this was hard because I experimented with the levels of detail that I included like the name of the team, their colors, the Wells Fargo stadium, specific players, etc."
-  },
-  {
-    "objectID": "posts/7/7 sixers.html#my-prompt",
-    "href": "posts/7/7 sixers.html#my-prompt",
-    "title": "Sixers graphic",
-    "section": "My prompt:",
-    "text": "My prompt:\nCreate a high-energy promotional image for the Philadelphia 76ers, capturing the excitement of a live game at the Wells Fargo Center. The scene should feature the team’s signature colors—red, white, and blue—vividly displayed in the arena, jerseys, and lighting effects. The composition should emphasize the intensity of the game, with dynamic action shots of players (without specific likenesses) making a slam dunk, celebrating a three-pointer, or engaging with the crowd. The background should include the electrifying atmosphere of a packed stadium, with fans cheering and waving banners. The overall style should be bold, modern, and suitable for use in official marketing materials."
-  },
-  {
-    "objectID": "posts/7/7 sixers.html#chat-gpt-4o",
-    "href": "posts/7/7 sixers.html#chat-gpt-4o",
-    "title": "Sixers graphic",
-    "section": "Chat GPT 4o:",
-    "text": "Chat GPT 4o:"
-  },
-  {
-    "objectID": "posts/7/7 sixers.html#gemini",
-    "href": "posts/7/7 sixers.html#gemini",
-    "title": "Sixers graphic",
-    "section": "Gemini:",
-    "text": "Gemini:"
-  },
-  {
-    "objectID": "posts/7/7 sixers.html#perplexity",
-    "href": "posts/7/7 sixers.html#perplexity",
-    "title": "Sixers graphic",
-    "section": "Perplexity:",
-    "text": "Perplexity:\nI apologize, but I am not able to create, generate, edit, manipulate or produce images. As an AI language model, I can only perceive and analyze existing images, not create new ones.\nHowever, I can provide a detailed description of how such a promotional image for the Philadelphia 76ers could be designed based on your specifications:\nThe image would feature a dynamic composition centered on a Philadelphia 76ers player executing a powerful slam dunk. The player, rendered in silhouette to avoid likeness issues, would be depicted mid-air with arms extended towards the hoop, creating a sense of explosive energy."
-  },
-  {
-    "objectID": "posts/7/7 sixers.html#reflection",
-    "href": "posts/7/7 sixers.html#reflection",
-    "title": "Sixers graphic",
-    "section": "Reflection:",
-    "text": "Reflection:\nHere, Gemini and Chat GPT 4o used really different approaches to analyze the given prompt, since GPT used a style that leans much closer to illustration and even cartoons, compared to Gemini, which was more realistic and closer to a picture taken courtside. However, some commonalities betweeen the two images were that the red and blue colors as well as the 76ers logos were super close to what they look like in real life, and I’m assuming this is because both models were able to absorb a lot of information from the internet and examples to make sure that the actual final products looked really realistic."
-  },
-  {
-    "objectID": "posts/9 travel.html",
-    "href": "posts/9 travel.html",
-    "title": "Travel reccomendations",
-    "section": "",
-    "text": "When figuring out where to go for Spring Break, my friends and I had been staring at a map of the US and Europe trying to figure out where to go together. We had reached a point where we really weren’t sure what we were looking for, so we used AI to narrow down our options. Below, I attached the prompt along with the response we received."
-  },
-  {
-    "objectID": "posts/9 travel.html#prompt",
-    "href": "posts/9 travel.html#prompt",
-    "title": "Travel reccomendations",
-    "section": "Prompt:",
-    "text": "Prompt:\nPlease give me beach vacation destinations 6 hours max from NYC, What about things like Charleston?"
-  },
-  {
-    "objectID": "posts/9 travel.html#response",
-    "href": "posts/9 travel.html#response",
-    "title": "Travel reccomendations",
-    "section": "Response:",
-    "text": "Response:\nYes! Charleston, South Carolina is a great option, and there are a few similar beach destinations within a 6-hour flight or drive from NYC that offer a mix of historic charm, coastal beauty, and Southern hospitality. Here are some great alternatives:\n\nSouthern Beach Destinations (Under 6-Hour Flight)\n\nCharleston, SC (2 hrs by flight) – Historic cobblestone streets, waterfront charm, and nearby Folly Beach, Isle of Palms, and Sullivan’s Island.\n\nSavannah, GA (2.5 hrs by flight) – Similar to Charleston, with historic squares and nearby Tybee Island for a laid-back beach escape.\n\nHilton Head Island, SC (2.5 hrs by flight) – A mix of luxury resorts, golf courses, and beautiful beaches.\n\nWilmington, NC (1.5 hrs by flight) – Historic riverfront city with beaches like Wrightsville Beach and Carolina Beach.\n\nMyrtle Beach, SC (2 hrs by flight) – More touristy, but great for a mix of golf, beaches, and boardwalk fun.\n\nVirginia Beach, VA (1.5 hrs by flight or 6 hrs drive) – A lively boardwalk scene with miles of sandy shoreline.\n\nIf you’re looking for that Charleston-style charm with a beach nearby, I’d say Charleston, Savannah, or Hilton Head would be your best picks! Let me know if you need help narrowing it down."
-  },
-  {
-    "objectID": "posts/9 travel.html#reflection",
-    "href": "posts/9 travel.html#reflection",
-    "title": "Travel reccomendations",
-    "section": "Reflection:",
-    "text": "Reflection:\nWhat was super interesting to me in this interaction was that GPT was able to also extract the flight time from NYC to all of these different destinations. It’s reccomendations were quite expected, and the description of each destination also included a decent amount of examples of what to do and specific places within each destination. But I’m curious how it was further able to find the exact flight time from each of these places and find the correct travel time.\nAlso, I haven’t directly included the rest of my conversations with GPT but it was quite able to adapt its suggestions and move them to suit what I was asking for, especially when I got very nuanced about what features I wanted in my destination and was picky about the region of the US I would be in.\nAlas - I did not heed any of GPT’s advice and did not end up picking any of these destinations as the final decision."
-  },
-  {
-    "objectID": "posts/3 missing number.html",
-    "href": "posts/3 missing number.html",
-    "title": "New use case: math problem",
-    "section": "",
-    "text": "Following down the rabbit hole niche of having AI create logic problems for me, I wanted to move away from just logical problems and see if it would be able to tackle quantitative problems as well. Thus, I repeated my prompting to get GPT to give me a numerical pattern problem, and again put it through different AI models to see if it would be able to solve them.\nCompared to the logic problem, I found that this mathematical equation somehow was so much easier for humans, because we don’t neccesarily process information bit by bit, compared to the LLM which literally generates its output building on each last letter. As such, I was interested to also dig deeper into the different thought processes the models would use."
-  },
-  {
-    "objectID": "posts/3 missing number.html#solving-the-pattern-manually",
-    "href": "posts/3 missing number.html#solving-the-pattern-manually",
-    "title": "New use case: math problem",
-    "section": "Solving the Pattern manually",
-    "text": "Solving the Pattern manually\nTo determine the missing number, let’s analyze the pattern in the sequence:\n3, 5, 9, 17, ?\nWe examine the differences between consecutive terms:\n5 − 3 = 2\n9 - 5 = 4\n17 − 9 = 8\nThis gives us the difference sequence:\n2, 4, 8\nObserving this pattern, we see that each difference doubles the previous one:\n2 , 4 , 8 , 16\nFollowing this doubling pattern, the next difference should be 16.\nThus, the missing number in the sequence is:\n17+16=33 ### Answer: 33"
-  },
-  {
-    "objectID": "posts/3 missing number.html#gpt-4os-approach",
-    "href": "posts/3 missing number.html#gpt-4os-approach",
-    "title": "New use case: math problem",
-    "section": "GPT-4o’s Approach",
-    "text": "GPT-4o’s Approach\nGPT-4o follows a structured method to detect numerical patterns. It:\nIdentifies the differences between terms. Recognizes a doubling pattern in these differences. Extends the pattern logically to predict the next term. Computes the missing number using the established rule. 📌 GPT-4o’s Answer: 33."
-  },
-  {
-    "objectID": "posts/3 missing number.html#gpt-4o1s-approach",
-    "href": "posts/3 missing number.html#gpt-4o1s-approach",
-    "title": "New use case: math problem",
-    "section": "GPT-4o1’s Approach",
-    "text": "GPT-4o1’s Approach\nGPT-4o1 arrives at the same conclusion using a similar approach:\nIt calculates the first-order differences: 2, 4, 8. It recognizes that each difference is doubling. It predicts the next difference as 16. It adds 16 to the last number (17) to find 33. 📌 GPT-4o1’s Answer: 33."
-  },
-  {
-    "objectID": "posts/3 missing number.html#perplexitys-approach",
-    "href": "posts/3 missing number.html#perplexitys-approach",
-    "title": "New use case: math problem",
-    "section": "Perplexity’s Approach",
-    "text": "Perplexity’s Approach\nThe number that should replace the question mark (?) in the sequence 3, 5, 9, 17, ? is 33.\nTo understand this, let’s examine the pattern:\nFirst, we calculate the differences between consecutive terms:\n5 - 3 = 2\n9 - 5 = 4\n17 - 9 = 8\nWe can observe that these differences are doubling each time:\n2 → 4 (2 × 2)\n4 → 8 (4 × 2)\nFollowing this pattern, the next difference would be:\n8 → 16 (8 × 2)\nTo find the missing number, we add this new difference to the last known term:\n17 + 16 = 33\nTherefore, the logical rule for this sequence is that the difference between each consecutive term doubles, and the missing number that completes the pattern is 33."
-  },
-  {
-    "objectID": "posts/3 missing number.html#reflection",
-    "href": "posts/3 missing number.html#reflection",
-    "title": "New use case: math problem",
-    "section": "Reflection:",
-    "text": "Reflection:\nThis was my second time using AI to tackle a logic-based challenge, but this time I shifted my focus to a numerical question instead of a purely logical one. Once again, I was amazed by the AI’s ability to uncover the underlying patterns in the problem and reach the same conclusion I did. Its quick ability for recognizing structure and efficiently following logical sequences was really clear, sparking my curiosity about how AI processes various types of information.\nWhat I find especially intriguing is the difference between AI’s strengths and weaknesses. While it excelled in this more complex, structured task, we’ve also observed it struggling with simpler problems, like counting the number of ’r’s in the word “strawberry” as we spoke about earlier this semester. This disparity raises interesting questions about how AI interprets information and where its limitations might be. It seems that AI thrives when it operates within a clearly defined framework, particularly when dealing with numerical or pattern-based reasoning. However, it tends to fail and struggle with tasks that require more flexible cognitive skills, such as interpretation, contextual understanding, or ambiguities in language."
-  },
-  {
-    "objectID": "posts/5 LA.html",
-    "href": "posts/5 LA.html",
-    "title": "Sose’s expertise: LA",
-    "section": "",
-    "text": "LA is a city that’s hard to pin down—it’s massive, spread out, and full of contradictions. One minute you’re stuck in traffic on the 405, and the next you’re driving along the coast with the most unreal sunset in front of you. There’s the Hollywood glamour, sure, but also the grittier, more creative side—street art in the Arts District, taco trucks that serve better food than any five-star restaurant, and a music scene that always feels like it’s one step ahead of everywhere else. It’s a place where everyone seems to be chasing something, whether it’s a career in entertainment, a startup dream, or just the perfect beach day.\nBut LA isn’t just what you see in the movies. It’s got this weird mix of being both super laid-back and insanely competitive at the same time. People wear yoga pants everywhere and act like they don’t care, but also hustle harder than anyone. The neighborhoods feel like their own little worlds—Silver Lake is all about indie coffee shops and thrift stores, while Beverly Hills is just straight-up luxury. And then there’s Koreatown, where you can get the best late-night food, or Venice, where every other person is skating or filming something for TikTok. It’s a city that can feel overwhelming, but also kind of magical if you know where to look.\nWhat I love most about LA is how, despite its craziness, there’s always room to breathe. You can escape to Malibu or hike up to Griffith Observatory and get this insane view of the whole city stretching out forever. There’s something about that mix—city and nature, ambition and chill—that makes LA feel different from anywhere else. People either love it or hate it, but there’s no denying it has a vibe like no other."
-  },
-  {
-    "objectID": "posts/5 LA.html#los-angeles",
-    "href": "posts/5 LA.html#los-angeles",
-    "title": "Sose’s expertise: LA",
-    "section": "",
-    "text": "LA is a city that’s hard to pin down—it’s massive, spread out, and full of contradictions. One minute you’re stuck in traffic on the 405, and the next you’re driving along the coast with the most unreal sunset in front of you. There’s the Hollywood glamour, sure, but also the grittier, more creative side—street art in the Arts District, taco trucks that serve better food than any five-star restaurant, and a music scene that always feels like it’s one step ahead of everywhere else. It’s a place where everyone seems to be chasing something, whether it’s a career in entertainment, a startup dream, or just the perfect beach day.\nBut LA isn’t just what you see in the movies. It’s got this weird mix of being both super laid-back and insanely competitive at the same time. People wear yoga pants everywhere and act like they don’t care, but also hustle harder than anyone. The neighborhoods feel like their own little worlds—Silver Lake is all about indie coffee shops and thrift stores, while Beverly Hills is just straight-up luxury. And then there’s Koreatown, where you can get the best late-night food, or Venice, where every other person is skating or filming something for TikTok. It’s a city that can feel overwhelming, but also kind of magical if you know where to look.\nWhat I love most about LA is how, despite its craziness, there’s always room to breathe. You can escape to Malibu or hike up to Griffith Observatory and get this insane view of the whole city stretching out forever. There’s something about that mix—city and nature, ambition and chill—that makes LA feel different from anywhere else. People either love it or hate it, but there’s no denying it has a vibe like no other."
-  },
-  {
-    "objectID": "posts/5 LA.html#reflection",
-    "href": "posts/5 LA.html#reflection",
-    "title": "Sose’s expertise: LA",
-    "section": "Reflection:",
-    "text": "Reflection:\nThis is after we did the in class activity about looking at different people’s expertise and comparing the ability of AI to match human experience. Here, I can definitely see how my rendition of LA through AI lacks the same human quality that Sose’s did from her memory of growing up there. However, I would be curious if I made it read certain blog posts or content and retry this activity, and see if it could improve its abilities."
-  },
-  {
-    "objectID": "posts/2 logic problem/index.html",
-    "href": "posts/2 logic problem/index.html",
-    "title": "Interesting word logic problem",
-    "section": "",
-    "text": "When we first started playing around with LLMs and seeing if they could properly communicate with humans one of my initial instincts was to see if they could think like humans. Ever since I was a child, something I really enjoyed doing was solving logic puzzles - like those you always found on Youtube made by TED or some other channel. So, I wanted to take this topic one step further and see if AI would be able to create a problem itself and then solve it.\nThus, what I did was ask GPT to create a logic problem for me, inspired by problems where you are given information that can be both true or false, and have to deduce the final answer. After creating the problem, I then fed it into a new window in GPT and tried to see if it could be solved.\nObviously, I also enjoyed myself and had fun solving it as well."
-  },
-  {
-    "objectID": "posts/2 logic problem/index.html#my-thoughts",
-    "href": "posts/2 logic problem/index.html#my-thoughts",
-    "title": "Interesting word logic problem",
-    "section": "My thoughts:",
-    "text": "My thoughts:\nI found this super interesting after trying to make this logic problem out of boredom - and attempting to capture how AI can think through a reasoning problem that humans typically attack in a non-linear fashion. While both different GPT models ended up getting the right result, I was fasicinated by the different methods that the two models used, that were logical but did not at all follow the same framework.\nIn the future, I really want to experiment more with how to use AI to attack these sorts of reasoning problems that may not have a clear direct answer, and think about the actual thinking process of the AI LLM behind it."
-  },
-  {
-    "objectID": "posts/12 taxes.html",
-    "href": "posts/12 taxes.html",
-    "title": "Using GPT to Compare NYC and LA tax structures",
-    "section": "",
-    "text": "As people do on a Thursday evening, I ended up in a conversation with my friend about how living in different cities post grad would affect our income tax structures and the way we should think about these differences going forward.\nThus, instead of doing the reasonable thing and going on state websites to find the facts straight from the source, we used GPT to try to understand the differences between NYC and LA. Here is what we found:"
-  },
-  {
-    "objectID": "posts/12 taxes.html#gpt-response",
-    "href": "posts/12 taxes.html#gpt-response",
-    "title": "Using GPT to Compare NYC and LA tax structures",
+    "objectID": "posts/13 brave new world/Untitled.html#gpt-response",
+    "href": "posts/13 brave new world/Untitled.html#gpt-response",
+    "title": "Creating a new book cover for Brave New World",
     "section": "GPT response:",
-    "text": "GPT response:\nNew York City (NYC) and Los Angeles (LA) have different tax structures due to state and local tax policies. Here’s a comparison:\n\nState Income Tax\n\nNew York State: Progressive tax rates from 4% to 10.9%.\n\nCalifornia: Progressive tax rates from 1% to 13.3% (highest in the U.S.).\n\n\n\nCity Income Tax\n\nNYC: Has its own city income tax, ranging from 3.078% to 3.876% on top of state tax.\n\nLA: No city income tax.\n\n\n\nEffective Tax Burden (State + City)\n\nNYC Residents: Pay both state and city taxes, making their top combined rate up to 14.776%.\n\nLA Residents: Pay only state tax, with a top rate of 13.3%.\n\n\n\nOther Considerations\n\nSales Tax:\n\nNYC: 8.875% (state + local)\n\nLA: 9.5%\n\n\nCost of Living: Both cities are expensive, but NYC has higher rent, while LA has higher transportation costs.\n\nDeductions: California has more favorable tax deductions in some areas, like capital gains.\n\n\n\nOverall\nIf you’re a high earner, NYC generally has a slightly higher tax burden due to its city tax. If you’re middle-income, the difference is smaller, but California’s progressive system can result in a higher rate at the top brackets."
+    "text": "GPT response:\n“I couldn’t generate a new book cover for Brave New World that includes specific elements from the plot because the request violates our content policies.\nIf you’d like, I can still help you design a cover inspired by the book’s broader themes—like technological control, consumerism, or dystopian conformity—without depicting sensitive or restricted content. Just let me know how you’d like to proceed or share a new idea!”\nThis was interesting, because in my prompt I had not explicitly mentioned anything specific from the book that I wanted to include, but GPT automatically jumped to saying that there would be specific elements from the book that would violate content policies. What I assume this is referring to is probably violent/mature content, I would have assumed that GPT had the option to ignore those specific plot elements but still then make a book cover that was more relevant to the book."
   },
   {
-    "objectID": "posts/1 000_test_post/index.html",
-    "href": "posts/1 000_test_post/index.html",
-    "title": "A test post",
-    "section": "",
-    "text": "Read the following and see if you can answer the question:\n\n\nThere are three boxes in a stack. A pink one, a purple one and a green one. The pink one is in the middle of the stack with the purple below it. What is the color of the box on the bottom of the stack?\n\nMost likely you answered purple…\nBut it is possible you first said green (don’t worry if you did it is quite a common response!)\n\n\nIt’s a verbal visual problem that requires some deliberation and most likely for us to create a visual image of a stack of boxes as a reasoning aid.\nNotice also the complexity of the language used in the prompt to describe the scene. The use of natural language as opposed to a formal/logical calculus does hold the potential for ambiguity (multiple interpretations) and inexactness. However, it is the most normal/natural, efficient and broadly accessible way of communicating such information.\nNotice 1. The use of anaphor or reference. - Three BOXES -&gt; a pink/purple/green ONE as opposed to a pink box, a purple box and a green box. - The PINK ONE is in the middle ... the purple {BOX} below IT {the pink box}\nWe tend to try and avoid this kind of repetition to make our speech more coherent.\n\nAlthough the description in language may not be entirely concise, there is no real ambiguity as to how the boxes can be arranged. It must be: | Box | Stack position | | — | — | | GREEN | top | | PINK | middle | | PURPLE | bottom |\n\n\n\n\nGPT3.5 Turbo\n\nHad some difficulties and answered green\nLlama2 (chat 7B version)\n\n\nAnswered correctly (purple) and used some so-called chain-of-thought reasoning\n\nBing Chat (MS Co-pilot)\nThis LLM is GPT4 with some Microsoft specific tuning and RAG (search) additions.\nIt get’s it correct:\n\nThe color of the box on the bottom of the stack is purple. This is because the purple box is below the pink one, which is in the middle of the stack. Therefore, the purple box must be the lowest one. 🟪\n\nBut when you follow up and ask it to create visual representation of the box arrangement\n\nPROMPT: Can you create a visual representation of how the boxes are arranged?\n\nIt responds\n\nRESPONSE: Sure, I’ll try to create that. Here is a visual representation of how the boxes are arranged:\n\nAnd uses DALL-E3 to create 4 different attempts at a visual representation:\n\nNONE OF WHICH ARE CORRECT!!!"
+    "objectID": "posts/13 brave new world/Untitled.html#trying-again",
+    "href": "posts/13 brave new world/Untitled.html#trying-again",
+    "title": "Creating a new book cover for Brave New World",
+    "section": "Trying again:",
+    "text": "Trying again:\nRemake the book cover for the book Brave New World by Aldous Huxley that draws on the dystopian themes of the plot"
   },
   {
-    "objectID": "posts/1 000_test_post/index.html#a-visualization-problem-for-llms",
-    "href": "posts/1 000_test_post/index.html#a-visualization-problem-for-llms",
-    "title": "A test post",
+    "objectID": "posts/13 brave new world/Untitled.html#final-thoughts",
+    "href": "posts/13 brave new world/Untitled.html#final-thoughts",
+    "title": "Creating a new book cover for Brave New World",
+    "section": "Final thoughts:",
+    "text": "Final thoughts:\nHere, I found that using a more specific prompt was very much more helpful for creating an output that was also more targeted and relevant. I think the wording of “dystopian themes” was the most important part of the prompt, as the final book cover result definitely looks dystopian and mimics the type of mindless and stark world that Huxley created in Brave New World.\nAlso, this is really a great book so would recommend people to give it a read!"
+  },
+  {
+    "objectID": "posts/11 PROFILE/11 making Profile.html",
+    "href": "posts/11 PROFILE/11 making Profile.html",
+    "title": "Making a Cartoon profile photo: Will AI make me look like me?",
     "section": "",
-    "text": "Read the following and see if you can answer the question:\n\n\nThere are three boxes in a stack. A pink one, a purple one and a green one. The pink one is in the middle of the stack with the purple below it. What is the color of the box on the bottom of the stack?\n\nMost likely you answered purple…\nBut it is possible you first said green (don’t worry if you did it is quite a common response!)\n\n\nIt’s a verbal visual problem that requires some deliberation and most likely for us to create a visual image of a stack of boxes as a reasoning aid.\nNotice also the complexity of the language used in the prompt to describe the scene. The use of natural language as opposed to a formal/logical calculus does hold the potential for ambiguity (multiple interpretations) and inexactness. However, it is the most normal/natural, efficient and broadly accessible way of communicating such information.\nNotice 1. The use of anaphor or reference. - Three BOXES -&gt; a pink/purple/green ONE as opposed to a pink box, a purple box and a green box. - The PINK ONE is in the middle ... the purple {BOX} below IT {the pink box}\nWe tend to try and avoid this kind of repetition to make our speech more coherent.\n\nAlthough the description in language may not be entirely concise, there is no real ambiguity as to how the boxes can be arranged. It must be: | Box | Stack position | | — | — | | GREEN | top | | PINK | middle | | PURPLE | bottom |\n\n\n\n\nGPT3.5 Turbo\n\nHad some difficulties and answered green\nLlama2 (chat 7B version)\n\n\nAnswered correctly (purple) and used some so-called chain-of-thought reasoning\n\nBing Chat (MS Co-pilot)\nThis LLM is GPT4 with some Microsoft specific tuning and RAG (search) additions.\nIt get’s it correct:\n\nThe color of the box on the bottom of the stack is purple. This is because the purple box is below the pink one, which is in the middle of the stack. Therefore, the purple box must be the lowest one. 🟪\n\nBut when you follow up and ask it to create visual representation of the box arrangement\n\nPROMPT: Can you create a visual representation of how the boxes are arranged?\n\nIt responds\n\nRESPONSE: Sure, I’ll try to create that. Here is a visual representation of how the boxes are arranged:\n\nAnd uses DALL-E3 to create 4 different attempts at a visual representation:\n\nNONE OF WHICH ARE CORRECT!!!"
+    "text": "As I was going to edit my blog About page, I wanted to put a photo of myself, but nothing really overly professional or official. So, I decided to try and play with GPT 4o Image generation to see if it could make a profile photo for me that would have enough resemblance as a cartoon character but not be just an actual photo of me."
+  },
+  {
+    "objectID": "posts/11 PROFILE/11 making Profile.html#headshot-as-a-reference-photo",
+    "href": "posts/11 PROFILE/11 making Profile.html#headshot-as-a-reference-photo",
+    "title": "Making a Cartoon profile photo: Will AI make me look like me?",
+    "section": "Headshot as a Reference photo:",
+    "text": "Headshot as a Reference photo:\n\nUsing the headshot above, I then prompted GPT to “Please make me a cartoon character using the reference photo.”"
+  },
+  {
+    "objectID": "posts/11 PROFILE/11 making Profile.html#st-attempt",
+    "href": "posts/11 PROFILE/11 making Profile.html#st-attempt",
+    "title": "Making a Cartoon profile photo: Will AI make me look like me?",
+    "section": "1st Attempt:",
+    "text": "1st Attempt:\n\nAfter the first attempt, I wanted to see if I could make some tweaks. I asked GPT to “Remove the freckles and make her slightly blushed, and make the sweater green.”"
+  },
+  {
+    "objectID": "posts/11 PROFILE/11 making Profile.html#nd-attempt",
+    "href": "posts/11 PROFILE/11 making Profile.html#nd-attempt",
+    "title": "Making a Cartoon profile photo: Will AI make me look like me?",
+    "section": "2nd Attempt:",
+    "text": "2nd Attempt:\n\nThis seemed like all the tweaks were made. However, I did not think that the character looked like me enough, so I asked GPT if it could “Make the character look more like the girl in the reference photo.”"
+  },
+  {
+    "objectID": "posts/11 PROFILE/11 making Profile.html#pushing-too-far",
+    "href": "posts/11 PROFILE/11 making Profile.html#pushing-too-far",
+    "title": "Making a Cartoon profile photo: Will AI make me look like me?",
+    "section": "Pushing too far:",
+    "text": "Pushing too far:\nI unfortunately got this response:\n“I couldn’t generate the updated cartoon image just now because there’s a short cooldown period due to rate limits — it’ll be about 9 minutes before I can create another one for you.\nIn the meantime, if you have any specific tweaks in mind (like adjusting hairstyle, facial features, outfit details, or background), feel free to let me know so I can get it just right when the cooldown is over!”"
+  },
+  {
+    "objectID": "posts/11 PROFILE/11 making Profile.html#conclusion",
+    "href": "posts/11 PROFILE/11 making Profile.html#conclusion",
+    "title": "Making a Cartoon profile photo: Will AI make me look like me?",
+    "section": "Conclusion:",
+    "text": "Conclusion:\nThe skills of AI continue to wow me more than ever. These cartoon characters do kind of resemble me, I guess, and I can see how the applications of this could go way beyond just making these profile photos for my blog, and potentially be used in terms of development for content creation or online use."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "My Explorations with LLMs",
     "section": "",
-    "text": "Linguistic curiosities - How well can GPT help me learn different languages?\n\n\n\nLLMs\n\nlanguage\n\nlearning!\n\n\n\nGrowing up across the world, I was always curious about languages. I speak English, Chinese, and French myself, and am always open to learning more!\n\n\n\n\n\nMay 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nCan GPT build IS-LM models for a Finance project?\n\n\n\nLLMs\n\nfinance\n\nchart making\n\n\n\nTrying to use GPT to turn sketches of graphs into reality\n\n\n\n\n\nApr 12, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nCan GPT build the Kahn Retailing Matrix?\n\n\n\nLLMs\n\nmarketing\n\nchart making\n\n\n\nSome LLM application for my MKTG 1010 final presentation\n\n\n\n\n\nApr 7, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a new book cover for Brave New World\n\n\n\nLLMs\n\nimage generation\n\nprompting\n\n\n\nTrying out different types of styles and prompting\n\n\n\n\n\nApr 6, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nFall 2025 Schedule course registration advice\n\n\n\nLLMs\n\nadvice\n\nhelp!\n\n\n\nTrying to ask GPT for advice… How helpful is it really?\n\n\n\n\n\nApr 6, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nExplaining Correlation does not equal Causation: 5 levels\n\n\n\nLLMs\n\nteaching\n\nprompting\n\n\n\nCan AI adapt its tone and language to fit different levels?\n\n\n\n\n\nApr 4, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nMaking a Cartoon profile photo\n\n\n\nLLMs\n\nImage generation\n\nprompting\n\n\n\nTesting GPT 4o image generation\n\n\n\n\n\nMar 31, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT to Compare NYC and LA tax structures\n\n\n\nLLMs\n\ntaxes\n\nprompting\n\n\n\nCurious but too lazy to Google\n\n\n\n\n\nMar 14, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT Mollick Prompt for tutoring\n\n\n\nLLMs\n\nFrench\n\nprompting\n\n\n\nTesting Mollick prompt in class, applying to French conjugations\n\n\n\n\n\nMar 5, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nChat GPT for Excel\n\n\n\nLLMs\n\naccounting\n\nExcel\n\n\n\nArranging my personal expense of January and February with AI\n\n\n\n\n\nMar 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nSixers graphic\n\n\n\nLLMs\n\nimage creation\n\nsports\n\n\n\nInspired by in class activity of Public Health PSA and going to a Sixers game last week\n\n\n\n\n\nMar 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT for French\n\n\n\nLLMs\n\nFrench\n\nlanguage learning\n\n\n\nReflecting on my tutoring session last weekend\n\n\n\n\n\nFeb 22, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nTravel reccomendations\n\n\n\nLLMs\n\ntravelling\n\n\n\nBrainstorming with AI\n\n\n\n\n\nFeb 22, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nSose’s expertise: LA\n\n\n\nLLMs\n\nin class\n\n\n\nNot best city\n\n\n\n\n\nFeb 12, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nGame theory problem\n\n\n\nLLMs\n\ngame theory\n\nlogic\n\n\n\nRolling dice\n\n\n\n\n\nFeb 7, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nNew use case: math problem\n\n\n\nLLMs\n\nprompting\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 3, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nInteresting word logic problem\n\n\n\nLLMs\n\nword problem\n\nlogic\n\n\n\nTrying to figure out how to use this thing\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\nLLMs\n\nprompting\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 1, 2024\n\n\nAn LLM User\n\n\n\n\n\nNo matching items"
+    "text": "Linguistic curiosities - How well can GPT help me learn different languages?\n\n\n\nLLMs\n\nlanguage\n\nlearning!\n\n\n\nGrowing up across the world, I was always curious about languages. I speak English, Chinese, and French myself, and am always open to learning more!\n\n\n\n\n\nMay 3, 2024\n\n\nAmelie Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nCan GPT build IS-LM models for a Finance project?\n\n\n\nLLMs\n\nfinance\n\nchart making\n\n\n\nTrying to use GPT to turn sketches of graphs into reality\n\n\n\n\n\nApr 12, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nCan GPT build the Kahn Retailing Matrix?\n\n\n\nLLMs\n\nmarketing\n\nchart making\n\n\n\nSome LLM application for my MKTG 1010 final presentation\n\n\n\n\n\nApr 7, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a new book cover for Brave New World\n\n\n\nLLMs\n\nimage generation\n\nprompting\n\n\n\nTrying out different types of styles and prompting\n\n\n\n\n\nApr 6, 2024\n\n\nAmelie Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nFall 2025 Schedule course registration advice\n\n\n\nLLMs\n\nadvice\n\nhelp!\n\n\n\nTrying to ask GPT for advice… How helpful is it really?\n\n\n\n\n\nApr 6, 2024\n\n\nAmelie Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nExplaining Correlation does not equal Causation: 5 levels\n\n\n\nLLMs\n\nteaching\n\nprompting\n\n\n\nCan AI adapt its tone and language to fit different levels?\n\n\n\n\n\nApr 4, 2024\n\n\nAmelie Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nMaking a Cartoon profile photo: Will AI make me look like me?\n\n\n\nLLMs\n\nImage generation\n\nprompting\n\n\n\nTesting GPT 4o image generation\n\n\n\n\n\nMar 31, 2024\n\n\nAmelie Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT to Compare NYC and LA tax structures\n\n\n\nLLMs\n\ntaxes\n\nprompting\n\n\n\nCurious but too lazy to Google\n\n\n\n\n\nMar 14, 2024\n\n\nAmelie Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT Mollick Prompt for tutoring\n\n\n\nLLMs\n\nFrench\n\nprompting\n\n\n\nTesting Mollick prompt in class, applying to French conjugations, which I teach frequently as a Language Center tutor.\n\n\n\n\n\nMar 5, 2024\n\n\nAmelie Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nChat GPT for Excel: Can AI be a personal accountant?\n\n\n\nLLMs\n\naccounting\n\nExcel\n\n\n\nArranging my personal expense of January and February with AI, as I went over my personal finances.\n\n\n\n\n\nMar 3, 2024\n\n\nAmelie Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a Sixers graphic: Playing with image generation\n\n\n\nLLMs\n\nimage creation\n\nsports\n\n\n\nInspired by in class activity of Public Health PSA and going to a Sixers game last week (it was fun!)\n\n\n\n\n\nMar 3, 2024\n\n\nAmelie Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPT for French: Can it be a good tutor?\n\n\n\nLLMs\n\nFrench\n\nlanguage learning\n\n\n\nReflecting on my tutoring session last weekend with a student in FREN 0100. Would I be replacable in my role?\n\n\n\n\n\nFeb 22, 2024\n\n\nAn LLM User\n\n\n\n\n\n\n\n\n\n\n\n\nTravel recommendations: Where do I go for spring break?\n\n\n\nLLMs\n\ntravelling\n\n\n\nBrainstorming with AI, given that me and my friends had no clue what to do.\n\n\n\n\n\nFeb 22, 2024\n\n\nAmelie Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nIn class exercise: Sose’s expertise of LA\n\n\n\nLLMs\n\nin class\n\n\n\nNot best city, as much as she believes. Hong Kong is better\n\n\n\n\n\nFeb 12, 2024\n\n\nAmelie Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nGame theory problem: Let’s make this a bit more complicated\n\n\n\nLLMs\n\ngame theory\n\nlogic\n\n\n\nInspired by my statistics class where we used code and permutations of the same event over and over again to find probabilities, let’s see how AI does.\n\n\n\n\n\nFeb 7, 2024\n\n\nAmelie Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nAnother logic problem: This time focusing on math\n\n\n\nLLMs\n\nprompting\n\nlogic\n\n\n\nWould AI be more well versed in terms of mathematical knowledge vs. just word problems?\n\n\n\n\n\nFeb 3, 2024\n\n\nAmelie Zhang\n\n\n\n\n\n\n\n\n\n\n\n\nCreating an interesting word logic problem: Can AI solve it properly?\n\n\n\nLLMs\n\nword problem\n\nlogic\n\n\n\nCan AI help me create a brain teaser of sorts focused on word logic, and then solve it like a human would? (Trying to figure out how to use this blog)\n\n\n\n\n\nFeb 2, 2024\n\n\nAmelie Zhang\n\n\n\n\n\nNo matching items"
   }
 ]
